@@ -31,9 +31,10 @@ class Country(models.Model) :
     The __str__ method is used to return the name of the country.
     """
     country = models.CharField(max_length=30, unique=True)
-    goals = models.IntegerField(default=0)
+    goals = models.CharField(max_length=2)
     coach = models.CharField(max_length=40)
     captain = models.ForeignKey('Player', related_name='captain' to_field='player', default='none')
+    top_scorer = models.ForeignKey('Player', related_name='top_scorer' to_field='player', default='none')
 
 
     def __str__(self):
