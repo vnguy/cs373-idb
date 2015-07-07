@@ -9,13 +9,13 @@ class Match(models.Model) :
     and the man of the match which is a Player
     The __str__ method is used to retrun the name of the match.
     """
-    match = models.CharField(max_length=40, unique=True)
+    match = models.CharField(max_length=40, default="", unique=True)
     country_one = models.ForeignKey('Country', related_name='country_one', to_field='country', default='none')
     country_two = models.ForeignKey('Country', related_name='country_two', to_field='country', default='none')
-    scores = models.CharField(max_length=5)
+    scores = models.CharField(max_length=5, defalt="")
     man_of_the_match = models.ForeignKey('Player', related_name='man_of_the_match', to_field='player', default='none')
-    match_location = models.CharField(max_length=40)
-    match_date = models.CharField(max_length=40)
+    match_location = models.CharField(max_length=40, default="")
+    match_date = models.CharField(max_length=40, default="")
 
 
     def __str__(self) :
@@ -30,9 +30,9 @@ class Country(models.Model) :
     A foreign key is maintained for the country's captain which is a Player.
     The __str__ method is used to return the name of the country.
     """
-    country = models.CharField(max_length=30, unique=True)
-    goals = models.CharField(max_length=2)
-    coach = models.CharField(max_length=40)
+    country = models.CharField(max_length=30, default="", unique=True)
+    goals = models.CharField(max_length=2, default="")
+    coach = models.CharField(max_length=40, default="")
     captain = models.ForeignKey('Player', related_name='captain', to_field='player', default='none')
     top_scorer = models.ForeignKey('Player', related_name='top_scorer', to_field='player', default='none')
 
@@ -49,12 +49,12 @@ class Player(models.Model) :
     A foreign key named country is maintained for the relation of Player to Country.
     The __str__ method is used to return the name of the player.
     """
-    player = models.CharField(max_length=40, unique=True)
+    player = models.CharField(max_length=40, default="", unique=True)
     team = models.ForeignKey('Country', related_name ='team', to_field='country', default='none')
-    position = models.CharField(max_length=2)
-    dob = models.CharField(max_length=40)
+    position = models.CharField(max_length=2, default="")
+    dob = models.CharField(max_length=40, default="")
     goals = models.IntegerField(default=0)
-    club = models.CharField(max_length=40)
+    club = models.CharField(max_length=40, default="")
 
 
     def __str__(self):

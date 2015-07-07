@@ -14,7 +14,7 @@
           "href": "https://en.wikipedia.org/wiki/Claudio_Bravo_(footballer)",
           "text": "Claudio Bravo"
         },
-        "country": {
+        "team": {
           "href": "https://en.wikipedia.org/wiki/Chile",
           "text": "Chile"
         },
@@ -36,7 +36,7 @@
           "href": "https://en.wikipedia.org/wiki/Eugenio_Mena",
           "text": "Eugenio Mena"
         },
-        "country": {
+        "team": {
           "href": "https://en.wikipedia.org/wiki/Chile",
           "text": "Chile"
         },
@@ -58,7 +58,7 @@
           "href": "https://en.wikipedia.org/wiki/Miiko_Albornoz",
           "text": "Miiko Albornoz"
         },
-        "country": {
+        "team": {
           "href": "https://en.wikipedia.org/wiki/Chile",
           "text": "Chile"
         },
