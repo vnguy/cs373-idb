@@ -1,1 +1,1 @@
-# CopaDB
+# cs373-idb
