@@ -10,6 +10,10 @@
   "results": {
     "collection1": [
       {
+	"match": {
+	  "href": "",
+	  "text": "Chile-Uruguay"
+	},
         "country_one": {
           "href": "https://en.wikipedia.org/wiki/Chile_national_football_team",
           "text": "Chile"
@@ -38,6 +42,10 @@
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
+	"match": {
+	  "href": "",
+	  "text": "Bolivia-Peru"
+	},
         "country_one": {
           "href": "https://en.wikipedia.org/wiki/Bolivia_national_football_team",
           "text": "Bolivia"
@@ -66,6 +74,10 @@
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
+	"match": {
+	  "href": "",
+	  "text": "Argentina-Colombia"
+	},
         "country_one": {
           "href": "https://en.wikipedia.org/wiki/Argentina_national_football_team",
           "text": "Argentina"
@@ -104,6 +116,10 @@
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
+	"match": {
+	  "href": "",
+	  "text": "Brazil-Paraguay"
+	},
         "country_one": {
           "href": "https://en.wikipedia.org/wiki/Brazil_national_football_team",
           "text": "Brazil"
@@ -142,6 +158,10 @@
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
+	"match": {
+	  "href": "",
+	  "text": "Chile-Peru"
+	},
         "country_one": {
           "href": "https://en.wikipedia.org/wiki/Chile_national_football_team",
           "text": "Chile"
@@ -170,6 +190,10 @@
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
+	"match": {
+	  "href": "",
+	  "text": "Argentina-Paraguay"
+	},
         "country_one": {
           "href": "https://en.wikipedia.org/wiki/Argentina_national_football_team",
           "text": "Argentina"
@@ -198,6 +222,10 @@
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
+	"match": {
+	  "href": "",
+	  "text": "Peru-Paraguay"
+	},
         "country_one": {
           "href": "https://en.wikipedia.org/wiki/Peru_national_football_team",
           "text": "Peru"
@@ -226,6 +254,10 @@
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
+	"match": {
+	  "href": "",
+	  "text": "Chile-Argentina"
+	},
         "country_one": {
           "href": "https://en.wikipedia.org/wiki/Chile_national_football_team",
           "text": "Chile"

@@ -14,6 +14,10 @@
           "href": "https://en.wikipedia.org/wiki/Claudio_Bravo_(footballer)",
           "text": "Claudio Bravo"
         },
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Chile",
+          "text": "Chile"
+        },
         "position": {
           "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
           "text": "GK"
@@ -32,6 +36,10 @@
           "href": "https://en.wikipedia.org/wiki/Eugenio_Mena",
           "text": "Eugenio Mena"
         },
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Chile",
+          "text": "Chile"
+        },
         "position": {
           "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
           "text": "DF"
@@ -49,6 +57,10 @@
         "player": {
           "href": "https://en.wikipedia.org/wiki/Miiko_Albornoz",
           "text": "Miiko Albornoz"
+        },
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Chile",
+          "text": "Chile"
         },
         "position": {
           "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
