@@ -15,6 +15,14 @@
           "text": "Chile"
         },
 	"goals": 12,
+	"coach": {
+          "href": "https://en.wikipedia.org/wiki/Jorge_Sampaoli",
+          "text": "Jorge Sampaoli"
+        },
+	"captain": {
+          "href": "https://en.wikipedia.org/wiki/Claudio_Bravo_(footballer)",
+          "text": "Claudio Bravo"
+        },
         "index": 1,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -24,6 +32,14 @@
           "text": "Mexico"
         },
 	"goals": 4,
+	"coach": {
+          "href": "https://en.wikipedia.org/wiki/Miguel_Herrera",
+          "text": "Miguel Herrera"
+        },
+	"captain": {
+          "href": "https://en.wikipedia.org/wiki/Rafael_M%C3%A1rquez",
+          "text": "Rafael Márquez"
+        },
         "index": 2,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -33,6 +49,14 @@
           "text": "Ecuador"
         },
 	"goals": 4,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Gustavo_Quinteros",
+          "text": "Gustavo Quinteros"
+        },
+	"captain": {
+          "href": "https://en.wikipedia.org/wiki/Walter_Ayov%C3%AD",
+          "text": "Walter Ayoví"
+        },
         "index": 3,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -42,6 +66,14 @@
           "text": "Bolivia"
         },
 	"goals": 4,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Mauricio_Soria",
+          "text": "Mauricio Soria"
+        },
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Ronald_Raldes",
+          "text": "Ronald Raldes"
+        },
         "index": 4,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -50,7 +82,14 @@
           "href": "https://en.wikipedia.org/wiki/Argentina",
           "text": "Argentina"
         },
-	"goals": 10,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Gerardo_Martino",
+          "text": "Gerardo Martino"
+        },
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Lionel_Messi",
+          "text": "Lionel Messi"
+        },
         "index": 5,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -60,6 +99,14 @@
           "text": "Uruguay"
         },
 	"goals": 2,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/%C3%93scar_Tab%C3%A1rez",
+          "text": "Óscar Tabárez"
+        },
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Diego_God%C3%ADn",
+          "text": "Diego Godín"
+        },
         "index": 6,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -69,6 +116,14 @@
           "text": "Paraguay"
         },
 	"goals": 6,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Ram%C3%B3n_D%C3%ADaz",
+          "text": "Ramón Díaz"
+        },
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Roque_Santa_Cruz",
+          "text": "Roque Santa Cruz"
+        },
         "index": 7,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -78,6 +133,14 @@
           "text": "Jamaica"
         },
 	"goals": 0,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Winfried_Sch%C3%A4fer",
+          "text": "Winfried Schäfer"
+        },
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Rodolph_Austin",
+          "text": "Rodolph Austin"
+        },
         "index": 8,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -87,6 +150,14 @@
           "text": "Brazil"
         },
 	"goals": 5,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Dunga",
+          "text": "Dunga"
+        },
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Neymar",
+          "text": "Neymar"
+        },
         "index": 9,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -96,6 +167,14 @@
           "text": "Colombia"
         },
 	"goals": 1,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Jos%C3%A9_P%C3%A9kerman",
+          "text": "José Pékerman"
+        },
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "text": "Radamel Falcao"
+        },
         "index": 10,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -105,6 +184,14 @@
           "text": "Peru"
         },
 	"goals": 7,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Ricardo_Gareca",
+          "text": "Ricardo Gareca"
+        },
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Claudio_Pizarro",
+          "text": "Claudio Pizarro"
+        },
         "index": 11,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -114,6 +201,14 @@
           "text": "Venezuela"
         },
 	"goals": 2,
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Noel_Sanvicente",
+          "text": "Noel Sanvicente"
+        },
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Arango",
+          "text": "Juan Arango"
+        },
         "index": 12,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       }

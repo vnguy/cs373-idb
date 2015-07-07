@@ -24,6 +24,7 @@
           "text": "Claudio Bravo"
         },
         "index": 1,
+	"top_scorer": "Eduardo Vargas",
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
       {
@@ -40,6 +41,7 @@
           "href": "https://en.wikipedia.org/wiki/Rafael_M%C3%A1rquez",
           "text": "Rafael Márquez"
         },
+	"top_scorer": "Matías Vuoso",
         "index": 2,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -57,6 +59,7 @@
           "href": "https://en.wikipedia.org/wiki/Walter_Ayov%C3%AD",
           "text": "Walter Ayoví"
         },
+	"top_scorer": "Enner Valencia",
         "index": 3,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -74,6 +77,7 @@
           "href": "https://en.wikipedia.org/wiki/Ronald_Raldes",
           "text": "Ronald Raldes"
         },
+	"top_scorer": "Marcelo Moreno",
         "index": 4,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -90,6 +94,7 @@
           "href": "https://en.wikipedia.org/wiki/Lionel_Messi",
           "text": "Lionel Messi"
         },
+	"top_scorer": "Sergio Agüero",
         "index": 5,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -107,6 +112,7 @@
           "href": "https://en.wikipedia.org/wiki/Diego_God%C3%ADn",
           "text": "Diego Godín"
         },
+	"top_scorer": "José Giménez",
         "index": 6,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -124,6 +130,7 @@
           "href": "https://en.wikipedia.org/wiki/Roque_Santa_Cruz",
           "text": "Roque Santa Cruz"
         },
+	"top_scorer": "Lucas Barrios",
         "index": 7,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -141,6 +148,7 @@
           "href": "https://en.wikipedia.org/wiki/Rodolph_Austin",
           "text": "Rodolph Austin"
         },
+	"top_scorer": "",
         "index": 8,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -158,6 +166,7 @@
           "href": "https://en.wikipedia.org/wiki/Neymar",
           "text": "Neymar"
         },
+	"top_scorer": "Neymar",
         "index": 9,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -175,6 +184,7 @@
           "href": "https://en.wikipedia.org/wiki/Radamel_Falcao",
           "text": "Radamel Falcao"
         },
+	"top_scorer": "Jeison Murillo",
         "index": 10,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -192,6 +202,7 @@
           "href": "https://en.wikipedia.org/wiki/Claudio_Pizarro",
           "text": "Claudio Pizarro"
         },
+	"top_scorer": "Paolo Guerrero",
         "index": 11,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       },
@@ -209,6 +220,7 @@
           "href": "https://en.wikipedia.org/wiki/Juan_Arango",
           "text": "Juan Arango"
         },
+	"top_scorer": "Miku",
         "index": 12,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
       }

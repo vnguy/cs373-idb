@@ -50,7 +50,7 @@ class Player(models.Model) :
     The __str__ method is used to return the name of the player.
     """
     player = models.CharField(max_length=40, unique=True)
-    country = models.ForeignKey('Country', related_name ='country', to_field='country', default='none')
+    team = models.ForeignKey('Country', related_name ='team', to_field='country', default='none')
     position = models.CharField(max_length=2)
     dob = models.CharField(max_length=40)
     goals = models.IntegerField(default=0)
