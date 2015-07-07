@@ -1,0 +1,50 @@
+{
+  "name": "peru_scorers",
+  "count": 4,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "thisversionrun": "Tue Jul 07 2015 09:31:44 GMT+0000 (UTC)",
+  "results": {
+    "peru_scorers": [
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/40270/paolo-guerrero",
+          "text": "Paolo Guerrero"
+        },
+        "goals": "4",
+        "index": 1,
+        "url": "http://www.espnfc.us/team/peru/211/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/118425/christian-cueva",
+          "text": "Christian Cueva"
+        },
+        "goals": "1",
+        "index": 2,
+        "url": "http://www.espnfc.us/team/peru/211/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/12682/claudio-pizarro",
+          "text": "Claudio Pizarro"
+        },
+        "goals": "1",
+        "index": 3,
+        "url": "http://www.espnfc.us/team/peru/211/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/148189/andre-carrillo",
+          "text": "André Carrillo"
+        },
+        "goals": "1",
+        "index": 4,
+        "url": "http://www.espnfc.us/team/peru/211/statistics/scorers?leagueId=83"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ecuador_scorers",
+  "count": 2,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "thisversionrun": "Tue Jul 07 2015 09:23:39 GMT+0000 (UTC)",
+  "results": {
+    "ecuador_scorers": [
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/171771/enner-valencia",
+          "text": "Enner Valencia"
+        },
+        "goals": "2",
+        "index": 1,
+        "url": "http://www.espnfc.us/team/ecuador/209/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/92847/miller-bolanos",
+          "text": "Miller Bolaños"
+        },
+        "goals": "2",
+        "index": 2,
+        "url": "http://www.espnfc.us/team/ecuador/209/statistics/scorers?leagueId=83"
+      }
+    ]
+  }
+}

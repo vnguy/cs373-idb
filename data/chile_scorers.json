@@ -1,0 +1,68 @@
+{
+  "name": "chile_scorers",
+  "count": 6,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "thisversionrun": "Tue Jul 07 2015 09:19:01 GMT+0000 (UTC)",
+  "results": {
+    "chile_scorers": [
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/169773/eduardo-vargas",
+          "text": "Eduardo Vargas"
+        },
+        "goals": "4",
+        "index": 1,
+        "url": "http://www.espnfc.us/team/chile/207/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/102198/arturo-vidal",
+          "text": "Arturo Vidal"
+        },
+        "goals": "3",
+        "index": 2,
+        "url": "http://www.espnfc.us/team/chile/207/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/76778/charles-aranguiz",
+          "text": "Charles Aránguiz"
+        },
+        "goals": "2",
+        "index": 3,
+        "url": "http://www.espnfc.us/team/chile/207/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/147341/gary-medel",
+          "text": "Gary Medel"
+        },
+        "goals": "1",
+        "index": 4,
+        "url": "http://www.espnfc.us/team/chile/207/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/113574/mauricio-isla",
+          "text": "Mauricio Isla"
+        },
+        "goals": "1",
+        "index": 5,
+        "url": "http://www.espnfc.us/team/chile/207/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.com/player/92055/alexis-sanchez",
+          "text": "Alexis Sánchez"
+        },
+        "goals": "1",
+        "index": 6,
+        "url": "http://www.espnfc.us/team/chile/207/statistics/scorers?leagueId=83"
+      }
+    ]
+  }
+}

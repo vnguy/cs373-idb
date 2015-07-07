@@ -82,16 +82,16 @@ class ModelTestCase(TestCase):
         self.assertEqual(country_get.top_scorer, "Eduardo Vargas")
 
     def test_country2(self) :
-        Player.objects.create(player="Matías Vuoso")
+        Player.objects.create(player="")
 
-        Country.objects.create(country="Mexico", goals=4, coach="Miguel Herrera", captain="Rafael Márquez", top_scorer="Matías Vuoso")
+        Country.objects.create(country="Mexico", goals=4, coach="Miguel Herrera", captain="Rafael Márquez", top_scorer="")
 
         country_get = Country.objects.get(country="Mexico")
         self.assertEqual(country_get.country, "Mexico")
         self.assertEqual(country_get.goals, 4)
         self.assertEqual(country_get.coach, "Miguel Herrera")
         self.assertEqual(country_get.captain, "Rafael Márquez")
-        self.assertEqual(country_get.top_scorer, "Matías Vuoso")
+        self.assertEqual(country_get.top_scorer, "")
 
     def test_country3(self) :
         Player.objects.create(player="Enner Valencia")
@@ -110,11 +110,11 @@ class ModelTestCase(TestCase):
     def test_player1(self) :
         Country.objects.create(country="Chile")
 
-        Player.objects.create(player="Claudio Bravo", team="Chile", position="GK", dob="(1983-04-13) April 13, 1983 (age 32)",goals="0", club="Barcelona")
+        Player.objects.create(player="Claudio Bravo", country="Chile", position="GK", dob="(1983-04-13) April 13, 1983 (age 32)",goals="0", club="Barcelona")
 
         player_get = Player.objects.get(player="Claudio Bravo")
         self.assertEqual(player_get.player, "Claudio Bravo")
-        self.assertEqual(player_get.team, "Chile")
+        self.assertEqual(player_get.country, "Chile")
         self.assertEqual(player_get.position, "GK")
         self.assertEqual(player_get.dob, "(1983-04-13) April 13, 1983 (age 32)")
         self.assertEqual(player_get.goals, "0")
@@ -123,11 +123,11 @@ class ModelTestCase(TestCase):
     def test_player2(self) :
         Country.objects.create(country="Chile")
 
-        Player.objects.create(player="Eugenio Mena", team="Chile", position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="3", club="Cruzeiro")
+        Player.objects.create(player="Eugenio Mena", country="Chile", position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="3", club="Cruzeiro")
 
         player_get = Player.objects.get(player="Eugenio Mena")
         self.assertEqual(player_get.player, "Eugenio Mena")
-        self.assertEqual(player_get.team, "Chile")
+        self.assertEqual(player_get.country, "Chile")
         self.assertEqual(player_get.position, "DF")
         self.assertEqual(player_get.dob, "(1988-07-18) July 18, 1988 (age 26)")
         self.assertEqual(player_get.goals, "3")
@@ -136,11 +136,11 @@ class ModelTestCase(TestCase):
     def test_player3(self) :
         Country.objects.create(country="Chile")
 
-        Player.objects.create(player="Miiko Albornoz", team="Chile", position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="1", club="Hannover 96")
+        Player.objects.create(player="Miiko Albornoz", country="Chile", position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="1", club="Hannover 96")
 
         player_get = Player.objects.get(player="Miiko Albornoz")
         self.assertEqual(player_get.player, "Miiko Albornoz")
-        self.assertEqual(player_get.team, "Chile")
+        self.assertEqual(player_get.country, "Chile")
         self.assertEqual(player_get.position, "DF")
         self.assertEqual(player_get.dob, "(1990-11-30) November 30, 1990 (age 24)")
         self.assertEqual(player_get.goals, "1")

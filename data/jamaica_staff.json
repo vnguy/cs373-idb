@@ -1,0 +1,220 @@
+{
+  "name": "jamaica_staff",
+  "count": 25,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "thisversionrun": "Tue Jul 07 2015 08:39:32 GMT+0000 (UTC)",
+  "results": {
+    "country": [
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Jamaica",
+          "text": "Jamaica"
+        },
+        "index": 1,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      }
+    ],
+    "coach": [
+      {
+        "coach": {
+          "href": "https://en.wikipedia.org/wiki/Winfried_Sch%C3%A4fer",
+          "text": "Winfried Schäfer"
+        },
+        "index": 2,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      }
+    ],
+    "captain": [
+      {
+        "captain": {
+          "href": "https://en.wikipedia.org/wiki/Rodolph_Austin",
+          "text": "Rodolph Austin"
+        },
+        "index": 3,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      }
+    ],
+    "players": [
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Duwayne_Kerr",
+          "text": "Duwayne Kerr"
+        },
+        "index": 4,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Daniel_Gordon_(footballer)",
+          "text": "Daniel Gordon"
+        },
+        "index": 5,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Michael_Hector",
+          "text": "Michael Hector"
+        },
+        "index": 6,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Wes_Morgan",
+          "text": "Wes Morgan"
+        },
+        "index": 7,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Lance_Laing",
+          "text": "Lance Laing"
+        },
+        "index": 8,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Deshorn_Brown",
+          "text": "Deshorn Brown"
+        },
+        "index": 9,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Romeo_Parkes",
+          "text": "Romeo Parkes"
+        },
+        "index": 10,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Hughan_Gray",
+          "text": "Hughan Gray"
+        },
+        "index": 11,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Giles_Barnes",
+          "text": "Giles Barnes"
+        },
+        "index": 12,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Jobi_McAnuff",
+          "text": "Jobi McAnuff"
+        },
+        "index": 13,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Darren_Mattocks",
+          "text": "Darren Mattocks"
+        },
+        "index": 14,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Dwayne_Miller",
+          "text": "Dwayne Miller"
+        },
+        "index": 15,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Dino_Williams",
+          "text": "Dino Williams"
+        },
+        "index": 16,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Allan_Ottey",
+          "text": "Allan Ottey"
+        },
+        "index": 17,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Je-Vaughn_Watson",
+          "text": "Je-Vaughn Watson"
+        },
+        "index": 18,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Joel_Grant",
+          "text": "Joel Grant"
+        },
+        "index": 19,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Simon_Dawkins",
+          "text": "Simon Dawkins"
+        },
+        "index": 20,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Adrian_Mariappa",
+          "text": "Adrian Mariappa"
+        },
+        "index": 21,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Kemar_Lawrence",
+          "text": "Kemar Lawrence"
+        },
+        "index": 22,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Jermaine_Taylor_(footballer)",
+          "text": "Jermaine Taylor"
+        },
+        "index": 23,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Garath_McCleary",
+          "text": "Garath McCleary"
+        },
+        "index": 24,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "players": {
+          "href": "https://en.wikipedia.org/wiki/Ryan_Thompson_(footballer)",
+          "text": "Ryan Thompson"
+        },
+        "index": 25,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      }
+    ]
+  }
+}

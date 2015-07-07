@@ -1,0 +1,68 @@
+{
+  "name": "argentina_scorers",
+  "count": 6,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "thisversionrun": "Tue Jul 07 2015 09:10:03 GMT+0000 (UTC)",
+  "results": {
+    "argentina_scorers": [
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/44927/sergio-aguero",
+          "text": "Sergio Agüero"
+        },
+        "goals": "3",
+        "index": 1,
+        "url": "http://www.espnfc.us/team/argentina/202/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/108223/angel-di-maria",
+          "text": "Ángel Di María"
+        },
+        "goals": "2",
+        "index": 2,
+        "url": "http://www.espnfc.us/team/argentina/202/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/67310/gonzalo-higuain",
+          "text": "Gonzalo Higuaín"
+        },
+        "goals": "2",
+        "index": 3,
+        "url": "http://www.espnfc.us/team/argentina/202/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/129426/marcos-rojo",
+          "text": "Marcos Rojo"
+        },
+        "goals": "1",
+        "index": 4,
+        "url": "http://www.espnfc.us/team/argentina/202/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/102829/javier-pastore",
+          "text": "Javier Pastore"
+        },
+        "goals": "1",
+        "index": 5,
+        "url": "http://www.espnfc.us/team/argentina/202/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/45843/lionel-messi",
+          "text": "Lionel Messi"
+        },
+        "goals": "1",
+        "index": 6,
+        "url": "http://www.espnfc.us/team/argentina/202/statistics/scorers?leagueId=83"
+      }
+    ]
+  }
+}

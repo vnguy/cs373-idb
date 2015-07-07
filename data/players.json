@@ -1,0 +1,5012 @@
+{
+  "name": "players",
+  "count": 277,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "thisversionrun": "Tue Jul 07 2015 09:47:58 GMT+0000 (UTC)",
+  "results": {
+    "players": [
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Claudio_Bravo_(footballer)",
+          "text": "Claudio Bravo"
+        },
+        "team": {
+          "href": "https://en.wikipedia.org/wiki/Chile",
+          "text": "Chile"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1983-04-13) April 13, 1983 (age 32)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Barcelona",
+          "text": "Barcelona"
+        },
+        "index": 1,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Eugenio_Mena",
+          "text": "Eugenio Mena"
+        },
+        "team": {
+          "href": "https://en.wikipedia.org/wiki/Chile",
+          "text": "Chile"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-07-18) July 18, 1988 (age 26)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Cruzeiro_Esporte_Clube",
+          "text": "Cruzeiro"
+        },
+        "index": 2,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Miiko_Albornoz",
+          "text": "Miiko Albornoz"
+        },
+        "team": {
+          "href": "https://en.wikipedia.org/wiki/Chile",
+          "text": "Chile"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1990-11-30) November 30, 1990 (age 24)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Hannover_96",
+          "text": "Hannover 96"
+        },
+        "index": 3,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Mauricio_Isla",
+          "text": "Mauricio Isla"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-06-12) June 12, 1988 (age 27)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Juventus_F.C.",
+          "text": "Juventus"
+        },
+        "index": 4,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Francisco_Silva",
+          "text": "Francisco Silva"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-02-11) February 11, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
+          "text": "Club Brugge"
+        },
+        "index": 5,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jos%C3%A9_Pedro_Fuenzalida",
+          "text": "José Pedro Fuenzalida"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-02-22) February 22, 1985 (age 30)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Boca_Juniors",
+          "text": "Boca Juniors"
+        },
+        "index": 6,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Alexis_S%C3%A1nchez",
+          "text": "Alexis Sánchez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1988-12-19) December 19, 1988 (age 26)",
+        "goals": "26",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+          "text": "Arsenal"
+        },
+        "index": 7,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Arturo_Vidal",
+          "text": "Arturo Vidal"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1987-05-22) May 22, 1987 (age 28)",
+        "goals": "9",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Juventus_F.C.",
+          "text": "Juventus"
+        },
+        "index": 8,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Mauricio_Pinilla",
+          "text": "Mauricio Pinilla"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1984-02-04) February 4, 1984 (age 31)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Atalanta_B.C.",
+          "text": "Atalanta"
+        },
+        "index": 9,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jorge_Valdivia",
+          "text": "Jorge Valdivia"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1983-10-19) October 19, 1983 (age 31)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sociedade_Esportiva_Palmeiras",
+          "text": "Palmeiras"
+        },
+        "index": 10,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Eduardo_Vargas",
+          "text": "Eduardo Vargas"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1989-11-20) November 20, 1989 (age 25)",
+        "goals": "18",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/S.S.C._Napoli",
+          "text": "Napoli"
+        },
+        "index": 11,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Paulo_Garc%C3%A9s",
+          "text": "Paulo Garcés"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1984-08-02) August 2, 1984 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Colo-Colo",
+          "text": "Colo-Colo"
+        },
+        "index": 12,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jos%C3%A9_Rojas",
+          "text": "José Rojas"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1983-06-03) June 3, 1983 (age 32)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Universidad_de_Chile",
+          "text": "Universidad de Chile"
+        },
+        "index": 13,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Mat%C3%ADas_Fern%C3%A1ndez",
+          "text": "Matías Fernández"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-05-15) May 15, 1986 (age 29)",
+        "goals": "14",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/ACF_Fiorentina",
+          "text": "Fiorentina"
+        },
+        "index": 14,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jean_Beausejour",
+          "text": "Jean Beausejour"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1984-06-03) June 3, 1984 (age 31)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Colo-Colo",
+          "text": "Colo-Colo"
+        },
+        "index": 15,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/David_Pizarro",
+          "text": "David Pizarro"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1979-09-11) September 11, 1979 (age 35)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/ACF_Fiorentina",
+          "text": "Fiorentina"
+        },
+        "index": 16,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Gary_Medel",
+          "text": "Gary Medel"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1987-08-03) August 3, 1987 (age 27)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Inter_Milan",
+          "text": "Internazionale"
+        },
+        "index": 17,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Gonzalo_Jara",
+          "text": "Gonzalo Jara"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-08-29) August 29, 1985 (age 29)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
+          "text": "Mainz 05"
+        },
+        "index": 18,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Felipe_Guti%C3%A9rrez",
+          "text": "Felipe Gutiérrez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1990-10-08) October 8, 1990 (age 24)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Twente",
+          "text": "Twente"
+        },
+        "index": 19,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Charles_Ar%C3%A1nguiz",
+          "text": "Charles Aránguiz"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1989-04-17) April 17, 1989 (age 26)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sport_Club_Internacional",
+          "text": "Internacional"
+        },
+        "index": 20,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Marcelo_D%C3%ADaz",
+          "text": "Marcelo Díaz"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-12-30) December 30, 1986 (age 28)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Hamburger_SV",
+          "text": "Hamburger SV"
+        },
+        "index": 21,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%81ngelo_Henr%C3%ADquez",
+          "text": "Ángelo Henríquez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1994-04-13) April 13, 1994 (age 21)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+          "text": "Manchester United"
+        },
+        "index": 22,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Johnny_Herrera_(goalkeeper)",
+          "text": "Johnny Herrera"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1981-05-09) May 9, 1981 (age 34)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Universidad_de_Chile",
+          "text": "Universidad de Chile"
+        },
+        "index": 23,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Corona_(footballer,_born_1981)",
+          "text": "José de Jesús Corona"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1981-01-26) 26 January 1981 (age 34)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Cruz_Azul",
+          "text": "Cruz Azul"
+        },
+        "index": 24,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Julio_Dom%C3%ADnguez",
+          "text": "Julio Domínguez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1987-11-08) 8 November 1987 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Cruz_Azul",
+          "text": "Cruz Azul"
+        },
+        "index": 25,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Hugo_Ayala",
+          "text": "Hugo Ayala"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1987-03-31) 31 March 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Tigres_UANL",
+          "text": "UANL"
+        },
+        "index": 26,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Rafael_M%C3%A1rquez",
+          "text": "Rafael Márquez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1979-02-13) 13 February 1979 (age 36)",
+        "goals": "15",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Hellas_Verona_F.C.",
+          "text": "Verona"
+        },
+        "index": 27,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Carlos_Medina",
+          "text": "Juan Carlos Medina"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1983-08-22) 22 August 1983 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Atlas",
+          "text": "Atlas"
+        },
+        "index": 28,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Javier_G%C3%BCemez",
+          "text": "Javier Güemez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1991-10-17) 17 October 1991 (age 23)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Tijuana",
+          "text": "Tijuana"
+        },
+        "index": 29,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Corona_(footballer,_born_1993)",
+          "text": "Jesús Manuel Corona"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1993-01-06) 6 January 1993 (age 22)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Twente",
+          "text": "Twente"
+        },
+        "index": 30,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Marco_Fabi%C3%A1n",
+          "text": "Marco Fabián"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1989-07-21) 21 July 1989 (age 25)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/C.D._Guadalajara",
+          "text": "Guadalajara"
+        },
+        "index": 31,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Jim%C3%A9nez",
+          "text": "Raúl Jiménez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1991-05-05) 5 May 1991 (age 24)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+          "text": "Atlético Madrid"
+        },
+        "index": 32,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Luis_Montes",
+          "text": "Luis Montes"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-05-15) 15 May 1986 (age 29)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Le%C3%B3n",
+          "text": "León"
+        },
+        "index": 33,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Javier_Aquino",
+          "text": "Javier Aquino"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1990-02-11) 11 February 1990 (age 25)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Rayo_Vallecano",
+          "text": "Rayo Vallecano"
+        },
+        "index": 34,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Alfredo_Talavera",
+          "text": "Alfredo Talavera"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1982-09-18) 18 September 1982 (age 32)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Deportivo_Toluca_F.C.",
+          "text": "Toluca"
+        },
+        "index": 35,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Carlos_Salcedo",
+          "text": "Carlos Salcedo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1993-09-29) 29 September 1993 (age 21)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/C.D._Guadalajara",
+          "text": "Guadalajara"
+        },
+        "index": 36,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Carlos_Valenzuela",
+          "text": "Juan Carlos Valenzuela"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-05-15) 15 May 1984 (age 31)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Atlas",
+          "text": "Atlas"
+        },
+        "index": 37,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Gerardo_Flores_Z%C3%BA%C3%B1iga",
+          "text": "Gerardo Flores"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-02-05) 5 February 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Cruz_Azul",
+          "text": "Cruz Azul"
+        },
+        "index": 38,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Adri%C3%A1n_Aldrete",
+          "text": "Adrián Aldrete"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-06-14) 14 June 1988 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Santos_Laguna",
+          "text": "Santos Laguna"
+        },
+        "index": 39,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Mario_Osuna",
+          "text": "Mario Osuna"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-08-20) 20 August 1988 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Quer%C3%A9taro_F.C.",
+          "text": "Querétaro"
+        },
+        "index": 40,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Enrique_Esqueda",
+          "text": "Enrique Esqueda"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1988-04-19) 19 April 1988 (age 27)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Tigres_UANL",
+          "text": "UANL"
+        },
+        "index": 41,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Vicente_Mat%C3%ADas_Vuoso",
+          "text": "Vicente Matías Vuoso"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1981-11-03) 3 November 1981 (age 33)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Chiapas_F.C.",
+          "text": "Chiapas"
+        },
+        "index": 42,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Eduardo_Herrera_(footballer)",
+          "text": "Eduardo Herrera"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1988-07-25) 25 July 1988 (age 26)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Universidad_Nacional",
+          "text": "UNAM"
+        },
+        "index": 43,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/George_Corral",
+          "text": "George Corral"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1990-07-18) 18 July 1990 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Quer%C3%A9taro_F.C.",
+          "text": "Querétaro"
+        },
+        "index": 44,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Efra%C3%ADn_Velarde",
+          "text": "Efraín Velarde"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-04-15) 15 April 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/C.F._Monterrey",
+          "text": "Monterrey"
+        },
+        "index": 45,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%89dgar_Hern%C3%A1ndez_Cabrera",
+          "text": "Melitón Hernández"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1982-10-15) 15 October 1982 (age 32)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Tiburones_Rojos_de_Veracruz",
+          "text": "Veracruz"
+        },
+        "index": 46,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Daniel_Librado_Azcona",
+          "text": "Librado Azcona"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1984-01-18) January 18, 1984 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Independiente_del_Valle",
+          "text": "Independiente del Valle"
+        },
+        "index": 47,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Arturo_Mina",
+          "text": "Arturo Mina"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1990-10-08) October 8, 1990 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Independiente_del_Valle",
+          "text": "Independiente del Valle"
+        },
+        "index": 48,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Frickson_Erazo",
+          "text": "Frickson Erazo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-05-05) May 5, 1988 (age 27)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Gr%C3%AAmio_Foot-Ball_Porto_Alegrense",
+          "text": "Grêmio"
+        },
+        "index": 49,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Carlos_Paredes",
+          "text": "Juan Carlos Paredes"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1987-07-08) July 8, 1987 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Watford_F.C.",
+          "text": "Watford"
+        },
+        "index": 50,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Renato_Ibarra",
+          "text": "Renato Ibarra"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1991-01-20) January 20, 1991 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Vitesse",
+          "text": "Vitesse"
+        },
+        "index": 51,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Christian_Noboa",
+          "text": "Christian Noboa"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-04-09) April 9, 1985 (age 30)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/PAOK_FC",
+          "text": "PAOK"
+        },
+        "index": 52,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jefferson_Montero",
+          "text": "Jefferson Montero"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1989-09-01) September 1, 1989 (age 25)",
+        "goals": "8",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Swansea_City_A.F.C.",
+          "text": "Swansea City"
+        },
+        "index": 53,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Miller_Bola%C3%B1os",
+          "text": "Miller Bolaños"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1990-06-01) June 1, 1990 (age 25)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Sport_Emelec",
+          "text": "Emelec"
+        },
+        "index": 54,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Fidel_Mart%C3%ADnez",
+          "text": "Fidel Martínez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1990-02-15) February 15, 1990 (age 25)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Universidad_de_Guadalajara",
+          "text": "U. de G."
+        },
+        "index": 55,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Walter_Ayov%C3%AD",
+          "text": "Walter Ayoví"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1979-08-11) August 11, 1979 (age 35)",
+        "goals": "8",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/C.F._Pachuca",
+          "text": "Pachuca"
+        },
+        "index": 56,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Cazares",
+          "text": "Juan Cazares"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1992-04-03) April 3, 1992 (age 23)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Banfield",
+          "text": "Banfield"
+        },
+        "index": 57,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Esteban_Dreer",
+          "text": "Esteban Dreer"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1981-11-11) November 11, 1981 (age 33)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Sport_Emelec",
+          "text": "Emelec"
+        },
+        "index": 58,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Enner_Valencia",
+          "text": "Enner Valencia"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1989-11-04) November 4, 1989 (age 25)",
+        "goals": "11",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
+          "text": "West Ham United"
+        },
+        "index": 59,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Osbaldo_Lastra",
+          "text": "Osbaldo Lastra"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1983-08-10) August 10, 1983 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Sport_Emelec",
+          "text": "Emelec"
+        },
+        "index": 60,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Pedro_Qui%C3%B1%C3%B3nez",
+          "text": "Pedro Quiñónez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-03-04) March 4, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Sport_Emelec",
+          "text": "Emelec"
+        },
+        "index": 61,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Mario_Pineida",
+          "text": "Mario Pineida"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1992-07-06) July 6, 1992 (age 23)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Independiente_del_Valle",
+          "text": "Independiente del Valle"
+        },
+        "index": 62,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Daniel_Angulo",
+          "text": "Daniel Angulo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1986-11-16) November 16, 1986 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Independiente_del_Valle",
+          "text": "Independiente del Valle"
+        },
+        "index": 63,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%93scar_Bag%C3%BC%C3%AD",
+          "text": "Óscar Bagüí"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1982-12-10) December 10, 1982 (age 32)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Sport_Emelec",
+          "text": "Emelec"
+        },
+        "index": 64,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Pedro_Larrea",
+          "text": "Pedro Larrea"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-05-21) May 21, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Liga_Deportiva_Universitaria_de_Loja",
+          "text": "LDU Loja"
+        },
+        "index": 65,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/John_Narv%C3%A1ez",
+          "text": "John Narváez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1991-06-12) June 12, 1991 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Sport_Emelec",
+          "text": "Emelec"
+        },
+        "index": 66,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Gabriel_Achilier",
+          "text": "Gabriel Achilier"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-03-23) March 23, 1985 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Sport_Emelec",
+          "text": "Emelec"
+        },
+        "index": 67,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jonathan_David_Gonz%C3%A1lez_Valencia",
+          "text": "Jonathan González"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1995-03-07) March 7, 1995 (age 20)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Universidad_de_Guadalajara",
+          "text": "U. de G."
+        },
+        "index": 68,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Alexander_Dom%C3%ADnguez",
+          "text": "Alexander Domínguez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1987-06-05) June 5, 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/LDU_Quito",
+          "text": "LDU Quito"
+        },
+        "index": 69,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Romel_Qui%C3%B1%C3%B3nez",
+          "text": "Romel Quiñónez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1992-06-25) June 25, 1992 (age 23)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Bol%C3%ADvar",
+          "text": "Bolívar"
+        },
+        "index": 70,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_Hurtado",
+          "text": "Miguel Hurtado"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-07-04) July 4, 1985 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Blooming",
+          "text": "Blooming"
+        },
+        "index": 71,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Alejandro_Chumacero",
+          "text": "Alejandro Chumacero"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1991-04-22) April 22, 1991 (age 24)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/The_Strongest",
+          "text": "The Strongest"
+        },
+        "index": 72,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Leonel_Morales",
+          "text": "Leonel Morales"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-09-02) September 2, 1988 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Blooming",
+          "text": "Blooming"
+        },
+        "index": 73,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Ronald_Eguino",
+          "text": "Ronald Eguino"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-02-20) February 20, 1988 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Bol%C3%ADvar",
+          "text": "Bolívar"
+        },
+        "index": 74,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Danny_Bejarano",
+          "text": "Danny Bejarano"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1994-01-03) January 3, 1994 (age 21)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Oriente_Petrolero",
+          "text": "Oriente Petrolero"
+        },
+        "index": 75,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Alcides_Pe%C3%B1a",
+          "text": "Alcides Peña"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1989-01-14) January 14, 1989 (age 26)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Oriente_Petrolero",
+          "text": "Oriente Petrolero"
+        },
+        "index": 76,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Martin_Smedberg-Dalence",
+          "text": "Martin Smedberg-Dalence"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1984-05-10) May 10, 1984 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/IFK_G%C3%B6teborg",
+          "text": "IFK Göteborg"
+        },
+        "index": 77,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Marcelo_Martins_Moreno",
+          "text": "Marcelo Martins Moreno"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1987-06-18) June 18, 1987 (age 28)",
+        "goals": "12",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Changchun_Yatai_F.C.",
+          "text": "Changchun Yatai"
+        },
+        "index": 78,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Pablo_Daniel_Escobar",
+          "text": "Pablo Escobar"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1979-02-23) February 23, 1979 (age 36)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/The_Strongest",
+          "text": "The Strongest"
+        },
+        "index": 79,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Dami%C3%A1n_Lizio",
+          "text": "Damián Lizio"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1989-06-30) June 30, 1989 (age 26)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/O%27Higgins_F.C.",
+          "text": "O'Higgins"
+        },
+        "index": 80,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jos%C3%A9_Pe%C3%B1arrieta",
+          "text": "José Peñarrieta"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1988-11-18) November 18, 1988 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Petrolero",
+          "text": "Petrolero Yacuiba"
+        },
+        "index": 81,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Damir_Miranda",
+          "text": "Damir Miranda"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-10-06) October 6, 1985 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Bol%C3%ADvar",
+          "text": "Bolívar"
+        },
+        "index": 82,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Edemir_Rodr%C3%ADguez",
+          "text": "Edemir Rodríguez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-10-21) October 21, 1984 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Bol%C3%ADvar",
+          "text": "Bolívar"
+        },
+        "index": 83,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Gamarra",
+          "text": "Sebastián Gamarra"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1997-01-15) January 15, 1997 (age 18)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/A.C._Milan_Primavera",
+          "text": "Milan"
+        },
+        "index": 84,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Ronald_Raldes",
+          "text": "Ronald Raldes"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1981-04-20) April 20, 1981 (age 34)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Oriente_Petrolero",
+          "text": "Oriente Petrolero"
+        },
+        "index": 85,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Marvin_Bejarano",
+          "text": "Marvin Bejarano"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-03-06) March 6, 1988 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Oriente_Petrolero",
+          "text": "Oriente Petrolero"
+        },
+        "index": 86,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Ricardo_Pedriel",
+          "text": "Ricardo Pedriel"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1987-09-01) September 1, 1987 (age 27)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Mersin_%C4%B0dmanyurdu_SK",
+          "text": "Mersin İdmanyurdu"
+        },
+        "index": 87,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/W%C3%A1lter_Veizaga",
+          "text": "Wálter Veizaga"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-04-22) April 22, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/The_Strongest",
+          "text": "The Strongest"
+        },
+        "index": 88,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jhasmani_Campos",
+          "text": "Jhasmani Campos"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-05-10) May 10, 1988 (age 27)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Bol%C3%ADvar",
+          "text": "Bolívar"
+        },
+        "index": 89,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Cristian_Coimbra",
+          "text": "Cristian Coimbra"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1989-09-11) September 11, 1989 (age 25)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Blooming",
+          "text": "Blooming"
+        },
+        "index": 90,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Edward_Zenteno",
+          "text": "Edward Zenteno"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-12-05) December 5, 1984 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Jorge_Wilstermann",
+          "text": "Jorge Wilstermann"
+        },
+        "index": 91,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Hugo_Su%C3%A1rez",
+          "text": "Hugo Suárez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1982-02-07) February 7, 1982 (age 33)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Blooming",
+          "text": "Blooming"
+        },
+        "index": 92,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Sergio_Romero",
+          "text": "Sergio Romero"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1987-02-22) February 22, 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/U.C._Sampdoria",
+          "text": "Sampdoria"
+        },
+        "index": 93,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Ezequiel_Garay",
+          "text": "Ezequiel Garay"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-10-10) October 10, 1986 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Zenit_Saint_Petersburg",
+          "text": "Zenit"
+        },
+        "index": 94,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Facundo_Roncaglia",
+          "text": "Facundo Roncaglia"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1987-02-10) February 10, 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Genoa_C.F.C.",
+          "text": "Genoa"
+        },
+        "index": 95,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Pablo_Zabaleta",
+          "text": "Pablo Zabaleta"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-01-16) January 16, 1985 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+          "text": "Manchester City"
+        },
+        "index": 96,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Fernando_Gago",
+          "text": "Fernando Gago"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-04-10) April 10, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Boca_Juniors",
+          "text": "Boca Juniors"
+        },
+        "index": 97,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Lucas_Biglia",
+          "text": "Lucas Biglia"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-01-30) January 30, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/S.S._Lazio",
+          "text": "Lazio"
+        },
+        "index": 98,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%81ngel_Di_Mar%C3%ADa",
+          "text": "Ángel di María"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-02-14) February 14, 1988 (age 27)",
+        "goals": "11",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+          "text": "Manchester United"
+        },
+        "index": 99,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Roberto_Pereyra",
+          "text": "Roberto Pereyra"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1991-01-07) January 7, 1991 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Juventus_F.C.",
+          "text": "Juventus"
+        },
+        "index": 100,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Gonzalo_Higua%C3%ADn",
+          "text": "Gonzalo Higuaín"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1987-12-10) December 10, 1987 (age 27)",
+        "goals": "23",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/S.S.C._Napoli",
+          "text": "Napoli"
+        },
+        "index": 101,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Lionel_Messi",
+          "text": "Lionel Messi"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1987-06-24) June 24, 1987 (age 28)",
+        "goals": "45",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Barcelona",
+          "text": "Barcelona"
+        },
+        "index": 102,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Sergio_Ag%C3%BCero",
+          "text": "Sergio Agüero"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1988-06-02) June 2, 1988 (age 27)",
+        "goals": "23",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+          "text": "Manchester City"
+        },
+        "index": 103,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Nahuel_Guzm%C3%A1n",
+          "text": "Nahuel Guzmán"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1986-02-10) February 10, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Tigres_UANL",
+          "text": "UANL"
+        },
+        "index": 104,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Milton_Casco",
+          "text": "Milton Casco"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-04-11) April 11, 1988 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Newell%27s_Old_Boys",
+          "text": "Newell's Old Boys"
+        },
+        "index": 105,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Javier_Mascherano",
+          "text": "Javier Mascherano"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1984-06-08) June 8, 1984 (age 31)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Barcelona",
+          "text": "Barcelona"
+        },
+        "index": 106,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Demichelis",
+          "text": "Martín Demichelis"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1980-12-20) December 20, 1980 (age 34)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+          "text": "Manchester City"
+        },
+        "index": 107,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Marcos_Rojo",
+          "text": "Marcos Rojo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1990-03-20) March 20, 1990 (age 25)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+          "text": "Manchester United"
+        },
+        "index": 108,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Otamendi",
+          "text": "Nicolás Otamendi"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-02-12) February 12, 1988 (age 27)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Valencia_CF",
+          "text": "Valencia"
+        },
+        "index": 109,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Carlos_Tevez",
+          "text": "Carlos Tevez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1984-02-07) February 7, 1984 (age 31)",
+        "goals": "13",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Juventus_F.C.",
+          "text": "Juventus"
+        },
+        "index": 110,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%89ver_Banega",
+          "text": "Éver Banega"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-06-29) June 29, 1988 (age 27)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sevilla_FC",
+          "text": "Sevilla"
+        },
+        "index": 111,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%89rik_Lamela",
+          "text": "Érik Lamela"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1992-03-04) March 4, 1992 (age 23)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+          "text": "Tottenham Hotspur"
+        },
+        "index": 112,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Javier_Pastore",
+          "text": "Javier Pastore"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1989-06-20) June 20, 1989 (age 26)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C.",
+          "text": "Paris Saint-Germain"
+        },
+        "index": 113,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Ezequiel_Lavezzi",
+          "text": "Ezequiel Lavezzi"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1985-05-03) May 3, 1985 (age 30)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C.",
+          "text": "Paris Saint-Germain"
+        },
+        "index": 114,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Mariano_And%C3%BAjar",
+          "text": "Mariano Andújar"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1983-07-30) July 30, 1983 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/S.S.C._Napoli",
+          "text": "Napoli"
+        },
+        "index": 115,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Agust%C3%ADn_Marches%C3%ADn",
+          "text": "Agustín Marchesín"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1988-03-16) March 16, 1988 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Santos_Laguna",
+          "text": "Santos Laguna"
+        },
+        "index": 116,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Fernando_Muslera",
+          "text": "Fernando Muslera"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1986-06-16) June 16, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
+          "text": "Galatasaray"
+        },
+        "index": 117,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jos%C3%A9_Gim%C3%A9nez",
+          "text": "José Giménez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1995-01-20) January 20, 1995 (age 20)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+          "text": "Atlético de Madrid"
+        },
+        "index": 118,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Diego_God%C3%ADn",
+          "text": "Diego Godín"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-02-16) February 16, 1986 (age 29)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+          "text": "Atlético de Madrid"
+        },
+        "index": 119,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jorge_Fucile",
+          "text": "Jorge Fucile"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-11-19) November 19, 1984 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Nacional_de_Football",
+          "text": "Nacional"
+        },
+        "index": 120,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Carlos_Andr%C3%A9s_S%C3%A1nchez",
+          "text": "Carlos Sánchez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1984-12-02) December 2, 1984 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate",
+          "text": "River Plate"
+        },
+        "index": 121,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%81lvaro_Pereira",
+          "text": "Álvaro Pereira"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-11-28) November 28, 1985 (age 29)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Estudiantes_de_La_Plata",
+          "text": "Estudiantes de La Plata"
+        },
+        "index": 122,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Cristian_Rodr%C3%ADguez",
+          "text": "Cristian Rodríguez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-09-30) September 30, 1985 (age 29)",
+        "goals": "8",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+          "text": "Atlético de Madrid"
+        },
+        "index": 123,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Abel_Hern%C3%A1ndez",
+          "text": "Abel Hernández"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1990-08-08) August 8, 1990 (age 24)",
+        "goals": "8",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
+          "text": "Hull City"
+        },
+        "index": 124,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Diego_Rol%C3%A1n",
+          "text": "Diego Rolán"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1993-03-24) March 24, 1993 (age 22)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Girondins_de_Bordeaux",
+          "text": "Bordeaux"
+        },
+        "index": 125,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Giorgian_De_Arrascaeta",
+          "text": "Giorgian de Arrascaeta"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1994-05-01) May 1, 1994 (age 21)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Cruzeiro_Esporte_Clube",
+          "text": "Cruzeiro"
+        },
+        "index": 126,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Christian_Stuani",
+          "text": "Christian Stuani"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1986-10-12) October 12, 1986 (age 28)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/RCD_Espanyol",
+          "text": "Espanyol"
+        },
+        "index": 127,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Rodrigo_Mu%C3%B1oz",
+          "text": "Rodrigo Muñoz"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1982-01-22) 22 January 1982 (age 33)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Libertad",
+          "text": "Libertad"
+        },
+        "index": 128,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Gast%C3%B3n_Silva",
+          "text": "Gastón Silva"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1994-03-05) March 5, 1994 (age 21)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Torino_F.C.",
+          "text": "Torino"
+        },
+        "index": 129,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Lodeiro",
+          "text": "Nicolás Lodeiro"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1989-03-21) March 21, 1989 (age 26)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Boca_Juniors",
+          "text": "Boca Juniors"
+        },
+        "index": 130,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Guzm%C3%A1n_Pereira",
+          "text": "Guzmán Pereira"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1991-05-16) May 16, 1991 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Universidad_de_Chile",
+          "text": "Universidad de Chile"
+        },
+        "index": 131,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Maxi_Pereira",
+          "text": "Maximiliano Pereira"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-06-08) June 8, 1984 (age 31)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/S.L._Benfica",
+          "text": "Benfica"
+        },
+        "index": 132,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Egidio_Ar%C3%A9valo",
+          "text": "Egidio Arévalo Ríos"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1982-01-01) January 1, 1982 (age 33)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Tigres_UANL",
+          "text": "UANL"
+        },
+        "index": 133,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Math%C3%ADas_Corujo",
+          "text": "Mathías Corujo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-05-08) May 8, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Universidad_de_Chile",
+          "text": "Universidad de Chile"
+        },
+        "index": 134,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Coates",
+          "text": "Sebastián Coates"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1990-10-07) October 7, 1990 (age 24)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+          "text": "Sunderland"
+        },
+        "index": 135,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%81lvaro_Rafael_Gonz%C3%A1lez",
+          "text": "Álvaro González"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1984-10-29) October 29, 1984 (age 30)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Torino_F.C.",
+          "text": "Torino"
+        },
+        "index": 136,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Edinson_Cavani",
+          "text": "Edinson Cavani"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1987-02-14) February 14, 1987 (age 28)",
+        "goals": "25",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C.",
+          "text": "Paris Saint-Germain"
+        },
+        "index": 137,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jonathan_Rodr%C3%ADguez_(footballer,_born_1993)",
+          "text": "Jonathan Rodríguez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1993-07-06) July 6, 1993 (age 22)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/S.L._Benfica",
+          "text": "Benfica"
+        },
+        "index": 138,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Silva",
+          "text": "Martín Silva"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1983-03-25) March 25, 1983 (age 32)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/CR_Vasco_da_Gama",
+          "text": "Vasco da Gama"
+        },
+        "index": 139,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Justo_Villar",
+          "text": "Justo Villar"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1977-06-30) June 30, 1977 (age 38)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Colo-Colo",
+          "text": "Colo-Colo"
+        },
+        "index": 140,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Piris",
+          "text": "Iván Piris"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1989-03-10) March 10, 1989 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Udinese_Calcio",
+          "text": "Udinese"
+        },
+        "index": 141,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Marcos_C%C3%A1ceres",
+          "text": "Marcos Cáceres"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-05-05) May 5, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Newell%27s_Old_Boys",
+          "text": "Newell's Old Boys"
+        },
+        "index": 142,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Pablo_C%C3%A9sar_Aguilar",
+          "text": "Pablo Aguilar"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1987-04-02) April 2, 1987 (age 28)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
+          "text": "América"
+        },
+        "index": 143,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Rodolph_Austin",
+          "text": "Rodolph Austin"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-06-01) 1 June 1985 (age 30)",
+        "goals": "6",
+        "club": {
+          "href": "",
+          "text": ""
+        },
+        "index": 144,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Bruno_Valdez",
+          "text": "Bruno Valdez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1992-10-06) October 6, 1992 (age 22)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Cerro_Porte%C3%B1o",
+          "text": "Cerro Porteño"
+        },
+        "index": 145,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Miguel_Samudio",
+          "text": "Miguel Samudio"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-08-24) August 24, 1986 (age 28)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
+          "text": "América"
+        },
+        "index": 146,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Ra%C3%BAl_Bobadilla",
+          "text": "Raúl Bobadilla"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1987-06-18) June 18, 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Augsburg",
+          "text": "Augsburg"
+        },
+        "index": 147,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Lucas_Barrios",
+          "text": "Lucas Barrios"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1984-11-13) November 13, 1984 (age 30)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Montpellier_HSC",
+          "text": "Montpellier"
+        },
+        "index": 148,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Roque_Santa_Cruz",
+          "text": "Roque Santa Cruz"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1981-08-16) August 16, 1981 (age 33)",
+        "goals": "30",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Cruz_Azul",
+          "text": "Cruz Azul"
+        },
+        "index": 149,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Derlis_Gonz%C3%A1lez",
+          "text": "Derlis González"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1994-03-23) March 23, 1994 (age 21)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Basel",
+          "text": "Basel"
+        },
+        "index": 150,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%89dgar_Ben%C3%ADtez",
+          "text": "Édgar Benítez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1987-11-08) November 8, 1987 (age 27)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Deportivo_Toluca_F.C.",
+          "text": "Toluca"
+        },
+        "index": 151,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Antony_Silva",
+          "text": "Antony Silva"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1984-02-27) February 27, 1984 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Independiente_Medell%C3%ADn",
+          "text": "Independiente Medellín"
+        },
+        "index": 152,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Richard_Ortiz",
+          "text": "Richard Ortiz"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1990-05-22) May 22, 1990 (age 25)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Deportivo_Toluca_F.C.",
+          "text": "Toluca"
+        },
+        "index": 153,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Paulo_da_Silva",
+          "text": "Paulo da Silva"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1980-02-01) February 1, 1980 (age 35)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Deportivo_Toluca_F.C.",
+          "text": "Toluca"
+        },
+        "index": 154,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/V%C3%ADctor_C%C3%A1ceres",
+          "text": "Víctor Cáceres"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-03-25) March 25, 1985 (age 30)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo",
+          "text": "Flamengo"
+        },
+        "index": 155,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Osmar_Molinas",
+          "text": "Osmar Molinas"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1987-05-03) May 3, 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Libertad",
+          "text": "Libertad"
+        },
+        "index": 156,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Osvaldo_Mart%C3%ADnez",
+          "text": "Osvaldo Martínez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-04-08) April 8, 1986 (age 29)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
+          "text": "América"
+        },
+        "index": 157,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Nelson_Haedo_Valdez",
+          "text": "Nelson Haedo Valdez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1983-11-28) November 28, 1983 (age 31)",
+        "goals": "12",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+          "text": "Eintracht Frankfurt"
+        },
+        "index": 158,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Fabi%C3%A1n_Balbuena",
+          "text": "Fabián Balbuena"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1991-08-23) August 23, 1991 (age 23)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Libertad",
+          "text": "Libertad"
+        },
+        "index": 159,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/N%C3%A9stor_Ortigoza",
+          "text": "Néstor Ortigoza"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1984-12-07) December 7, 1984 (age 30)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/San_Lorenzo_de_Almagro",
+          "text": "San Lorenzo"
+        },
+        "index": 160,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/%C3%93scar_Romero_(footballer)",
+          "text": "Óscar Romero"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1992-07-04) July 4, 1992 (age 23)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Racing_Club_de_Avellaneda",
+          "text": "Racing"
+        },
+        "index": 161,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Eduardo_Aranda",
+          "text": "Eduardo Aranda"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-01-28) January 28, 1985 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Olimpia",
+          "text": "Olimpia"
+        },
+        "index": 162,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Alfredo_Aguilar",
+          "text": "Alfredo Aguilar"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1988-07-18) July 18, 1988 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Guaran%C3%AD",
+          "text": "Guaraní"
+        },
+        "index": 163,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Duwayne_Kerr",
+          "text": "Duwayne Kerr"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1987-02-16) 16 February 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sarpsborg_08_FF",
+          "text": "Sarpsborg 08"
+        },
+        "index": 164,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Daniel_Gordon_(footballer)",
+          "text": "Daniel Gordon"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-01-16) 16 January 1985 (age 30)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Karlsruher_SC",
+          "text": "Karlsruher SC"
+        },
+        "index": 165,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Michael_Hector",
+          "text": "Michael Hector"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1992-07-19) 19 July 1992 (age 22)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Reading_F.C.",
+          "text": "Reading"
+        },
+        "index": 166,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Wes_Morgan",
+          "text": "Wes Morgan"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-01-21) 21 January 1984 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Leicester_City_F.C.",
+          "text": "Leicester City"
+        },
+        "index": 167,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Lance_Laing",
+          "text": "Lance Laing"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-02-28) 28 February 1988 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Edmonton",
+          "text": "FC Edmonton"
+        },
+        "index": 168,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Deshorn_Brown",
+          "text": "Deshorn Brown"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1990-12-22) 22 December 1990 (age 24)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/V%C3%A5lerenga_Fotball",
+          "text": "Vålerenga"
+        },
+        "index": 169,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Romeo_Parkes",
+          "text": "Romeo Parkes"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1990-11-20) 20 November 1990 (age 24)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/A.D._Isidro_Metap%C3%A1n",
+          "text": "Isidro Metapán"
+        },
+        "index": 170,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Hughan_Gray",
+          "text": "Hughan Gray"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1987-03-25) 25 March 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Waterhouse_F.C.",
+          "text": "Waterhouse"
+        },
+        "index": 171,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Giles_Barnes",
+          "text": "Giles Barnes"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1988-08-05) 5 August 1988 (age 26)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Houston_Dynamo",
+          "text": "Houston Dynamo"
+        },
+        "index": 172,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jobi_McAnuff",
+          "text": "Jobi McAnuff"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1981-11-03) 3 November 1981 (age 33)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Leyton_Orient_F.C.",
+          "text": "Leyton Orient"
+        },
+        "index": 173,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Darren_Mattocks",
+          "text": "Darren Mattocks"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1990-09-02) 2 September 1990 (age 24)",
+        "goals": "8",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC",
+          "text": "Vancouver Whitecaps"
+        },
+        "index": 174,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Dwayne_Miller",
+          "text": "Dwayne Miller"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1987-07-14) 14 July 1987 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Syrianska_FC",
+          "text": "Syrianska"
+        },
+        "index": 175,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Dino_Williams",
+          "text": "Dino Williams"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1990-03-31) 31 March 1990 (age 25)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Montego_Bay_United_F.C.",
+          "text": "Montego Bay United"
+        },
+        "index": 176,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Allan_Ottey",
+          "text": "Allan Ottey"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1992-12-18) 18 December 1992 (age 22)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Montego_Bay_United_F.C.",
+          "text": "Montego Bay United"
+        },
+        "index": 177,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Je-Vaughn_Watson",
+          "text": "Je-Vaughn Watson"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1983-10-22) 22 October 1983 (age 31)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Dallas",
+          "text": "FC Dallas"
+        },
+        "index": 178,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Joel_Grant",
+          "text": "Joel Grant"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1987-08-26) 26 August 1987 (age 27)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Yeovil_Town_F.C.",
+          "text": "Yeovil Town"
+        },
+        "index": 179,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Simon_Dawkins",
+          "text": "Simon Dawkins"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1987-12-01) 1 December 1987 (age 27)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Derby_County_F.C.",
+          "text": "Derby County"
+        },
+        "index": 180,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Adrian_Mariappa",
+          "text": "Adrian Mariappa"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-10-03) 3 October 1986 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
+          "text": "Crystal Palace"
+        },
+        "index": 181,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Kemar_Lawrence",
+          "text": "Kemar Lawrence"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1992-09-17) 17 September 1992 (age 22)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+          "text": "New York Red Bulls"
+        },
+        "index": 182,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jermaine_Taylor_(footballer)",
+          "text": "Jermaine Taylor"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-01-14) 14 January 1985 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Houston_Dynamo",
+          "text": "Houston Dynamo"
+        },
+        "index": 183,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Garath_McCleary",
+          "text": "Garath McCleary"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1987-05-15) 15 May 1987 (age 28)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Reading_F.C.",
+          "text": "Reading"
+        },
+        "index": 184,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Ryan_Thompson_(footballer)",
+          "text": "Ryan Thompson"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1985-01-07) 7 January 1985 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Pittsburgh_Riverhounds",
+          "text": "Pittsburgh Riverhounds"
+        },
+        "index": 185,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jefferson_de_Oliveira_Galv%C3%A3o",
+          "text": "Jefferson"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1983-01-02) January 2, 1983 (age 32)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Botafogo_de_Futebol_e_Regatas",
+          "text": "Botafogo"
+        },
+        "index": 186,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Dani_Alves",
+          "text": "Dani Alves"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1983-05-06) May 6, 1983 (age 32)",
+        "goals": "6",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Barcelona",
+          "text": "Barcelona"
+        },
+        "index": 187,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Miranda_(footballer)",
+          "text": "Miranda"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-09-07) September 7, 1984 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+          "text": "Atlético de Madrid"
+        },
+        "index": 188,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/David_Luiz",
+          "text": "David Luiz"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1987-04-22) April 22, 1987 (age 28)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C.",
+          "text": "Paris Saint-Germain"
+        },
+        "index": 189,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Fernandinho_(footballer)",
+          "text": "Fernandinho"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-05-04) May 4, 1985 (age 30)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+          "text": "Manchester City"
+        },
+        "index": 190,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Filipe_Lu%C3%ADs",
+          "text": "Filipe Luís"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-08-09) August 9, 1985 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+          "text": "Chelsea"
+        },
+        "index": 191,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Douglas_Costa",
+          "text": "Douglas Costa"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1990-09-14) September 14, 1990 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Shakhtar_Donetsk",
+          "text": "Shakhtar Donetsk"
+        },
+        "index": 192,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Elias_Mendes_Trindade",
+          "text": "Elias"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-05-16) May 16, 1985 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista",
+          "text": "Corinthians"
+        },
+        "index": 193,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Diego_Tardelli",
+          "text": "Diego Tardelli"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1985-05-10) May 10, 1985 (age 30)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Shandong_Luneng_Taishan_F.C.",
+          "text": "Shandong Luneng Taishan"
+        },
+        "index": 194,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Neymar",
+          "text": "Neymar"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1992-02-05) February 5, 1992 (age 23)",
+        "goals": "43",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Barcelona",
+          "text": "Barcelona"
+        },
+        "index": 195,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Roberto_Firmino",
+          "text": "Roberto Firmino"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1991-10-02) October 2, 1991 (age 23)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+          "text": "Hoffenheim"
+        },
+        "index": 196,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Norberto_Murara_Neto",
+          "text": "Neto"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1989-07-19) July 19, 1989 (age 25)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/ACF_Fiorentina",
+          "text": "Fiorentina"
+        },
+        "index": 197,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Marquinhos_(footballer,_born_1994)",
+          "text": "Marquinhos"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1994-05-14) May 14, 1994 (age 21)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C.",
+          "text": "Paris Saint-Germain"
+        },
+        "index": 198,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Thiago_Silva",
+          "text": "Thiago Silva"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-09-22) September 22, 1984 (age 30)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C.",
+          "text": "Paris Saint-Germain"
+        },
+        "index": 199,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Geferson",
+          "text": "Geferson"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1994-05-13) May 13, 1994 (age 21)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sport_Club_Internacional",
+          "text": "Internacional"
+        },
+        "index": 200,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Fabinho_(footballer,_born_1993)",
+          "text": "Fabinho"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1993-10-23) October 23, 1993 (age 21)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
+          "text": "Monaco"
+        },
+        "index": 201,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Frederico_Rodrigues_Santos",
+          "text": "Fred"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1993-03-05) March 5, 1993 (age 22)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Shakhtar_Donetsk",
+          "text": "Shakhtar Donetsk"
+        },
+        "index": 202,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Everton_Ribeiro",
+          "text": "Everton Ribeiro"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1989-04-10) April 10, 1989 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Al-Ahli_Dubai_F.C.",
+          "text": "Al-Ahli"
+        },
+        "index": 203,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Willian_(footballer)",
+          "text": "Willian"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-08-09) August 9, 1988 (age 26)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+          "text": "Chelsea"
+        },
+        "index": 204,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Robinho",
+          "text": "Robinho"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1984-01-25) January 25, 1984 (age 31)",
+        "goals": "27",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Santos_FC",
+          "text": "Santos"
+        },
+        "index": 205,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Philippe_Coutinho",
+          "text": "Philippe Coutinho"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1992-06-12) June 12, 1992 (age 23)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+          "text": "Liverpool"
+        },
+        "index": 206,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Casemiro",
+          "text": "Casemiro"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1992-02-23) February 23, 1992 (age 23)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Porto",
+          "text": "Porto"
+        },
+        "index": 207,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Marcelo_Grohe",
+          "text": "Marcelo Grohe"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1987-01-13) January 13, 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Gr%C3%AAmio_Foot-Ball_Porto_Alegrense",
+          "text": "Grêmio"
+        },
+        "index": 208,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/David_Ospina",
+          "text": "David Ospina"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1988-08-31) August 31, 1988 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+          "text": "Arsenal"
+        },
+        "index": 209,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Cristi%C3%A1n_Zapata",
+          "text": "Cristián Zapata"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-09-30) September 30, 1986 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/A.C._Milan",
+          "text": "Milan"
+        },
+        "index": 210,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Pedro_Franco",
+          "text": "Pedro Franco"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1991-04-23) April 23, 1991 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
+          "text": "Beşiktaş"
+        },
+        "index": 211,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Santiago_Arias",
+          "text": "Santiago Arias"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1992-01-13) January 13, 1992 (age 23)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
+          "text": "PSV"
+        },
+        "index": 212,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Edwin_Valencia",
+          "text": "Edwin Valencia"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-03-29) March 29, 1985 (age 30)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Santos_FC",
+          "text": "Santos"
+        },
+        "index": 213,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Carlos_S%C3%A1nchez_Moreno",
+          "text": "Carlos Sánchez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-02-06) February 6, 1986 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
+          "text": "Aston Villa"
+        },
+        "index": 214,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Pablo_Armero",
+          "text": "Pablo Armero"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-11-02) November 2, 1986 (age 28)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo",
+          "text": "Flamengo"
+        },
+        "index": 215,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Edwin_Cardona",
+          "text": "Edwin Cardona"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1992-12-08) December 8, 1992 (age 22)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/C.F._Monterrey",
+          "text": "Monterrey"
+        },
+        "index": 216,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Radamel_Falcao",
+          "text": "Radamel Falcao"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1986-02-10) February 10, 1986 (age 29)",
+        "goals": "24",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+          "text": "Manchester United"
+        },
+        "index": 217,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/James_Rodr%C3%ADguez",
+          "text": "James Rodríguez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1991-07-12) July 12, 1991 (age 23)",
+        "goals": "12",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Real_Madrid_C.F.",
+          "text": "Real Madrid"
+        },
+        "index": 218,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Cuadrado",
+          "text": "Juan Cuadrado"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-05-26) May 26, 1988 (age 27)",
+        "goals": "5",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+          "text": "Chelsea"
+        },
+        "index": 219,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Camilo_Vargas",
+          "text": "Camilo Vargas"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1989-09-01) September 1, 1989 (age 25)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Nacional",
+          "text": "Atlético Nacional"
+        },
+        "index": 220,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Darwin_Andrade",
+          "text": "Darwin Andrade"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1991-02-11) February 11, 1991 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge",
+          "text": "Standard Liège"
+        },
+        "index": 221,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Carlos_Vald%C3%A9s_(footballer)",
+          "text": "Carlos Valdés"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-05-22) May 22, 1985 (age 30)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Nacional_de_Football",
+          "text": "Nacional"
+        },
+        "index": 222,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Alexander_Mej%C3%ADa",
+          "text": "Alexander Mejía"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-09-07) September 7, 1988 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/C.F._Monterrey",
+          "text": "Monterrey"
+        },
+        "index": 223,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/V%C3%ADctor_Ibarbo",
+          "text": "Víctor Ibarbo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1990-05-19) May 19, 1990 (age 25)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/A.S._Roma",
+          "text": "Roma"
+        },
+        "index": 224,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Carlos_Bacca",
+          "text": "Carlos Bacca"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1986-09-08) September 8, 1986 (age 28)",
+        "goals": "7",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sevilla_FC",
+          "text": "Sevilla"
+        },
+        "index": 225,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Camilo_Z%C3%BA%C3%B1iga",
+          "text": "Juan Camilo Zúñiga"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-12-14) December 14, 1985 (age 29)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/S.S.C._Napoli",
+          "text": "Napoli"
+        },
+        "index": 226,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Te%C3%B3filo_Guti%C3%A9rrez",
+          "text": "Teófilo Gutiérrez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1985-05-28) May 28, 1985 (age 30)",
+        "goals": "14",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_River_Plate",
+          "text": "River Plate"
+        },
+        "index": 227,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Luis_Muriel",
+          "text": "Luis Muriel"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1991-04-18) April 18, 1991 (age 24)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/U.C._Sampdoria",
+          "text": "Sampdoria"
+        },
+        "index": 228,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jackson_Mart%C3%ADnez",
+          "text": "Jackson Martínez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1986-10-03) October 3, 1986 (age 28)",
+        "goals": "10",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Porto",
+          "text": "Porto"
+        },
+        "index": 229,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jeison_Murillo",
+          "text": "Jeison Murillo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1992-05-27) May 27, 1992 (age 23)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Granada_CF",
+          "text": "Granada"
+        },
+        "index": 230,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Cristian_Bonilla",
+          "text": "Cristian Bonilla"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1993-06-02) June 2, 1993 (age 22)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/La_Equidad",
+          "text": "La Equidad"
+        },
+        "index": 231,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Pedro_Gallese",
+          "text": "Pedro Gallese"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1990-02-23) 23 February 1990 (age 25)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Aurich",
+          "text": "Juan Aurich"
+        },
+        "index": 232,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jair_C%C3%A9spedes",
+          "text": "Jair Céspedes"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-05-22) 22 May 1984 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Aurich",
+          "text": "Juan Aurich"
+        },
+        "index": 233,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Hansell_Riojas",
+          "text": "Hansell Riojas"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1991-10-15) 15 October 1991 (age 23)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Deportivo_Universidad_C%C3%A9sar_Vallejo",
+          "text": "Universidad César Vallejo"
+        },
+        "index": 234,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Pedro_Paulo_Requena",
+          "text": "Pedro Paulo Requena"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1991-01-24) 24 January 1991 (age 24)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Deportivo_Universidad_C%C3%A9sar_Vallejo",
+          "text": "Universidad César Vallejo"
+        },
+        "index": 235,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Carlos_Zambrano_(footballer)",
+          "text": "Carlos Zambrano"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1989-07-10) 10 July 1989 (age 25)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+          "text": "Eintracht Frankfurt"
+        },
+        "index": 236,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Manuel_Vargas",
+          "text": "Juan Manuel Vargas"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1983-10-05) 5 October 1983 (age 31)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/ACF_Fiorentina",
+          "text": "Fiorentina"
+        },
+        "index": 237,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Paolo_Hurtado",
+          "text": "Paolo Hurtado"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1990-07-27) 27 July 1990 (age 24)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/F.C._Pa%C3%A7os_de_Ferreira",
+          "text": "Paços de Ferreira"
+        },
+        "index": 238,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Christian_Cueva",
+          "text": "Christian Cueva"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1991-11-23) 23 November 1991 (age 23)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Alianza_Lima",
+          "text": "Alianza Lima"
+        },
+        "index": 239,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Paolo_Guerrero",
+          "text": "Paolo Guerrero"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1984-01-01) 1 January 1984 (age 31)",
+        "goals": "21",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista",
+          "text": "Corinthians"
+        },
+        "index": 240,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jefferson_Farf%C3%A1n",
+          "text": "Jefferson Farfán"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1984-10-26) 26 October 1984 (age 30)",
+        "goals": "17",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Schalke_04",
+          "text": "Schalke 04"
+        },
+        "index": 241,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Yordy_Reyna",
+          "text": "Yordy Reyna"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1993-09-17) 17 September 1993 (age 21)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/RB_Leipzig",
+          "text": "Leipzig"
+        },
+        "index": 242,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Diego_Penny",
+          "text": "Diego Penny"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1984-04-22) 22 April 1984 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sporting_Cristal",
+          "text": "Sporting Cristal"
+        },
+        "index": 243,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Edwin_Retamoso",
+          "text": "Edwin Retamoso"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1982-02-23) 23 February 1982 (age 33)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Real_Garcilaso",
+          "text": "Real Garcilaso"
+        },
+        "index": 244,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Claudio_Pizarro",
+          "text": "Claudio Pizarro"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1978-10-03) 3 October 1978 (age 36)",
+        "goals": "19",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+          "text": "Bayern Munich"
+        },
+        "index": 245,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Christian_Ramos",
+          "text": "Christian Ramos"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-11-04) 4 November 1988 (age 26)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Aurich",
+          "text": "Juan Aurich"
+        },
+        "index": 246,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Carlos_Lobat%C3%B3n",
+          "text": "Carlos Lobatón"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1980-02-06) 6 February 1980 (age 35)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sporting_Cristal",
+          "text": "Sporting Cristal"
+        },
+        "index": 247,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Luis_Adv%C3%ADncula",
+          "text": "Luis Advíncula"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1990-03-02) 2 March 1990 (age 25)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_F.C.",
+          "text": "Vitória de Setúbal"
+        },
+        "index": 248,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Andr%C3%A9_Carrillo",
+          "text": "André Carrillo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1991-06-14) 14 June 1991 (age 24)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sporting_Clube_de_Portugal",
+          "text": "Sporting"
+        },
+        "index": 249,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Yoshimar_Yot%C3%BAn",
+          "text": "Yoshimar Yotún"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1990-04-07) 7 April 1990 (age 25)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Malm%C3%B6_FF",
+          "text": "Malmö"
+        },
+        "index": 250,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Joel_S%C3%A1nchez_(Peruvian_footballer)",
+          "text": "Joel Sánchez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1989-06-11) 11 June 1989 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Deportivo_Universidad_de_San_Mart%C3%ADn_de_Porres",
+          "text": "Universidad San Martín"
+        },
+        "index": 251,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Josepmir_Ball%C3%B3n",
+          "text": "Josepmir Ballón"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-03-21) 21 March 1988 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Sporting_Cristal",
+          "text": "Sporting Cristal"
+        },
+        "index": 252,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Carlos_Ascues",
+          "text": "Carlos Ascues"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1992-06-06) 6 June 1992 (age 23)",
+        "goals": "5",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FBC_Melgar",
+          "text": "Melgar"
+        },
+        "index": 253,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Salom%C3%B3n_Libman",
+          "text": "Salomón Libman"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1984-02-25) 25 February 1984 (age 31)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Deportivo_Universidad_C%C3%A9sar_Vallejo",
+          "text": "Universidad César Vallejo"
+        },
+        "index": 254,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Alain_Baroja",
+          "text": "Alain Baroja"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1989-10-23) October 23, 1989 (age 25)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Caracas_FC",
+          "text": "Caracas"
+        },
+        "index": 255,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Wilker_%C3%81ngel",
+          "text": "Wilker Ángel"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1993-03-18) March 18, 1993 (age 22)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Deportivo_T%C3%A1chira",
+          "text": "Deportivo Táchira"
+        },
+        "index": 256,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Andr%C3%A9s_T%C3%BA%C3%B1ez",
+          "text": "Andrés Túñez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1987-03-15) March 15, 1987 (age 28)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Buriram_United_F.C.",
+          "text": "Buriram United"
+        },
+        "index": 257,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Oswaldo_Vizcarrondo",
+          "text": "Oswaldo Vizcarrondo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-05-31) May 31, 1984 (age 31)",
+        "goals": "8",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Nantes",
+          "text": "Nantes"
+        },
+        "index": 258,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Fernando_Amorebieta",
+          "text": "Fernando Amorebieta"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1985-03-29) March 29, 1985 (age 30)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Middlesbrough_F.C.",
+          "text": "Middlesbrough"
+        },
+        "index": 259,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Gabriel_Cichero",
+          "text": "Gabriel Cichero"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1984-04-25) April 25, 1984 (age 31)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Mineros_de_Guayana",
+          "text": "Mineros de Guayana"
+        },
+        "index": 260,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Miku_(footballer)",
+          "text": "Miku"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1985-08-19) August 19, 1985 (age 29)",
+        "goals": "10",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Rayo_Vallecano",
+          "text": "Rayo Vallecano"
+        },
+        "index": 261,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Rinc%C3%B3n",
+          "text": "Tomás Rincón"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1988-01-13) January 13, 1988 (age 27)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Genoa_C.F.C.",
+          "text": "Genoa"
+        },
+        "index": 262,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jos%C3%A9_Salom%C3%B3n_Rond%C3%B3n",
+          "text": "Salomón Rondón"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1989-09-16) September 16, 1989 (age 25)",
+        "goals": "12",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/FC_Zenit_Saint_Petersburg",
+          "text": "Zenit Saint Petersburg"
+        },
+        "index": 263,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Ronald_Vargas",
+          "text": "Ronald Vargas"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-12-02) December 2, 1986 (age 28)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Bal%C4%B1kesirspor",
+          "text": "Balıkesirspor"
+        },
+        "index": 264,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/C%C3%A9sar_Eduardo_Gonz%C3%A1lez",
+          "text": "César González"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1982-10-01) October 1, 1982 (age 32)",
+        "goals": "5",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Deportivo_T%C3%A1chira",
+          "text": "Deportivo Táchira"
+        },
+        "index": 265,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Dani_Hern%C3%A1ndez",
+          "text": "Dani Hernández"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1985-10-21) October 21, 1985 (age 29)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/CD_Tenerife",
+          "text": "Tenerife"
+        },
+        "index": 266,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Luis_Manuel_Seijas",
+          "text": "Luis Manuel Seijas"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1986-06-23) June 23, 1986 (age 29)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Independiente_Santa_Fe",
+          "text": "Santa Fe"
+        },
+        "index": 267,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Franklin_Lucena",
+          "text": "Franklin Lucena"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1981-02-20) February 20, 1981 (age 34)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Deportivo_La_Guaira",
+          "text": "Deportivo La Guaira"
+        },
+        "index": 268,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Alejandro_Guerra",
+          "text": "Alejandro Guerra"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1985-07-09) July 9, 1985 (age 29)",
+        "goals": "4",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Nacional",
+          "text": "Atlético Nacional"
+        },
+        "index": 269,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Roberto_Rosales",
+          "text": "Roberto Rosales"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1988-11-20) November 20, 1988 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+          "text": "Málaga"
+        },
+        "index": 270,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez",
+          "text": "Josef Martínez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1993-05-19) May 19, 1993 (age 22)",
+        "goals": "3",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Torino_FC",
+          "text": "Torino"
+        },
+        "index": 271,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Juan_Arango",
+          "text": "Juan Arango"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1980-05-17) May 17, 1980 (age 35)",
+        "goals": "22",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Club_Tijuana",
+          "text": "Tijuana"
+        },
+        "index": 272,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Rafael_Acosta",
+          "text": "Rafael Acosta"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1989-02-13) February 13, 1989 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Mineros_de_Guayana",
+          "text": "Mineros de Guayana"
+        },
+        "index": 273,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Grenddy_Perozo",
+          "text": "Grenddy Perozo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+          "text": "DF"
+        },
+        "dob": "(1986-02-28) February 28, 1986 (age 29)",
+        "goals": "2",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/AC_Ajaccio",
+          "text": "Ajaccio"
+        },
+        "index": 274,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Gelmin_Rivas",
+          "text": "Gelmin Rivas"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+          "text": "FW"
+        },
+        "dob": "(1989-03-23) March 23, 1989 (age 26)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Deportivo_T%C3%A1chira",
+          "text": "Deportivo Táchira"
+        },
+        "index": 275,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/wiki/Jhon_Murillo",
+          "text": "Jhon Murillo"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Midfielder",
+          "text": "MF"
+        },
+        "dob": "(1995-06-04) June 4, 1995 (age 20)",
+        "goals": "1",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Zamora_FC",
+          "text": "Zamora"
+        },
+        "index": 276,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "player": {
+          "href": "https://en.wikipedia.org/w/index.php?title=Wuilker_Far%C3%AD%C3%B1ez&action=edit&redlink=1",
+          "text": "Wuilker Faríñez"
+        },
+        "position": {
+          "href": "https://en.wikipedia.org/wiki/Goalkeeper_(association_football)",
+          "text": "GK"
+        },
+        "dob": "(1998-02-15) February 15, 1998 (age 17)",
+        "goals": "0",
+        "club": {
+          "href": "https://en.wikipedia.org/wiki/Caracas_FC",
+          "text": "Caracas"
+        },
+        "index": 277,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      }
+    ]
+  }
+}
