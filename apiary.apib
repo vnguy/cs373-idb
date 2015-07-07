@@ -1,0 +1,96 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# Copa2015
+
+Copa2015 is a simple API allowing consumers to view players/Teams
+
+# Polls API Root [/]
+
+This resource does not have any attributes. Instead it offers the initial
+API affordances in the form of the links in the JSON body.
+
+It is recommend to follow the “url” link values,
+[Link](https://tools.ietf.org/html/rfc5988) or Location headers where
+applicable to retrieve resources. Instead of constructing your own URLs,
+to keep your client decoupled from implementation details.
+
+
+## Players Collection [/players]
+
+### List of Players [GET]
+
++ Response 200 (application/json)
+
+        [{
+            "name": "Lionel Messi"
+            "country":
+            "position":
+            "number":
+            "club":
+            "height":
+            "weight":
+        },
+        {
+            "name": "Claudio Bravo"
+            "country":
+            "position":
+            "number":
+            "club":
+            "height":
+            "weight":
+        }]
+
+### get a player [/players/{Name}]
++ Parameters
+    + Name (string) - Name of Player in the form of an string
+
+## Teams Collection [/teams]
+
+
+### List of Teams [GET]
+
++ Response 200 (application/json)
+
+        [{
+            "name": "Argentina"
+            "squad":
+            "matches_played":
+            "winning_streak":
+            "losing_streak":
+        },
+        {
+            "name": "Chili"
+            "squad":
+            "matches_played":
+            "winning_streak":
+            "losing_streak":
+        }]
+
+### get a country [/countrys/{Name}]
++ Parameters
+    + Name (string) - Name of Country in the form of an string
+
+## Matches Collection [/matches]
+
+### List of Matches [GET]
+
++ Response 200 (application/json)
+
+        [{
+            "name": 1
+            "match_winner": "Chili"
+            "country_one": "Argentina"
+            "country_two": "Chili"
+            "country_one_score": 0
+            "country_two_score": 0
+            "country_one_shots":
+            "country_two_shots":
+            "country_one_possession":
+            "country_two_possession":
+        }]
+
+### get a match [/matches/{match_id}]
++ Parameters
+    + match_id (number) - ID of match in form of an integer
+
