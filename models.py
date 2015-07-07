@@ -3,9 +3,10 @@ from django.db import models
 
 class Match(models.Model) :
     """
-    The Match model contains the match name, the ending score, the man of the match,
+    The Match model contains the match name, each Country, the ending score, the man of the match,
     the match location, and the match date.
-    Two foreign keys are maintained which represent each of the two countries involved in the match.
+    Three foreign keys are maintained which represent each of the two Countries involved in the match 
+    and the man of the match which is a Player
     The __str__ method is used to retrun the name of the match.
     """
     match = models.CharField(max_length=40, unique=True)
