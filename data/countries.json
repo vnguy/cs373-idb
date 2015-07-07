@@ -1,0 +1,110 @@
+{
+  "name": "countries",
+  "count": 12,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "thisversionrun": "Tue Jul 07 2015 06:58:08 GMT+0000 (UTC)",
+  "results": {
+    "countries": [
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Chile",
+          "text": "Chile"
+        },
+        "index": 1,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Mexico",
+          "text": "Mexico"
+        },
+        "index": 2,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Ecuador",
+          "text": "Ecuador"
+        },
+        "index": 3,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Bolivia",
+          "text": "Bolivia"
+        },
+        "index": 4,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Argentina",
+          "text": "Argentina"
+        },
+        "index": 5,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Uruguay",
+          "text": "Uruguay"
+        },
+        "index": 6,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Paraguay",
+          "text": "Paraguay"
+        },
+        "index": 7,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Jamaica",
+          "text": "Jamaica"
+        },
+        "index": 8,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Brazil",
+          "text": "Brazil"
+        },
+        "index": 9,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Colombia",
+          "text": "Colombia"
+        },
+        "index": 10,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Peru",
+          "text": "Peru"
+        },
+        "index": 11,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      },
+      {
+        "country": {
+          "href": "https://en.wikipedia.org/wiki/Venezuela",
+          "text": "Venezuela"
+        },
+        "index": 12,
+        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+      }
+    ]
+  }
+}

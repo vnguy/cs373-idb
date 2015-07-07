@@ -1,0 +1,41 @@
+{
+  "name": "bolivia_scorers",
+  "count": 3,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "thisversionrun": "Tue Jul 07 2015 09:14:09 GMT+0000 (UTC)",
+  "results": {
+    "bolivia_scorers": [
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/185097/marcelo-moreno",
+          "text": "Marcelo Moreno"
+        },
+        "goals": "2",
+        "index": 1,
+        "url": "http://www.espnfc.us/team/bolivia/204/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/202701/martin-smedberg-dalence",
+          "text": "Martin Smedberg-Dalence"
+        },
+        "goals": "1",
+        "index": 2,
+        "url": "http://www.espnfc.us/team/bolivia/204/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/185393/ronald-raldes",
+          "text": "Ronald Raldes"
+        },
+        "goals": "1",
+        "index": 3,
+        "url": "http://www.espnfc.us/team/bolivia/204/statistics/scorers?leagueId=83"
+      }
+    ]
+  }
+}

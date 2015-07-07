@@ -1,0 +1,32 @@
+{
+  "name": "uruguay_scorers",
+  "count": 2,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "thisversionstatus": "success",
+  "thisversionrun": "Tue Jul 07 2015 09:33:04 GMT+0000 (UTC)",
+  "results": {
+    "uruguay_scorers": [
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/188398/jose-gimenez",
+          "text": "José Giménez"
+        },
+        "goals": "1",
+        "index": 1,
+        "url": "http://www.espnfc.us/team/uruguay/212/statistics/scorers?leagueId=83"
+      },
+      {
+        "player": {
+          "href": "http://www.espnfc.us/player/85040/cristian-rodriguez",
+          "text": "Cristian Rodríguez"
+        },
+        "goals": "1",
+        "index": 2,
+        "url": "http://www.espnfc.us/team/uruguay/212/statistics/scorers?leagueId=83"
+      }
+    ]
+  }
+}
