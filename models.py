@@ -13,7 +13,7 @@ class Match(models.Model) :
     country_one = models.ForeignKey('Country', related_name='country_one', to_field='country', default='none')
     country_two = models.ForeignKey('Country', related_name='country_two', to_field='country', default='none')
     scores = models.CharField(max_length=5)
-    man_of_the_match = models.ForeignKey('Player', relayed_name='man_of_the_match', to_field='player', defualt='none')
+    man_of_the_match = models.ForeignKey('Player', related_name='man_of_the_match', to_field='player', default='none')
     match_location = models.CharField(max_length=40)
     match_date = models.CharField(max_length=40)
 
@@ -33,8 +33,8 @@ class Country(models.Model) :
     country = models.CharField(max_length=30, unique=True)
     goals = models.CharField(max_length=2)
     coach = models.CharField(max_length=40)
-    captain = models.ForeignKey('Player', related_name='captain' to_field='player', default='none')
-    top_scorer = models.ForeignKey('Player', related_name='top_scorer' to_field='player', default='none')
+    captain = models.ForeignKey('Player', related_name='captain', to_field='player', default='none')
+    top_scorer = models.ForeignKey('Player', related_name='top_scorer', to_field='player', default='none')
 
 
     def __str__(self):
