@@ -32,10 +32,10 @@ class Country(models.Model) :
     The __str__ method is used to return the name of the country.
     """
     name = models.CharField(max_length=30, unique=True)
-    matches_played = models.CharField(max_length=500)
-    winning_streak = models.IntegerField(default=0)
-    losing_streak = models.IntegerField(default=0)
-    top_score = models.IntegerField(default=0)
+    matches_played = models.IntegerField(default=0)
+    winning_streak = IntegerField(default=0)
+    losing_streak = IntegerField(default=0)
+    top_score = IntegerField(default=0)
 
 
     def __str__(self):
