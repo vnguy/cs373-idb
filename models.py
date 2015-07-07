@@ -9,15 +9,13 @@ class Match(models.Model) :
     The __str__ method is used to retrun the name of the match.
     """
     name = models.CharField(max_length=40, unique=True)
-    match_winner = models.CharField(max_length=20)
     country_one = models.ForeignKey('Country', related_name='country_one', to_field='name', default='none')
     country_two = models.ForeignKey('Country', related_name='country_two', to_field='name', default='none')
     country_one_score = models.IntegerField(default=0)
     country_two_score = models.IntegerField(default=0)
-    country_one_shots = models.IntegerField(default=0)
-    country_two_shots = models.IntegerField(default=0)
-    country_one_possession = models.FloatField(default=0)
-    country_two_possession = models.FloatField(default=0)
+    match_date = models.CharField(max_length=20)
+    match_location = models.CharField(max_length=20)
+    man_of_the_match = models.CharField(max_length=20)
 
 
     def __str__(self) :
