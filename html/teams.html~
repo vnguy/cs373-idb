@@ -63,14 +63,8 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Countries</h1>
-        <p class="lead"> 
-        <ul style="list-style-type:disk">
-	    <li>Country Name</li>
-	    <li>Number of Goals</li>
-	    <li>Team's Coach</li>
-	    <li>Team's Captain</li>
-	    <li>Team's Top Scorer</li></p>
+        <h1>Teams</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
         <div class="panel panel-default">
           <div class="panel-body">
             <!-- Table -->
