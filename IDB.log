@@ -1,0 +1,446 @@
+commit d52d225531998dde49b6b90d83a350d3b5da3433
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 7 21:35:22 2015 -0500
+
+    changed about
+
+commit e5fabeb9e1c805c76f1160eaaf6ed44fa8ec8854
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 7 21:33:57 2015 -0500
+
+    made a few fixes to some of the pages
+
+commit 62382d98b1ea6394a95c2f485af651023f0b43fa
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 02:32:00 2015 +0000
+
+    Fixed image files on about.html
+
+commit 3fa3c0e6d629b3e1940cc57220d93a782c7adebe
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 02:28:19 2015 +0000
+
+    Updated about.html page info
+
+commit 4dd61a60870680e46f33da2382692a44c69a1c85
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 7 21:14:06 2015 -0500
+
+    readding deleted background image
+
+commit 2f00b414d4c142a29dcc98432cdcd60e2938630e
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 7 21:12:22 2015 -0500
+
+    Added personal information to the about page. Fixes #27
+
+commit c234d606f6130bd33482ce966d174d24fd2faacf
+Merge: c9a7594 1475781
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 21:04:06 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/CopaDB into dev
+
+commit c9a75944779870774c3a88e1e98cc04adc74079d
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 21:03:54 2015 -0500
+
+    Added ~900 words to Report.odt.
+
+commit 147578176d9e21402d352d2b1ad03c5bb7eb0e41
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 21:03:50 2015 -0500
+
+    readd matches
+
+commit 6141640e1a2dda735306b2ff09b1d6f71584b396
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 01:57:47 2015 +0000
+
+    restored about.html
+
+commit bb3cec84b1b23ebeefe9eac4c3a60080a74b7ef0
+Merge: 10c2b3e 4416602
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 01:53:23 2015 +0000
+
+    Resolved merge conflict in templates/about.html
+
+commit 4416602fa18c8db8466476471f922be28f61e137
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 20:45:05 2015 -0500
+
+    about page
+
+commit 062d18ca472657bed1d278572d2c3e54cdb44c78
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 20:42:36 2015 -0500
+
+    working on about page
+
+commit 2b3db6cefce07d53b12a8e889bfc652c04a2ce42
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 20:40:29 2015 -0500
+
+    about page
+
+commit d2f4dee390f63be46f3561ff56d0952dd744851c
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 7 20:37:45 2015 -0500
+
+    Added new background image and fixed the bug with it repeating. Made it a fixed background to make it more appealing when scrolling through the page. Fixes #24 and fixes #25
+
+commit 10c2b3e815788bc674e916c96c300691d2057c0b
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 01:30:29 2015 +0000
+
+    Moved picture to media folder
+
+commit 3eca47fbf1c477995a31d0572f5bf5a971b9da55
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 01:22:01 2015 +0000
+
+    Updated gitignore to ignore files ending in ~
+
+commit fcd200ad6c331fb64330c92d820c336c2ec81ae4
+Merge: 31ca7f3 28b1e5e
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 01:06:53 2015 +0000
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 31ca7f3d0a6ba7546e3325d2360f19ea82b01156
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 01:06:47 2015 +0000
+
+    Allowed linking of pictures in templates folder. TODO: Remove in future builds
+
+commit 28b1e5e9e8e54e2b2302377f00a2f340e8d5de6c
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 20:06:07 2015 -0500
+
+    Fixed apiary.apib
+
+commit 8d60608ddb1f33ee747738fa285dec29a8b4843e
+Merge: 31a9e5e 29504cf
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 20:05:16 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/CopaDB into dev
+
+commit 31a9e5e8700f86a3ba470a007545af72fca8d92c
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 20:05:01 2015 -0500
+
+    Finish apiary.apib.
+
+commit 29504cf57623605e20252c8cdfb2f01a5d160ad5
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 01:03:54 2015 +0000
+
+    Removed html file
+
+commit ea5be660071083f2792ec3babfca3c9d95abe1f3
+Merge: 37e7920 4e1ec7f
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 01:02:10 2015 +0000
+
+    Created a generic get page url
+
+commit 37e7920315b0c32cd1c3f9d1e01634931d746d94
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 00:58:35 2015 +0000
+
+    Created a generic get page url
+
+commit 4e1ec7fe635775309258e507c1fae02bfb237577
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 19:53:08 2015 -0500
+
+    link teams
+
+commit 4bbbbc4b2c9eb4a7766f7ae6e3665a789447d1f4
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 00:43:43 2015 +0000
+
+    merged html files into templates directory
+
+commit 4e799415a20fcd5d66457df597635f47b5de29c4
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 19:42:39 2015 -0500
+
+    added some countries html
+
+commit 734de71b0832e4375ccfdacb74d48708d5e31fb5
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 00:41:10 2015 +0000
+
+    Updated about.html and index.html
+
+commit e99998998e8ec8152c6b8334b419538d81d17aab
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 19:40:33 2015 -0500
+
+    Added section explaining scraped data.
+
+commit 5a3bc7c586a85cb5cf0c3c8bfb0cc4ef4d65e483
+Merge: 175e22e fb73c3b
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 00:30:09 2015 +0000
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 175e22e31e8163b09b10137d11e9ec51173eefa8
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 00:30:02 2015 +0000
+
+    Set up basic website layouts
+
+commit fb73c3bcd27c40b33a4fcd7baaeb52eb187d909e
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 19:25:03 2015 -0500
+
+    Added attribute bullets to players.html and matches.html.
+
+commit b9df21471976b1497225d02c02aacc5e7b5bf75e
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 19:19:17 2015 -0500
+
+    Added attributes to countries.html.
+
+commit c2077b5f87cc9c27da933d2b4ff40ba5c0bca525
+Merge: 06fd8b9 11c867f
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 19:17:55 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 06fd8b9521c4b7d3dadbc0a3aec37b754eb96567
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 19:16:54 2015 -0500
+
+    worked on player.html
+
+commit 11c867f3bd9c4b99dcc7dda4296df51fd3773ed2
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 19:08:49 2015 -0500
+
+    Updated about page with what I could.  Still needs each member's personal data.
+
+commit bbacd1165dc3ec678a6aa566136f9ba2489c9167
+Merge: 395152c e3313e0
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 7 23:46:28 2015 +0000
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 395152ca75571a4b95ce246f88a7a2ae2b484b92
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 7 23:43:29 2015 +0000
+
+    Restructured www folder for better organization
+
+commit e3313e0fc6d1e0374c09c4108256b4e657ec7767
+Merge: 92c287f b7f1413
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 18:28:51 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 92c287fc6c4505ad773ce0947dbf3172d2917093
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 18:27:56 2015 -0500
+
+    some of the html pages
+
+commit b7f14136b79731a9bfe44b4fc90e61cac1a43288
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 17:49:32 2015 -0500
+
+    Fixed spelling error for default.
+
+commit 27ffe9311365580a4aaaea8eb00ffccb866bbf25
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 17:47:40 2015 -0500
+
+    Added default values for all models.
+
+commit 023e81085ca1bfae247cea92f7f58c37f9519ad3
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 17:34:57 2015 -0500
+
+    Added top_scorer data to countries.json.  Changed Player's country to  team to resolve variable clash. Updated UML.pdf to reflect changes.
+
+commit 07aa904e1e3a8c01d0f02087e7142c4e5b7d6910
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 7 22:29:11 2015 +0000
+
+    Fixed minor typos in models.py
+
+commit 1ab430b8ee4baed1ae9fb8060606250c255619bb
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 17:05:36 2015 -0500
+
+    Forgot to save tests.py for earlier push.  Now pushing updated tests.py to reflect our data.
+
+commit b8ad09c3cdb3386a9e1e5f7fe4321074905bc976
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 17:03:50 2015 -0500
+
+    Change Country goal to string to match scraped data and updated UML.pdf to reflect this change.  Updated tests.py to match the data in the json files but still need to add top_scorer data.
+
+commit 03a92f8f70797a0de86236f56a251ecbff3dc2ab
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 16:21:24 2015 -0500
+
+    Added UML.pdf made from yuml.me.
+
+commit c4fed527954f9ae478e90f098b75c2a0db15d1ff
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 15:52:14 2015 -0500
+
+    Added foreign key for man of the match which is a Player.
+
+commit 426e6bccb9541f748a940fc9d9a9495ead9e35ba
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 15:33:53 2015 -0500
+
+    Updated models.py to further reflect the scraped data.  Also manually edited some data json files to have the required attributes. A foreign key was added to country for the captain Player.
+
+commit 4c104fca0f2b349e46a7b475e82edb627cd671f6
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 7 04:58:37 2015 -0500
+
+    added json files for the all relavent data scraped from sources. fixes #19
+
+commit 3b9b142aef18c0ead564870ab6625068954429d6
+Merge: 06c56e2 e2722a3
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 7 07:29:44 2015 +0000
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 06c56e252d24ee14bf5e9c368a791b08de28279c
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 7 07:29:36 2015 +0000
+
+    Registered models and formated admin page
+
+commit e2722a352471a4295c326d9ea8b8d0a4eb02b3ca
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Mon Jul 6 22:33:53 2015 -0500
+
+    Change Match attributes to fit data scraping needs.
+
+commit 659634e202a393d34606512852bd898afb48b4fd
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 7 01:34:13 2015 +0000
+
+    Fixed missing model error
+
+commit ac965e114df611374becc657e581784e03ba0cc8
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Mon Jul 6 19:53:50 2015 -0500
+
+    Create skeleton for tests.py which has 3 tests for each model.  Also changed Country model's matches played to an integer field, fixes #18.
+
+commit b806cf5f8d878417aac04a156c9aa0ec7a2bb08e
+Merge: 1323ce4 28647e6
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Mon Jul 6 19:29:37 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/CopaDB into dev
+
+commit 1323ce4ceff4b95ffbfdbba087112f0664643b02
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Mon Jul 6 19:28:53 2015 -0500
+
+    Fixes #17.  Added calling models object to lines 36-38.
+
+commit 28647e65de606d240a0912d7fdd992187d387d44
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 7 00:25:10 2015 +0000
+
+    Updated .gitignore to ignore swap files
+
+commit cd460a8ca0187049dd64f11b3604d7a63d9afe03
+Author: vnguy <vnguy@utexas.edu>
+Date:   Mon Jul 6 19:17:46 2015 -0500
+
+    apiary
+
+commit 2ab80a112ba2c4cd52a9cd6aff38f1fcd6d3ac0f
+Author: vnguy <vnguy@utexas.edu>
+Date:   Mon Jul 6 19:12:24 2015 -0500
+
+    added apiary
+
+commit 8a26a90c366ca6888f1b0989062a83c9bdba738e
+Merge: 9274579 4ceb8c4
+Author: vnguy <vnguy@utexas.edu>
+Date:   Mon Jul 6 19:11:55 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 4ceb8c488ccb53d2f1647d51a95d2e64bff8e52c
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Mon Jul 6 19:10:19 2015 -0500
+
+    Continued work on models.py to include at least 5 attributes for class and pydoc comments.
+
+commit d43dae1ac5495a4543f1145602538e401e46169e
+Merge: 5684b4d 68d2b90
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Mon Jul 6 19:07:26 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/CopaDB into dev
+
+commit 9274579cdee5d75c6587bbeaeea737b50bfb4619
+Merge: be995ad 68d2b90
+Author: vnguy <vnguy@utexas.edu>
+Date:   Mon Jul 6 19:07:25 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 5684b4d34a9e52177ec525d5b0f623d88b7402ea
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Mon Jul 6 19:03:52 2015 -0500
+
+    Continued work on models.py with pydoc comments added.
+
+commit be995adeed46f7c53a1178ea4ced7db5e5e69c10
+Author: vnguy <vnguy@utexas.edu>
+Date:   Mon Jul 6 19:01:29 2015 -0500
+
+    adding apiary file
+
+commit 68d2b90a0d6860874461d84caed19cf4b314418c
+Merge: 3fb526a f9dbb42
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Mon Jul 6 23:51:14 2015 +0000
+
+    Merged default project structure from master
+
+commit f9dbb422c7ebf937be5dd432026d33416294bbce
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Mon Jul 6 23:34:12 2015 +0000
+
+    Imported default django project structure
+
+commit 3fb526a71e189f8b0ce302e0bc7f19bd00787241
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Mon Jul 6 18:28:45 2015 -0500
+
+    Initial version of models.py which has Match, Country, and Player classes.
+
+commit c5aa12d5c29e4ba4273ea9fdcfdd0b639f5d2bac
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Sun Jul 5 20:19:41 2015 -0500
+
+    Initial makefile, .travis.yml, and .gitignore. Fixes #1 and fixes #2 and fixes #3.
+
+commit a6c4b9058b4a7fdac070e3717bd7216adc473dfc
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Fri Jul 3 21:34:16 2015 -0500
+
+    Initial commit
