@@ -2,11 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index (request):
-    return HttpResponse("Hello, world. You're at the index!")
+    context = {}
+    return render(request, 'index.html', context)
 
-def detail (request, country_id):
-    return HttpResponse("Deatils for country: %s" % country_id)
-
-def streaks (request, country_id):
-    return HttpResponse("Winnig/losing streaks for country: %s" % country_id)
-
+def about (request):
+    context = {}
+    return render(request, 'about.html', context)

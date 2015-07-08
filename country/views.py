@@ -1,8 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from www.models import Country
 
 def index (request):
-    return HttpResponse("Hello, world. You're at country index!")
+    context = {'names' : Country.objects.name}
+    return render(request, 'country/index.html', context)
 
 def detail (request, country_id):
     return HttpResponse("Deatils for country: %s" % country_id)

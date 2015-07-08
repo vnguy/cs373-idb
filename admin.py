@@ -14,8 +14,6 @@ class CountryAdmin(admin.ModelAdmin):
     list_filter = ['name', 'top_score']
 """
 
-
 admin.site.register(Match)
-#admin.site.register(Country, CountryAdmin)
 admin.site.register(Country)
 admin.site.register(Player)
