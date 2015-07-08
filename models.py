@@ -26,8 +26,8 @@ class Match(models.Model) :
 class Country(models.Model) :
     """
     The Country model contains the country name, number of total goals made,
-    team coach, and .
-    A foreign key is maintained for the country's captain which is a Player.
+    team coach, team's captain, and the team's top scorer.
+    Foreign keys are maintained for the country's captain and country's top scorer which are Players.
     The __str__ method is used to return the name of the country.
     """
     country = models.CharField(max_length=30, default="", unique=True)

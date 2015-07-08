@@ -96,7 +96,7 @@ class ModelTestCase(TestCase):
     def test_country3(self) :
         Player.objects.create(player="Enner Valencia")
 
-        Country.objects.create(country="Ecuador", goals=4, coach="Gustavo Quinteros", captain="Walter Ayoví", top_scorer="")
+        Country.objects.create(country="Ecuador", goals=4, coach="Gustavo Quinteros", captain="Walter Ayoví", top_scorer="Enner Valencia")
 
         country_get = Country.objects.get(country="Ecuador")
         self.assertEqual(country_get.country, "Ecuador")
