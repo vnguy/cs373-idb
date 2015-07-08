@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import Match, Country, Player
 
+"""
 class CountryAdmin(admin.ModelAdmin):
     # Explicitly choose which fields to show, how to group them, and in what order
     fieldsets = [
@@ -11,8 +12,10 @@ class CountryAdmin(admin.ModelAdmin):
 
     list_display = ('name', 'winning_streak', 'losing_streak', 'matches_played', 'top_score')
     list_filter = ['name', 'top_score']
+"""
 
 
 admin.site.register(Match)
-admin.site.register(Country, CountryAdmin)
+#admin.site.register(Country, CountryAdmin)
+admin.site.register(Country)
 admin.site.register(Player)
