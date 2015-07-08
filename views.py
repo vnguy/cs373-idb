@@ -13,4 +13,4 @@ def about (request):
 
 def get_page(request, page_name):
     context = {}
-    return render(request, page_name+".html", context)
+    return render(request, page_name, context)
