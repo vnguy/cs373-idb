@@ -10,10 +10,6 @@ urlpatterns = [
 
     # /about.html
     url(r'^about.html$', views.about, name='about'),
-
-    # /(somepage).html
-    # TODO: Remove in future builds
-    url(r'^(?P<page_name>[-a-z\.A-Z]+)$', views.get_page, name='get_page'),
     
     # /country/
     url(r'^country/$', include('www.country.urls')),
@@ -23,4 +19,7 @@ urlpatterns = [
 
     # /player/
     url(r'^player/$', include('www.player.urls')),
+
+    # /(somepage).html
+    url(r'^(?P<page_name>[-a-z\.A-Z]+)$', views.get_page, name='get_page'),
 ]
