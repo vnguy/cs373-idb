@@ -46,12 +46,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <li><a href="players.html">Players</a></li>
-                <li class="active"><a href="teams.html">Teams <span class="sr-only">(current)</span></a></li>
-                <li><a href="matches.html">Matches</a></li>
+                <li><a href="teams.html">Teams</a></li>
+                <li class="active"><a href="matches.html">Matches <span class="sr-only">(current)</span></a></li>
                 <li><a href="about.html">About</a></li>
 
               </ul>
-
               <ul class="nav navbar-nav navbar-right">
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -63,34 +62,33 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Countries</h1>
+        <h1>Matches</h1>
         <p class="lead"> 
         <ul style="list-style-type:disk">
 	    <li>Country Name</li>
 	    <li>Number of Goals</li>
 	    <li>Team's Coach</li>
 	    <li>Team's Captain</li>
-	    <li>Team's Top Scorer</li>
-	    <br></br></p>
+	    <li>Team's Top Scorer</li></p>
+	<br></br>
         <div class="panel panel-default">
           <div class="panel-body">
             <!-- Table -->
             <table class="table table-striped">
               <tr>
-                <th>Rank</th>
-                <th>Country</th>
+                <th>#</th>
+                <th>Country 1</th>
+                <th>Country 2</th>
               </tr>
               <tr>
-                <td>2</td>
+                <td>1</td>
                 <td><a href = "argentina.html"/>Argentina</td>
+                <td><a href = "#"/>Chili</td>
               </tr>
             </table>
           </div>
         </div>
-
-
       </div>
-
     </div><!-- /.container -->
 
 
