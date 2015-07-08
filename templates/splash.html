@@ -1,32 +1,17 @@
-<!DOCTYPE html>
-<HTML>
-<HEAD>
-  <TITLE>CopaDB</TITLE>
-  <META HTTP-EQUIV="Refresh" CONTENT="2;URL=index.html">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+{% extends "base.html" %}
+{% block title %}Copa DB{% endblock %}
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+{% block head %}
+<script>
+  window.setTimeout(function() {
+    location.href = document.getElementById('link').href;
+  }, 2000);
+</script>
+{% endblock %}
 
-</HEAD>
-
-<BODY>
-  <div class = "wrapper">
-    <p>You will be redirected to the Home page in 2 seconds.<p>
-	<a href="index.html" class="btn btn-primary btn-lg active" role="button">Enter</a>
-  </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-</BODY>
-
-</HTML>
+{% block body %}
+<div class="wrapper text-center">
+  <p>You will be redirected to the Home page in 2 seconds.<p>
+  <a id="link" href="index.html" class="btn btn-primary btn-lg active" role="button">Enter</a>
+</div>
+{% endblock %}
