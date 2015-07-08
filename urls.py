@@ -13,7 +13,7 @@ urlpatterns = [
 
     # /(somepage).html
     # TODO: Remove in future builds
-    url(r'^(?P<page_name>[a-z\.A-Z]+)$', views.get_page, name='get_page'),
+    url(r'^(?P<page_name>[-a-z\.A-Z]+)$', views.get_page, name='get_page'),
     
     # /country/
     url(r'^country/$', include('www.country.urls')),
