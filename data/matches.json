@@ -10,288 +10,98 @@
   "results": {
     "collection1": [
       {
-	"match": {
-	  "href": "",
-	  "text": "Chile-Uruguay"
-	},
-        "country_one": {
-          "href": "https://en.wikipedia.org/wiki/Chile_national_football_team",
-          "text": "Chile"
-        },
-        "country_two": {
-          "href": "https://en.wikipedia.org/wiki/Uruguay_national_football_team",
-          "text": "Uruguay"
-        },
-        "scores": {
-          "href": "",
-          "text": "1–0"
-        },
-        "man_of_the_match": {
-          "href": "https://en.wikipedia.org/wiki/Alexis_S%C3%A1nchez",
-          "text": "Alexis Sánchez"
-        },
-        "match_date": {
-          "href": "",
-          "text": "24 June 2015 (2015-06-24)\n20:30"
-        },
-        "match_location": {
-          "href": "https://en.wikipedia.org/wiki/Estadio_Nacional_Julio_Mart%C3%ADnez_Pr%C3%A1danos",
-          "text": "Estadio Nacional, Santiago"
-        },
+	"match": "Chile-Uruguay",
+        "country_one": "Chile",
+        "country_two": "Uruguay",
+        "scores": "1–0",
+        "penalties": "",
+        "man_of_the_match": "Alexis Sánchez",
+        "match_date": "24 June 2015 (2015-06-24)\n20:30",
+        "match_location": "Estadio Nacional, Santiago",
         "index": 1,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
-	"match": {
-	  "href": "",
-	  "text": "Bolivia-Peru"
-	},
-        "country_one": {
-          "href": "https://en.wikipedia.org/wiki/Bolivia_national_football_team",
-          "text": "Bolivia"
-        },
-        "country_two": {
-          "href": "https://en.wikipedia.org/wiki/Peru_national_football_team",
-          "text": "Peru"
-        },
-        "scores": {
-          "href": "",
-          "text": "1–3"
-        },
-        "man_of_the_match": {
-          "href": "https://en.wikipedia.org/wiki/Paolo_Guerrero",
-          "text": "Paolo Guerrero"
-        },
-        "match_date": {
-          "href": "",
-          "text": "25 June 2015 (2015-06-25)\n20:30"
-        },
-        "match_location": {
-          "href": "https://en.wikipedia.org/wiki/Estadio_Municipal_Germ%C3%A1n_Becker",
-          "text": "Estadio Municipal Germán Becker, Temuco"
-        },
+	"match": "Bolivia-Peru",
+        "country_one": "Bolivia",
+        "country_two": "Peru",
+        "scores": "1–3",
+        "penalties": "",
+        "man_of_the_match": "Paolo Guerrero",
+        "match_date": "25 June 2015 (2015-06-25)\n20:30",
+        "match_location": "Estadio Municipal Germán Becker, Temuco",
         "index": 2,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
-	"match": {
-	  "href": "",
-	  "text": "Argentina-Colombia"
-	},
-        "country_one": {
-          "href": "https://en.wikipedia.org/wiki/Argentina_national_football_team",
-          "text": "Argentina"
-        },
-        "country_two": {
-          "href": "https://en.wikipedia.org/wiki/Colombia_national_football_team",
-          "text": "Colombia"
-        },
-        "scores": [
-          {
-            "href": "",
-            "text": "0–0"
-          },
-          {
-            "href": "https://en.wikipedia.org/wiki/Penalty_shoot-out_(association_football)",
-            "text": "Penalties"
-          },
-          {
-            "href": "",
-            "text": "5–4"
-          }
-        ],
-        "man_of_the_match": {
-          "href": "https://en.wikipedia.org/wiki/Lionel_Messi",
-          "text": "Lionel Messi"
-        },
-        "match_date": {
-          "href": "",
-          "text": "26 June 2015 (2015-06-26)\n20:30"
-        },
-        "match_location": {
-          "href": "https://en.wikipedia.org/wiki/Estadio_Sausalito",
-          "text": "Estadio Sausalito, Viña del Mar"
-        },
+	"match": "Argentina-Colombia",
+        "country_one": "Argentina",
+        "country_two": "Colombia",
+        "scores": "0–0",
+        "penalties": "5–4",
+        "man_of_the_match": "Lionel Messi",
+        "match_date": "26 June 2015 (2015-06-26)\n20:30",
+        "match_location": "Estadio Sausalito, Viña del Mar",
         "index": 3,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
-	"match": {
-	  "href": "",
-	  "text": "Brazil-Paraguay"
-	},
-        "country_one": {
-          "href": "https://en.wikipedia.org/wiki/Brazil_national_football_team",
-          "text": "Brazil"
-        },
-        "country_two": {
-          "href": "https://en.wikipedia.org/wiki/Paraguay_national_football_team",
-          "text": "Paraguay"
-        },
-        "scores": [
-          {
-            "href": "",
-            "text": "1–1"
-          },
-          {
-            "href": "https://en.wikipedia.org/wiki/Penalty_shoot-out_(association_football)",
-            "text": "Penalties"
-          },
-          {
-            "href": "",
-            "text": "3–4"
-          }
-        ],
-        "man_of_the_match": {
-          "href": "https://en.wikipedia.org/wiki/Nelson_Haedo_Valdez",
-          "text": "Nelson Haedo Valdez"
-        },
-        "match_date": {
-          "href": "",
-          "text": "27 June 2015 (2015-06-27)\n18:30"
-        },
-        "match_location": {
-          "href": "https://en.wikipedia.org/wiki/Estadio_Municipal_de_Concepci%C3%B3n",
-          "text": "Estadio Municipal de Concepción, Concepción"
-        },
+	"match": "Brazil-Paraguay",
+        "country_one": "Brazil",
+        "country_two": "Paraguay",
+        "scores": "1–1",
+        "penalties": "3–4",
+        "man_of_the_match": "Nelson Haedo Valdez",
+        "match_date": "27 June 2015 (2015-06-27)\n18:30",
+        "match_location": "Estadio Municipal de Concepción, Concepción",
         "index": 4,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
-	"match": {
-	  "href": "",
-	  "text": "Chile-Peru"
-	},
-        "country_one": {
-          "href": "https://en.wikipedia.org/wiki/Chile_national_football_team",
-          "text": "Chile"
-        },
-        "country_two": {
-          "href": "https://en.wikipedia.org/wiki/Peru_national_football_team",
-          "text": "Peru"
-        },
-        "scores": {
-          "href": "",
-          "text": "2–1"
-        },
-        "man_of_the_match": {
-          "href": "https://en.wikipedia.org/wiki/Eduardo_Vargas",
-          "text": "Eduardo Vargas"
-        },
-        "match_date": {
-          "href": "",
-          "text": "29 June 2015 (2015-06-29)\n20:30"
-        },
-        "match_location": {
-          "href": "https://en.wikipedia.org/wiki/Estadio_Nacional_Julio_Mart%C3%ADnez_Pr%C3%A1danos",
-          "text": "Estadio Nacional, Santiago"
-        },
+	"match": "Chile-Peru",
+        "country_one": "Chile",
+        "country_two": "Peru",
+        "scores": "2–1",
+        "penalties": "",
+        "man_of_the_match": "Eduardo Vargas",
+        "match_date": "29 June 2015 (2015-06-29)\n20:30",
+        "match_location": "Estadio Nacional, Santiago",
         "index": 5,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
-	"match": {
-	  "href": "",
-	  "text": "Argentina-Paraguay"
-	},
-        "country_one": {
-          "href": "https://en.wikipedia.org/wiki/Argentina_national_football_team",
-          "text": "Argentina"
-        },
-        "country_two": {
-          "href": "https://en.wikipedia.org/wiki/Paraguay_national_football_team",
-          "text": "Paraguay"
-        },
-        "scores": {
-          "href": "",
-          "text": "6–1"
-        },
-        "man_of_the_match": {
-          "href": "https://en.wikipedia.org/wiki/Lionel_Messi",
-          "text": "Lionel Messi"
-        },
-        "match_date": {
-          "href": "",
-          "text": "30 June 2015 (2015-06-30)\n20:30"
-        },
-        "match_location": {
-          "href": "https://en.wikipedia.org/wiki/Estadio_Municipal_de_Concepci%C3%B3n",
-          "text": "Estadio Municipal de Concepción, Concepción"
-        },
+	"match": "Argentina-Paraguay",
+        "country_one": "Argentina",
+        "country_two": "Paraguay",
+        "scores": "6–1",
+        "penalties": "",
+        "man_of_the_match": "Lionel Messi",
+        "match_date": "30 June 2015 (2015-06-30)\n20:30",
+        "match_location": "Estadio Municipal de Concepción, Concepción",
         "index": 6,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
-	"match": {
-	  "href": "",
-	  "text": "Peru-Paraguay"
-	},
-        "country_one": {
-          "href": "https://en.wikipedia.org/wiki/Peru_national_football_team",
-          "text": "Peru"
-        },
-        "country_two": {
-          "href": "https://en.wikipedia.org/wiki/Paraguay_national_football_team",
-          "text": "Paraguay"
-        },
-        "scores": {
-          "href": "",
-          "text": "2–0"
-        },
-        "man_of_the_match": {
-          "href": "https://en.wikipedia.org/wiki/Paolo_Guerrero",
-          "text": "Paolo Guerrero"
-        },
-        "match_date": {
-          "href": "",
-          "text": "3 July 2015 (2015-07-03)\n20:30"
-        },
-        "match_location": {
-          "href": "https://en.wikipedia.org/wiki/Estadio_Municipal_de_Concepci%C3%B3n",
-          "text": "Estadio Municipal de Concepción, Concepción"
-        },
+	"match": "Peru-Paraguay",
+        "country_one": "Peru",
+        "country_two": "Paraguay",
+        "scores": "2–0",
+        "penalties": "",
+        "man_of_the_match": "Paolo Guerrero",
+        "match_date": "3 July 2015 (2015-07-03)\n20:30",
+        "match_location": "Estadio Municipal de Concepción, Concepción",
         "index": 7,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       },
       {
-	"match": {
-	  "href": "",
-	  "text": "Chile-Argentina"
-	},
-        "country_one": {
-          "href": "https://en.wikipedia.org/wiki/Chile_national_football_team",
-          "text": "Chile"
-        },
-        "country_two": {
-          "href": "https://en.wikipedia.org/wiki/Argentina_national_football_team",
-          "text": "Argentina"
-        },
-        "scores": [
-          {
-            "href": "https://en.wikipedia.org/wiki/Overtime_(sports)#Association_football",
-            "text": "0–0 (a.e.t.)"
-          },
-          {
-            "href": "https://en.wikipedia.org/wiki/Penalty_shoot-out_(association_football)",
-            "text": "Penalties"
-          },
-          {
-            "href": "",
-            "text": "4–1"
-          }
-        ],
-        "man_of_the_match": {
-          "href": "https://en.wikipedia.org/wiki/Arturo_Vidal",
-          "text": "Arturo Vidal"
-        },
-        "match_date": {
-          "href": "https://en.wikipedia.org/wiki/Time_in_Chile",
-          "text": "4 July 2015 (2015-07-04)\n17:00 CLT (UTC−3)"
-        },
-        "match_location": {
-          "href": "https://en.wikipedia.org/wiki/Estadio_Nacional_Julio_Mart%C3%ADnez_Pr%C3%A1danos",
-          "text": "Estadio Nacional, Santiago"
-        },
+	"match": "Chile-Argentina",
+        "country_one": "Chile",
+        "country_two": "Argentina",
+        "scores": "0-0",
+        "penalties": "4–1",
+        "man_of_the_match": "Arturo Vidal",
+        "match_date": "4 July 2015 (2015-07-04)\n17:00 CLT (UTC−3)",
+        "match_location": "Estadio Nacional, Santiago",
         "index": 8,
         "url": "https://en.wikipedia.org/wiki/2015_Copa_América_knockout_stage"
       }

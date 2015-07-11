@@ -8,24 +8,14 @@
   "thisversionstatus": "success",
   "thisversionrun": "Tue Jul 07 2015 09:34:46 GMT+0000 (UTC)",
   "results": {
-    "venezuela_scorers": [
+    "scorers": [
       {
-        "player": {
-          "href": "http://www.espnfc.com/player/125247/miku",
-          "text": "Miku"
-        },
+        "player": "Miku",
         "goals": "1",
-        "index": 1,
-        "url": "http://www.espnfc.us/team/venezuela/213/statistics/scorers?leagueId=83"
       },
       {
-        "player": {
-          "href": "http://www.espnfc.com/player/127570/jose-rondon",
-          "text": "José Rondon"
-        },
+        "player": "José Rondon",
         "goals": "1",
-        "index": 2,
-        "url": "http://www.espnfc.us/team/venezuela/213/statistics/scorers?leagueId=83"
       }
     ]
   }

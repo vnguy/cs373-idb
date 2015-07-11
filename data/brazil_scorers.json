@@ -8,51 +8,26 @@
   "thisversionstatus": "success",
   "thisversionrun": "Tue Jul 07 2015 09:16:19 GMT+0000 (UTC)",
   "results": {
-    "brazil_scorers": [
+    "scorers": [
       {
-        "player": {
-          "href": "http://www.espnfc.com/player/132948/neymar",
-          "text": "Neymar"
-        },
+        "player": "Neymar",
         "goals": "1",
-        "index": 1,
-        "url": "http://www.espnfc.us/team/brazil/205/statistics/scorers?leagueId=83"
       },
       {
-        "player": {
-          "href": "http://www.espnfc.com/player/147234/roberto-firmino",
-          "text": "Roberto Firmino"
-        },
+        "player": "Roberto Firmino",
         "goals": "1",
-        "index": 2,
-        "url": "http://www.espnfc.us/team/brazil/205/statistics/scorers?leagueId=83"
       },
       {
-        "player": {
-          "href": "http://www.espnfc.com/player/47426/robinho",
-          "text": "Robinho"
-        },
+        "player": "Robinho",
         "goals": "1",
-        "index": 3,
-        "url": "http://www.espnfc.us/team/brazil/205/statistics/scorers?leagueId=83"
       },
       {
-        "player": {
-          "href": "http://www.espnfc.us/player/127502/douglas-costa",
-          "text": "Douglas Costa"
-        },
+        "player": "Douglas Costa",
         "goals": "1",
-        "index": 4,
-        "url": "http://www.espnfc.us/team/brazil/205/statistics/scorers?leagueId=83"
       },
       {
-        "player": {
-          "href": "http://www.espnfc.com/player/96254/thiago-silva",
-          "text": "Thiago Silva"
-        },
+        "player": "Thiago Silva",
         "goals": "1",
-        "index": 5,
-        "url": "http://www.espnfc.us/team/brazil/205/statistics/scorers?leagueId=83"
       }
     ]
   }

@@ -10,210 +10,85 @@
   "results": {
     "country": [
       {
-        "country": {
-          "href": "https://en.wikipedia.org/wiki/Colombia",
-          "text": "Colombia"
-        },
-        "index": 1,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "country": "Colombia",
       }
     ],
     "coach": [
       {
-        "coach": {
-          "href": "https://en.wikipedia.org/wiki/Jos%C3%A9_P%C3%A9kerman",
-          "text": "José Pékerman"
-        },
-        "index": 2,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "coach": "José Pékerman",
       }
     ],
     "captain": [
       {
-        "captain": {
-          "href": "https://en.wikipedia.org/wiki/Radamel_Falcao",
-          "text": "Radamel Falcao"
-        },
-        "index": 3,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "captain": "Radamel Falcao",
       }
     ],
     "players": [
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/David_Ospina",
-          "text": "David Ospina"
-        },
-        "index": 4,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "David Ospina",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Cristi%C3%A1n_Zapata",
-          "text": "Cristián Zapata"
-        },
-        "index": 5,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Cristián Zapata",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Pedro_Franco",
-          "text": "Pedro Franco"
-        },
-        "index": 6,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Pedro Franco",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Santiago_Arias",
-          "text": "Santiago Arias"
-        },
-        "index": 7,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Santiago Arias",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Edwin_Valencia",
-          "text": "Edwin Valencia"
-        },
-        "index": 8,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Edwin Valencia",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Carlos_S%C3%A1nchez_Moreno",
-          "text": "Carlos Sánchez"
-        },
-        "index": 9,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Carlos Sánchez",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Pablo_Armero",
-          "text": "Pablo Armero"
-        },
-        "index": 10,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Pablo Armero",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Edwin_Cardona",
-          "text": "Edwin Cardona"
-        },
-        "index": 11,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Edwin Cardona",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/James_Rodr%C3%ADguez",
-          "text": "James Rodríguez"
-        },
-        "index": 12,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "James Rodríguez",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Juan_Cuadrado",
-          "text": "Juan Cuadrado"
-        },
-        "index": 13,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Juan Cuadrado",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Camilo_Vargas",
-          "text": "Camilo Vargas"
-        },
-        "index": 14,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Camilo Vargas",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Darwin_Andrade",
-          "text": "Darwin Andrade"
-        },
-        "index": 15,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Darwin Andrade",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Carlos_Vald%C3%A9s_(footballer)",
-          "text": "Carlos Valdés"
-        },
-        "index": 16,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Carlos Valdés",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Alexander_Mej%C3%ADa",
-          "text": "Alexander Mejía"
-        },
-        "index": 17,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Alexander Mejía",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/V%C3%ADctor_Ibarbo",
-          "text": "Víctor Ibarbo"
-        },
-        "index": 18,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Víctor Ibarbo",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Carlos_Bacca",
-          "text": "Carlos Bacca"
-        },
-        "index": 19,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Carlos Bacca",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Juan_Camilo_Z%C3%BA%C3%B1iga",
-          "text": "Juan Camilo Zúñiga"
-        },
-        "index": 20,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Juan Camilo Zúñiga",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Te%C3%B3filo_Guti%C3%A9rrez",
-          "text": "Teófilo Gutiérrez"
-        },
-        "index": 21,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Teófilo Gutiérrez",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Luis_Muriel",
-          "text": "Luis Muriel"
-        },
-        "index": 22,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Luis Muriel",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Jackson_Mart%C3%ADnez",
-          "text": "Jackson Martínez"
-        },
-        "index": 23,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Jackson Martínez",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Jeison_Murillo",
-          "text": "Jeison Murillo"
-        },
-        "index": 24,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Jeison Murillo",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Cristian_Bonilla",
-          "text": "Cristian Bonilla"
-        },
-        "index": 25,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Cristian Bonilla",
       }
     ]
   }
