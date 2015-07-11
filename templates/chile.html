@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Copa DB{% endblock %}
+{% block head %}
+    <style>
+      body {
+      background-image: url('media/copa-background.jpg');
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      }
+    </style>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <div class="starter-template">
+
+    <div class="row">
+      <div class="col-xs-6 col-md-3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1500px-Flag_of_Chile.svg.png" alt="...">
+      </div>
+    </div>
+
+   <div class="col-md-7">
+     <div class = "player_bio">
+       <div class="panel panel-default">
+         <div class="panel-heading">
+           <h3 class="panel-title">Chile</h3>
+         </div>
+         <div class="panel-body">
+             <h2><b>Coach:</b>Jorge Sampaoli</h2>
+             <h2><b>Goals:</b>12</h2>
+             <h2><b>Captain:</b>Claudio Bravo</h2>
+             <h2><b>Top Scorer:</b>Edurao Vargas</h2>
+         </div>
+       </div>
+     </div>
+   </div>
+
+  </div><!-- /.starter-template -->
+</div><!-- /.container -->
+{% endblock %}

@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<HTML>
-<HEAD>
-  <TITLE>CopaDB</TITLE>
-  <META HTTP-EQUIV="Refresh" CONTENT="2;URL=index.html">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+{% extends "base.html" %}
+{% block title %}Copa DB{% endblock %}
 
+<<<<<<< HEAD
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <style>
@@ -37,3 +32,19 @@
 </BODY>
 
 </HTML>
+=======
+{% block head %}
+<script>
+  window.setTimeout(function() {
+    location.href = document.getElementById('link').href;
+  }, 2000);
+</script>
+{% endblock %}
+
+{% block body %}
+<div class="wrapper text-center">
+  <p>You will be redirected to the Home page in 2 seconds.<p>
+  <a id="link" href="index.html" class="btn btn-primary btn-lg active" role="button">Enter</a>
+</div>
+{% endblock %}
+>>>>>>> 681eb36998f1d8b106c8812e3147d479014b93c1
