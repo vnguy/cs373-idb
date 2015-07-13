@@ -8,24 +8,14 @@
   "thisversionstatus": "success",
   "thisversionrun": "Tue Jul 07 2015 09:27:37 GMT+0000 (UTC)",
   "results": {
-    "mexico_scorers": [
+    "scorers": [
       {
-        "player": {
-          "href": "http://www.espnfc.us/player/34535/matias-vuoso",
-          "text": "Matías Vuoso"
-        },
+        "player": "Matías Vuoso",
         "goals": "2",
-        "index": 1,
-        "url": "http://www.espnfc.us/team/mexico/203/statistics/scorers?leagueId=83"
       },
       {
-        "player": {
-          "href": "http://www.espnfc.us/player/167060/raul-jimenez",
-          "text": "Raul Jiménez"
-        },
+        "player": "Raul Jiménez",
         "goals": "2",
-        "index": 2,
-        "url": "http://www.espnfc.us/team/mexico/203/statistics/scorers?leagueId=83"
       }
     ]
   }

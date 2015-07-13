@@ -3,8 +3,8 @@ from django.db import models
 
 class Match(models.Model) :
     """
-    The Match model contains the match name, each Country, the ending score, the man of the match,
-    the match location, and the match date.
+    The Match model contains the match name, each Country, the ending scores, the penalty scores,
+    the man of the match, the match location, and the match date.
     Three foreign keys are maintained which represent each of the two Countries involved in the match 
     and the man of the match which is a Player
     The __str__ method is used to retrun the name of the match.
@@ -13,9 +13,10 @@ class Match(models.Model) :
     country_one = models.ForeignKey('Country', related_name='country_one', to_field='country', default='none')
     country_two = models.ForeignKey('Country', related_name='country_two', to_field='country', default='none')
     scores = models.CharField(max_length=5, default="")
+    penalties = models.CharField(max_length=5, default="0-0")
     man_of_the_match = models.ForeignKey('Player', related_name='man_of_the_match', to_field='player', default='none')
-    match_location = models.CharField(max_length=40, default="")
     match_date = models.CharField(max_length=40, default="")
+    match_location = models.CharField(max_length=40, default="")
 
 
     def __str__(self) :
@@ -26,15 +27,18 @@ class Match(models.Model) :
 class Country(models.Model) :
     """
     The Country model contains the country name, number of total goals made,
-    team coach, team's captain, and the team's top scorer.
+    team coach, team's captain, and the team's top scorer, the scorers, and the players.
     Foreign keys are maintained for the country's captain and country's top scorer which are Players.
+    Two ManyToMany keys are maintained for the country's scorers and players.
     The __str__ method is used to return the name of the country.
     """
     country = models.CharField(max_length=30, default="", unique=True)
-    goals = models.CharField(max_length=2, default="")
+    goals = models.IntegerField(default=0)
     coach = models.CharField(max_length=40, default="")
     captain = models.ForeignKey('Player', related_name='captain', to_field='player', default='none')
     top_scorer = models.ForeignKey('Player', related_name='top_scorer', to_field='player', default='none')
+    scorers = models.ManyToManyField(Player)
+    players = models.ManyToManyField(Player)
 
 
     def __str__(self):
@@ -53,7 +57,7 @@ class Player(models.Model) :
     team = models.ForeignKey('Country', related_name ='team', to_field='country', default='none')
     position = models.CharField(max_length=2, default="")
     dob = models.CharField(max_length=40, default="")
-    goals = models.IntegerField(default=0)
+    goals = models.CharField(max_length=2, default="")
     club = models.CharField(max_length=40, default="")
 
 

@@ -8,42 +8,22 @@
   "thisversionstatus": "success",
   "thisversionrun": "Tue Jul 07 2015 09:29:35 GMT+0000 (UTC)",
   "results": {
-    "paraguay_scorers": [
+    "scorers": [
       {
-        "player": {
-          "href": "http://www.espnfc.us/player/137655/lucas-barrios",
-          "text": "Lucas Barrios"
-        },
+        "player": "Lucas Barrios",
         "goals": "3",
-        "index": 1,
-        "url": "http://www.espnfc.us/team/paraguay/210/statistics/scorers?leagueId=83"
       },
       {
-        "player": {
-          "href": "http://www.espnfc.us/player/205228/derlis-gonzalez",
-          "text": "Derlis González"
-        },
+        "player": "Derlis González",
         "goals": "1",
-        "index": 2,
-        "url": "http://www.espnfc.us/team/paraguay/210/statistics/scorers?leagueId=83"
       },
       {
-        "player": {
-          "href": "http://www.espnfc.us/player/43162/nelson-valdez",
-          "text": "Nelson Valdez"
-        },
+        "player": "Nelson Valdez",
         "goals": "1",
-        "index": 3,
-        "url": "http://www.espnfc.us/team/paraguay/210/statistics/scorers?leagueId=83"
       },
       {
-        "player": {
-          "href": "http://www.espnfc.us/player/147389/edgar-benitez",
-          "text": "Edgar Benítez"
-        },
+        "player": "Edgar Benítez",
         "goals": "1",
-        "index": 4,
-        "url": "http://www.espnfc.us/team/paraguay/210/statistics/scorers?leagueId=83"
       }
     ]
   }

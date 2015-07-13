@@ -10,210 +10,85 @@
   "results": {
     "country": [
       {
-        "country": {
-          "href": "https://en.wikipedia.org/wiki/Brazil",
-          "text": "Brazil"
-        },
-        "index": 1,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "country": "Brazil",
       }
     ],
     "coach": [
       {
-        "coach": {
-          "href": "https://en.wikipedia.org/wiki/Dunga",
-          "text": "Dunga"
-        },
-        "index": 2,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "coach": "Dunga",
       }
     ],
     "captain": [
       {
-        "captain": {
-          "href": "https://en.wikipedia.org/wiki/Neymar",
-          "text": "Neymar"
-        },
-        "index": 3,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "captain": "Neymar",
       }
     ],
     "players": [
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Jefferson_de_Oliveira_Galv%C3%A3o",
-          "text": "Jefferson"
-        },
-        "index": 4,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Jefferson",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Dani_Alves",
-          "text": "Dani Alves"
-        },
-        "index": 5,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Dani Alves",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Miranda_(footballer)",
-          "text": "Miranda"
-        },
-        "index": 6,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Miranda",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/David_Luiz",
-          "text": "David Luiz"
-        },
-        "index": 7,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "David Luiz",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Fernandinho_(footballer)",
-          "text": "Fernandinho"
-        },
-        "index": 8,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Fernandinho",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Filipe_Lu%C3%ADs",
-          "text": "Filipe Luís"
-        },
-        "index": 9,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Filipe Luís",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Douglas_Costa",
-          "text": "Douglas Costa"
-        },
-        "index": 10,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Douglas Costa",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Elias_Mendes_Trindade",
-          "text": "Elias"
-        },
-        "index": 11,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Elias",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Diego_Tardelli",
-          "text": "Diego Tardelli"
-        },
-        "index": 12,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Diego Tardelli",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Roberto_Firmino",
-          "text": "Roberto Firmino"
-        },
-        "index": 13,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Roberto Firmino",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Norberto_Murara_Neto",
-          "text": "Neto"
-        },
-        "index": 14,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Neto",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Marquinhos_(footballer,_born_1994)",
-          "text": "Marquinhos"
-        },
-        "index": 15,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Marquinhos",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Thiago_Silva",
-          "text": "Thiago Silva"
-        },
-        "index": 16,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Thiago Silva",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Geferson",
-          "text": "Geferson"
-        },
-        "index": 17,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Geferson",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Fabinho_(footballer,_born_1993)",
-          "text": "Fabinho"
-        },
-        "index": 18,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Fabinho",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Frederico_Rodrigues_Santos",
-          "text": "Fred"
-        },
-        "index": 19,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Fred",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Everton_Ribeiro",
-          "text": "Everton Ribeiro"
-        },
-        "index": 20,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Everton Ribeiro",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Willian_(footballer)",
-          "text": "Willian"
-        },
-        "index": 21,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Willian",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Robinho",
-          "text": "Robinho"
-        },
-        "index": 22,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Robinho",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Philippe_Coutinho",
-          "text": "Philippe Coutinho"
-        },
-        "index": 23,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Philippe Coutinho",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Casemiro",
-          "text": "Casemiro"
-        },
-        "index": 24,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Casemiro",
       },
       {
-        "players": {
-          "href": "https://en.wikipedia.org/wiki/Marcelo_Grohe",
-          "text": "Marcelo Grohe"
-        },
-        "index": 25,
-        "url": "https://en.wikipedia.org/wiki/2015_Copa_América_squads"
+        "player": "Marcelo Grohe",
       }
     ]
   }

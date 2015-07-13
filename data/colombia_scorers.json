@@ -8,15 +8,10 @@
   "thisversionstatus": "success",
   "thisversionrun": "Tue Jul 07 2015 09:21:34 GMT+0000 (UTC)",
   "results": {
-    "colombia_scorers": [
+    "scorers": [
       {
-        "player": {
-          "href": "http://www.espnfc.us/player/176757/jeison-murillo",
-          "text": "Jeison Murillo"
-        },
+        "player": "Jeison Murillo",
         "goals": "1",
-        "index": 1,
-        "url": "http://www.espnfc.us/team/colombia/208/statistics/scorers?leagueId=83"
       }
     ]
   }
