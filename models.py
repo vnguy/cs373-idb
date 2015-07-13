@@ -37,8 +37,8 @@ class Country(models.Model) :
     coach = models.CharField(max_length=40, default="")
     captain = models.ForeignKey('Player', related_name='captain', to_field='player', default='none')
     top_scorer = models.ForeignKey('Player', related_name='top_scorer', to_field='player', default='none')
-    scorers = models.ManyToManyField(Player)
-    players = models.ManyToManyField(Player)
+    scorers = models.ManyToManyField('Player', related_name='scorers')
+    players = models.ManyToManyField('Player', related_name='players')
 
 
     def __str__(self):
