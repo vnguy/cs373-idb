@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Player
 
 # https://docs.djangoproject.com/en/1.8/intro/tutorial03/#write-views-that-actually-do-something
 
@@ -13,4 +14,8 @@ def about (request):
 
 def get_page(request, page_name):
     context = {}
+    return render(request, page_name, context)
+
+def get_player_page(request, page_name):
+    context = {Player.objects.get(player="page_name")}
     return render(request, page_name, context)
