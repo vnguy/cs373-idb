@@ -11,7 +11,7 @@ var example = angular.module('starter', ['ngCordova'])
 example.controller("ExampleController", function($scope, $cordovaSQLite) {
 
     $scope.select = function(player) {
-        var query = "SELECT player FROM www_player WHERE player = ?";
+        var query = "SELECT player FROM Player WHERE player = ?";
         $cordovaSQLite.execute(db, query, [player]).then(function(res) {
             if(res.rows.length > 0) {
                 console.log("SELECTED -> " + res.rows.item(0).player);

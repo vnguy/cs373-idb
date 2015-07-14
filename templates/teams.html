@@ -1,42 +1,37 @@
 {% extends "base.html" %}
 {% block title %}Starter template for Bootstrap{% endblock %}
 {% block head %}
-<style>
-  body {
-    background-image: url('media/copa-background.jpg');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-</style>
+
 {% endblock %}
 
 {% block body %}
 <div class="container">
   <div class="starter-template">
     <h1>Countries</h1>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Country</th>
-          <th>Coach</th>
-          <th>Captin</th>
-          <th>Top Scorer</th>
-          <th>Goals</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for con in www_country %}
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
           <tr>
-            <td>{{con.country}}</td>
-            <td>{{con.coach}}</td>
-            <td>{{con.captain_id}}</td>
-            <td>{{con.top_scorer_id}}</td>
-            <td>{{con.goals}}</td>
+            <th>Country</th>
+            <th>Coach</th>
+            <th>Captin</th>
+            <th>Top Scorer</th>
+            <th>Goals</th>
           </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {% for con in www_country %}
+            <tr>
+              <td>{{con.country}}</td>
+              <td>{{con.coach}}</td>
+              <td>{{con.captain_id}}</td>
+              <td>{{con.top_scorer_id}}</td>
+              <td>{{con.goals}}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 
