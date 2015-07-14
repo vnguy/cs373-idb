@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 #from .models import Player
 import sqlite3
+import json
 
 db = sqlite3.connect('/home/webdev/copaDB/copaDB.sqlite3')
 cursor = db.cursor()
@@ -24,12 +25,24 @@ def get_page(request, page_name):
     context = {}
     return render(request, page_name, context)
 
-def get_player_page(request, page_name):
-    cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
-    u = cursor.fetchone
-    context = {Player.objects.get(player="page_name")}
+def get_player_page(request):
+    cursor.execute('''SELECT id, player, position, dob, goals FROM www_player WHERE player = page_name''')
+    context = cursor.fetchone
+    context = {u}
     return render(request, page_name, context)
 
 def player_view(request):
-    return 0
+    cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
+    context = cursor.fetchall()
+    return render(request, 'players.html', context)
    # return to response('players.html', { 'players': Player.objects.all()})
+def get_country_page(request):
+    cursor.execute('''SELECT id, country, coach, captain_id,top_scorer_id, goals FROM www_country WHERE country = page_name''')
+    context = cursor.fetchone()
+    return render(request, page_name, context)
+
+def country_view(request):
+    cursor.execute('''SELECT id, country, coach, captain_id,top_scorer_id, goals FROM www_country''')
+    context = cursor.fetchall()
+    data = {'html': render_to_string('players.html', {'players':context})}
+    return HttpResponse(json.dumps(data), content_type='application/json')
