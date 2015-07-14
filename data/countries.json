@@ -18,95 +18,95 @@
 		"scorers": [
 	      {
 	        "player": "Eduardo Vargas",
-	        "goals": "4",
+	        "goals": "4"
 	      },
 	      {
 	        "player": "Arturo Vidal",
-	        "goals": "3",
+	        "goals": "3"
 	      },
 	      {
 	        "player": "Charles Aránguiz",
-	        "goals": "2",
+	        "goals": "2"
 	      },
 	      {
 	        "player": "Gary Medel",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Mauricio Isla",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Alexis Sánchez",
-	        "goals": "1",
+	        "goals": "1"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "Eugenio Mena",
+	        "player": "Eugenio Mena"
 	      },
 	      {
-	        "player": "Miiko Albornoz",
+	        "player": "Miiko Albornoz"
 	      },
 	      {
-	        "player": "Mauricio Isla",
+	        "player": "Mauricio Isla"
 	      },
 	      {
-	        "player": "Francisco Silva",
+	        "player": "Francisco Silva"
 	      },
 	      {
-	        "player": "José Pedro Fuenzalida",
+	        "player": "José Pedro Fuenzalida"
 	      },
 	      {
-	        "player": "Alexis Sánchez",
+	        "player": "Alexis Sánchez"
 	      },
 	      {
-	        "player": "Arturo Vidal",
+	        "player": "Arturo Vidal"
 	      },
 	      {
-	        "player": "Mauricio Pinilla",
+	        "player": "Mauricio Pinilla"
 	      },
 	      {
-	        "player": "Jorge Valdivia",
+	        "player": "Jorge Valdivia"
 	      },
 	      {
-	        "player": "Eduardo Vargas",
+	        "player": "Eduardo Vargas"
 	      },
 	      {
-	        "player": "Paulo Garcés",
+	        "player": "Paulo Garcés"
 	      },
 	      {
-	        "player": "José Rojas",
+	        "player": "José Rojas"
 	      },
 	      {
-	        "player": "Matías Fernández",
+	        "player": "Matías Fernández"
 	      },
 	      {
-	        "player": "Jean Beausejour",
+	        "player": "Jean Beausejour"
 	      },
 	      {
-	        "player": "David Pizarro",
+	        "player": "David Pizarro"
 	      },
 	      {
-	        "player": "Gary Medel",
+	        "player": "Gary Medel"
 	      },
 	      {
-	        "player": "Gonzalo Jara",
+	        "player": "Gonzalo Jara"
 	      },
 	      {
-	        "player": "Felipe Gutiérrez",
+	        "player": "Felipe Gutiérrez"
 	      },
 	      {
-	        "player": "Charles Aránguiz",
+	        "player": "Charles Aránguiz"
 	      },
 	      {
-	        "player": "Marcelo Díaz",
+	        "player": "Marcelo Díaz"
 	      },
 	      {
-	        "player": "Ángelo Henríquez",
+	        "player": "Ángelo Henríquez"
 	      },
 	      {
-	        "player": "Johnny Herrera",
+	        "player": "Johnny Herrera"
 	      }
 	    ],
         "index": 1,
@@ -121,79 +121,79 @@
 		"scorers": [
 	      {
 	        "player": "Matías Vuoso",
-	        "goals": "2",
+	        "goals": "2"
 	      },
 	      {
 	        "player": "Raul Jiménez",
-	        "goals": "2",
+	        "goals": "2"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "José de Jesús Corona",
+	        "player": "José de Jesús Corona"
 	      },
 	      {
-	        "player": "Julio Domínguez",
+	        "player": "Julio Domínguez"
 	      },
 	      {
-	        "player": "Hugo Ayala",
+	        "player": "Hugo Ayala"
 	      },
 	      {
-	        "player": "Juan Carlos Medina",
+	        "player": "Juan Carlos Medina"
 	      },
 	      {
-	        "player": "Javier Güemez",
+	        "player": "Javier Güemez"
 	      },
 	      {
-	        "player": "Jesús Manuel Corona",
+	        "player": "Jesús Manuel Corona"
 	      },
 	      {
-	        "player": "Marco Fabián",
+	        "player": "Marco Fabián"
 	      },
 	      {
-	        "player": "Raúl Jiménez",
+	        "player": "Raúl Jiménez"
 	      },
 	      {
-	        "player": "Luis Montes",
+	        "player": "Luis Montes"
 	      },
 	      {
-	        "player": "Javier Aquino",
+	        "player": "Javier Aquino"
 	      },
 	      {
-	        "player": "Alfredo Talavera",
+	        "player": "Alfredo Talavera"
 	      },
 	      {
-	        "player": "Carlos Salcedo",
+	        "player": "Carlos Salcedo"
 	      },
 	      {
-	        "player": "Juan Carlos Valenzuela",
+	        "player": "Juan Carlos Valenzuela"
 	      },
 	      {
-	        "player": "Gerardo Flores",
+	        "player": "Gerardo Flores"
 	      },
 	      {
-	        "player": "Adrián Aldrete",
+	        "player": "Adrián Aldrete"
 	      },
 	      {
-	        "player": "Mario Osuna",
+	        "player": "Mario Osuna"
 	      },
 	      {
-	        "player": "Enrique Esqueda",
+	        "player": "Enrique Esqueda"
 	      },
 	      {
-	        "player": "Vicente Matías Vuoso",
+	        "player": "Vicente Matías Vuoso"
 	      },
 	      {
-	        "player": "Eduardo Herrera",
+	        "player": "Eduardo Herrera"
 	      },
 	      {
-	        "player": "George Corral",
+	        "player": "George Corral"
 	      },
 	      {
-	        "player": "Efraín Velarde",
+	        "player": "Efraín Velarde"
 	      },
 	      {
-	        "player": "Melitón Hernández",
+	        "player": "Melitón Hernández"
 	      }
 	    ],
         "index": 2,
@@ -208,79 +208,79 @@
 		"scorers": [
 	      {
 	        "player": "Enner Valencia",
-	        "goals": "2",
+	        "goals": "2"
 	      },
 	      {
 	        "player": "Miller Bolaños",
-	        "goals": "2",
+	        "goals": "2"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "Librado Azcona",
+	        "player": "Librado Azcona"
 	      },
 	      {
-	        "player": "Arturo Mina",
+	        "player": "Arturo Mina"
 	      },
 	      {
-	        "player": "Frickson Erazo",
+	        "player": "Frickson Erazo"
 	      },
 	      {
-	        "player": "Juan Carlos Paredes",
+	        "player": "Juan Carlos Paredes"
 	      },
 	      {
-	        "player": "Renato Ibarra",
+	        "player": "Renato Ibarra"
 	      },
 	      {
-	        "player": "Christian Noboa",
+	        "player": "Christian Noboa"
 	      },
 	      {
-	        "player": "Jefferson Montero",
+	        "player": "Jefferson Montero"
 	      },
 	      {
-	        "player": "Miller Bolaños",
+	        "player": "Miller Bolaños"
 	      },
 	      {
-	        "player": "Fidel Martínez",
+	        "player": "Fidel Martínez"
 	      },
 	      {
-	        "player": "Juan Cazares",
+	        "player": "Juan Cazares"
 	      },
 	      {
-	        "player": "Esteban Dreer",
+	        "player": "Esteban Dreer"
 	      },
 	      {
-	        "player": "Enner Valencia",
+	        "player": "Enner Valencia"
 	      },
 	      {
-	        "player": "Osbaldo Lastra",
+	        "player": "Osbaldo Lastra"
 	      },
 	      {
-	        "player": "Pedro Quiñónez",
+	        "player": "Pedro Quiñónez"
 	      },
 	      {
-	        "player": "Mario Pineida",
+	        "player": "Mario Pineida"
 	      },
 	      {
-	        "player": "Daniel Angulo",
+	        "player": "Daniel Angulo"
 	      },
 	      {
-	        "player": "Óscar Bagüí",
+	        "player": "Óscar Bagüí"
 	      },
 	      {
-	        "player": "Pedro Larrea",
+	        "player": "Pedro Larrea"
 	      },
 	      {
-	        "player": "John Narváez",
+	        "player": "John Narváez"
 	      },
 	      {
-	        "player": "Gabriel Achilier",
+	        "player": "Gabriel Achilier"
 	      },
 	      {
-	        "player": "Jonathan González",
+	        "player": "Jonathan González"
 	      },
 	      {
-	        "player": "Alexander Domínguez",
+	        "player": "Alexander Domínguez"
 	      }
 	    ],
         "index": 3,
@@ -295,83 +295,83 @@
 		"scorers": [
 	      {
 	        "player": "Marcelo Moreno",
-	        "goals": "2",
+	        "goals": "2"
 	      },
 	      {
 	        "player": "Martin Smedberg-Dalence",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Ronald Raldes",
-	        "goals": "1",
+	        "goals": "1"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "Romel Quiñónez",
+	        "player": "Romel Quiñónez"
 	      },
 	      {
-	        "player": "Miguel Hurtado",
+	        "player": "Miguel Hurtado"
 	      },
 	      {
-	        "player": "Alejandro Chumacero",
+	        "player": "Alejandro Chumacero"
 	      },
 	      {
-	        "player": "Leonel Morales",
+	        "player": "Leonel Morales"
 	      },
 	      {
-	        "player": "Ronald Eguino",
+	        "player": "Ronald Eguino"
 	      },
 	      {
-	        "player": "Danny Bejarano",
+	        "player": "Danny Bejarano"
 	      },
 	      {
-	        "player": "Alcides Peña",
+	        "player": "Alcides Peña"
 	      },
 	      {
-	        "player": "Martin Smedberg-Dalence",
+	        "player": "Martin Smedberg-Dalence"
 	      },
 	      {
-	        "player": "Marcelo Martins Moreno",
+	        "player": "Marcelo Martins Moreno"
 	      },
 	      {
-	        "player": "Pablo Escobar",
+	        "player": "Pablo Escobar"
 	      },
 	      {
-	        "player": "Damián Lizio",
+	        "player": "Damián Lizio"
 	      },
 	      {
-	        "player": "José Peñarrieta",
+	        "player": "José Peñarrieta"
 	      },
 	      {
-	        "player": "Damir Miranda",
+	        "player": "Damir Miranda"
 	      },
 	      {
-	        "player": "Edemir Rodríguez",
+	        "player": "Edemir Rodríguez"
 	      },
 	      {
-	        "player": "Sebastián Gamarra",
+	        "player": "Sebastián Gamarra"
 	      },
 	      {
-	        "player": "Marvin Bejarano",
+	        "player": "Marvin Bejarano"
 	      },
 	      {
-	        "player": "Ricardo Pedriel",
+	        "player": "Ricardo Pedriel"
 	      },
 	      {
-	        "player": "Wálter Veizaga",
+	        "player": "Wálter Veizaga"
 	      },
 	      {
-	        "player": "Jhasmani Campos",
+	        "player": "Jhasmani Campos"
 	      },
 	      {
-	        "player": "Cristian Coimbra",
+	        "player": "Cristian Coimbra"
 	      },
 	      {
-	        "player": "Edward Zenteno",
+	        "player": "Edward Zenteno"
 	      },
 	      {
-	        "player": "Hugo Suárez",
+	        "player": "Hugo Suárez"
 	      }
 	    ],
         "index": 4,
@@ -385,98 +385,98 @@
 		"scorers": [
       		{
         		"player": "Sergio Agüero",
-        		"goals": "3",
+        		"goals": "3"
       		},
       		{
         		"player": "Ángel Di María",
-        		"goals": "2",
+        		"goals": "2"
       		},
       		{
         		"player": "Gonzalo Higuaín",
-        		"goals": "2",
+        		"goals": "2"
       		},
       		{
         		"player": "Marcos Rojo",
-        		"goals": "1",
+        		"goals": "1"
       		},
       		{
         		"player": "Javier Pastore",
-        		"goals": "1",
+        		"goals": "1"
       		},
       		{
         		"player": "Lionel Messi",
-        		"goals": "1",
+        		"goals": "1"
       		}
     	],
     	"players": [
             {
-              "player": "Sergio Romero",
+              "player": "Sergio Romero"
             },
             {
-              "player": "Ezequiel Garay",
+              "player": "Ezequiel Garay"
             },
             {
-              "player": "Facundo Roncaglia",
+              "player": "Facundo Roncaglia"
             },
             {
-              "player": "Pablo Zabaleta",
+              "player": "Pablo Zabaleta"
             },
             {
-              "player": "Fernando Gago",
+              "player": "Fernando Gago"
             },
             {
-              "player": "Lucas Biglia",
+              "player": "Lucas Biglia"
             },
             {
-              "player": "Ángel di María",
+              "player": "Ángel di María"
             },
             {
-              "player": "Roberto Pereyra",
+              "player": "Roberto Pereyra"
             },
             {
-              "player": "Gonzalo Higuaín",
+              "player": "Gonzalo Higuaín"
             },
             {
-              "player": "Sergio Agüero",
+              "player": "Sergio Agüero"
             },
             {
-              "player": "Nahuel Guzmán",
+              "player": "Nahuel Guzmán"
             },
             {
-              "player": "Milton Casco",
+              "player": "Milton Casco"
             },
             {
-              "player": "Javier Mascherano",
+              "player": "Javier Mascherano"
             },
             {
-              "player": "Martín Demichelis",
+              "player": "Martín Demichelis"
             },
             {
-              "player": "Marcos Rojo",
+              "player": "Marcos Rojo"
             },
             {
-              "player": "Nicolás Otamendi",
+              "player": "Nicolás Otamendi"
             },
             {
-              "player": "Carlos Tevez",
+              "player": "Carlos Tevez"
             },
             {
-              "player": "Éver Banega",
+              "player": "Éver Banega"
             },
             {
-              "player": "Érik Lamela",
+              "player": "Érik Lamela"
             },
             {
-              "player": "Javier Pastore",
+              "player": "Javier Pastore"
             },
             {
-              "player": "Ezequiel Lavezzi",
+              "player": "Ezequiel Lavezzi"
             },
             {
-              "player": "Mariano Andújar",
+              "player": "Mariano Andújar"
             },
             {
-              "player": "Agustín Marchesín",
+              "player": "Agustín Marchesín"
             }
         ],
         "index": 5,
@@ -491,79 +491,79 @@
 		"scorers": [
 	      {
 	        "player": "José Giménez",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Cristian Rodríguez",
-	        "goals": "1",
+	        "goals": "1"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "Fernando Muslera",
+	        "player": "Fernando Muslera"
 	      },
 	      {
-	        "player": "José Giménez",
+	        "player": "José Giménez"
 	      },
 	      {
-	        "player": "Jorge Fucile",
+	        "player": "Jorge Fucile"
 	      },
 	      {
-	        "player": "Carlos Sánchez",
+	        "player": "Carlos Sánchez"
 	      },
 	      {
-	        "player": "Álvaro Pereira",
+	        "player": "Álvaro Pereira"
 	      },
 	      {
-	        "player": "Cristian Rodríguez",
+	        "player": "Cristian Rodríguez"
 	      },
 	      {
-	        "player": "Abel Hernández",
+	        "player": "Abel Hernández"
 	      },
 	      {
-	        "player": "Diego Rolán",
+	        "player": "Diego Rolán"
 	      },
 	      {
-	        "player": "Giorgian de Arrascaeta",
+	        "player": "Giorgian de Arrascaeta"
 	      },
 	      {
-	        "player": "Christian Stuani",
+	        "player": "Christian Stuani"
 	      },
 	      {
-	        "player": "Rodrigo Muñoz",
+	        "player": "Rodrigo Muñoz"
 	      },
 	      {
-	        "player": "Gastón Silva",
+	        "player": "Gastón Silva"
 	      },
 	      {
-	        "player": "Nicolás Lodeiro",
+	        "player": "Nicolás Lodeiro"
 	      },
 	      {
-	        "player": "Guzmán Pereira",
+	        "player": "Guzmán Pereira"
 	      },
 	      {
-	        "player": "Maximiliano Pereira",
+	        "player": "Maximiliano Pereira"
 	      },
 	      {
-	        "player": "Egidio Arévalo Ríos",
+	        "player": "Egidio Arévalo Ríos"
 	      },
 	      {
-	        "player": "Mathías Corujo",
+	        "player": "Mathías Corujo"
 	      },
 	      {
-	        "player": "Sebastián Coates",
+	        "player": "Sebastián Coates"
 	      },
 	      {
-	        "player": "Álvaro González",
+	        "player": "Álvaro González"
 	      },
 	      {
-	        "player": "Edinson Cavani",
+	        "player": "Edinson Cavani"
 	      },
 	      {
-	        "player": "Jonathan Rodríguez",
+	        "player": "Jonathan Rodríguez"
 	      },
 	      {
-	        "player": "Martín Silva",
+	        "player": "Martín Silva"
 	      }
 	    ],
         "index": 6,
@@ -578,87 +578,87 @@
 		"scorers": [
 	      {
 	        "player": "Lucas Barrios",
-	        "goals": "3",
+	        "goals": "3"
 	      },
 	      {
 	        "player": "Derlis González",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Nelson Valdez",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Edgar Benítez",
-	        "goals": "1",
+	        "goals": "1"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "Justo Villar",
+	        "player": "Justo Villar"
 	      },
 	      {
-	        "player": "Iván Piris",
+	        "player": "Iván Piris"
 	      },
 	      {
-	        "player": "Marcos Cáceres",
+	        "player": "Marcos Cáceres"
 	      },
 	      {
-	        "player": "Pablo Aguilar",
+	        "player": "Pablo Aguilar"
 	      },
 	      {
-	        "player": "Bruno Valdez",
+	        "player": "Bruno Valdez"
 	      },
 	      {
-	        "player": "Miguel Samudio",
+	        "player": "Miguel Samudio"
 	      },
 	      {
-	        "player": "Raúl Bobadilla",
+	        "player": "Raúl Bobadilla"
 	      },
 	      {
-	        "player": "Lucas Barrios",
+	        "player": "Lucas Barrios"
 	      },
 	      {
-	        "player": "Derlis González",
+	        "player": "Derlis González"
 	      },
 	      {
-	        "player": "Édgar Benítez",
+	        "player": "Édgar Benítez"
 	      },
 	      {
-	        "player": "Antony Silva",
+	        "player": "Antony Silva"
 	      },
 	      {
-	        "player": "Richard Ortiz",
+	        "player": "Richard Ortiz"
 	      },
 	      {
-	        "player": "Paulo da Silva",
+	        "player": "Paulo da Silva"
 	      },
 	      {
-	        "player": "Víctor Cáceres",
+	        "player": "Víctor Cáceres"
 	      },
 	      {
-	        "player": "Osmar Molinas",
+	        "player": "Osmar Molinas"
 	      },
 	      {
-	        "player": "Osvaldo Martínez",
+	        "player": "Osvaldo Martínez"
 	      },
 	      {
-	        "player": "Nelson Haedo Valdez",
+	        "player": "Nelson Haedo Valdez"
 	      },
 	      {
-	        "player": "Fabián Balbuena",
+	        "player": "Fabián Balbuena"
 	      },
 	      {
-	        "player": "Néstor Ortigoza",
+	        "player": "Néstor Ortigoza"
 	      },
 	      {
-	        "player": "Óscar Romero",
+	        "player": "Óscar Romero"
 	      },
 	      {
-	        "player": "Eduardo Aranda",
+	        "player": "Eduardo Aranda"
 	      },
 	      {
-	        "player": "Alfredo Aguilar",
+	        "player": "Alfredo Aguilar"
 	      }
 	    ],
         "index": 7,
@@ -674,70 +674,70 @@
 		],
 		"players": [
 	      {
-	        "player": "Duwayne Kerr",
+	        "player": "Duwayne Kerr"
 	      },
 	      {
-	        "player": "Daniel Gordon",
+	        "player": "Daniel Gordon"
 	      },
 	      {
-	        "player": "Michael Hector",
+	        "player": "Michael Hector"
 	      },
 	      {
-	        "player": "Wes Morgan",
+	        "player": "Wes Morgan"
 	      },
 	      {
-	        "player": "Lance Laing",
+	        "player": "Lance Laing"
 	      },
 	      {
-	        "player": "Deshorn Brown",
+	        "player": "Deshorn Brown"
 	      },
 	      {
-	        "player": "Romeo Parkes",
+	        "player": "Romeo Parkes"
 	      },
 	      {
-	        "player": "Hughan Gray",
+	        "player": "Hughan Gray"
 	      },
 	      {
-	        "player": "Giles Barnes",
+	        "player": "Giles Barnes"
 	      },
 	      {
-	        "player": "Jobi McAnuff",
+	        "player": "Jobi McAnuff"
 	      },
 	      {
-	        "player": "Darren Mattocks",
+	        "player": "Darren Mattocks"
 	      },
 	      {
-	        "player": "Dwayne Miller",
+	        "player": "Dwayne Miller"
 	      },
 	      {
-	        "player": "Dino Williams",
+	        "player": "Dino Williams"
 	      },
 	      {
-	        "player": "Allan Ottey",
+	        "player": "Allan Ottey"
 	      },
 	      {
-	        "player": "Je-Vaughn Watson",
+	        "player": "Je-Vaughn Watson"
 	      },
 	      {
-	        "player": "Joel Grant",
+	        "player": "Joel Grant"
 	      },
 	      {
-	        "player": "Simon Dawkins",
+	        "player": "Simon Dawkins"
 	      },
 	      {
-	        "player": "Adrian Mariappa",
+	        "player": "Adrian Mariappa"
 	      },
 	      {
-	        "player": "Kemar Lawrence",
+	        "player": "Kemar Lawrence"
 	      },
 	      {
-	        "player": "Jermaine Taylor",
+	        "player": "Jermaine Taylor"
 	      },
 	      {
-	        "player": "Garath McCleary",
+	        "player": "Garath McCleary"
 	      },
 	      {
-	        "player": "Ryan Thompson",
+	        "player": "Ryan Thompson"
 	      }
 	    ],
         "index": 8,
@@ -752,91 +752,91 @@
 		"scorers": [
 	      {
 	        "player": "Neymar",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Roberto Firmino",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Robinho",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Douglas Costa",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Thiago Silva",
-	        "goals": "1",
+	        "goals": "1"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "Jefferson",
+	        "player": "Jefferson"
 	      },
 	      {
-	        "player": "Dani Alves",
+	        "player": "Dani Alves"
 	      },
 	      {
-	        "player": "Miranda",
+	        "player": "Miranda"
 	      },
 	      {
-	        "player": "David Luiz",
+	        "player": "David Luiz"
 	      },
 	      {
-	        "player": "Fernandinho",
+	        "player": "Fernandinho"
 	      },
 	      {
-	        "player": "Filipe Luís",
+	        "player": "Filipe Luís"
 	      },
 	      {
-	        "player": "Douglas Costa",
+	        "player": "Douglas Costa"
 	      },
 	      {
-	        "player": "Elias",
+	        "player": "Elias"
 	      },
 	      {
-	        "player": "Diego Tardelli",
+	        "player": "Diego Tardelli"
 	      },
 	      {
-	        "player": "Roberto Firmino",
+	        "player": "Roberto Firmino"
 	      },
 	      {
-	        "player": "Neto",
+	        "player": "Neto"
 	      },
 	      {
-	        "player": "Marquinhos",
+	        "player": "Marquinhos"
 	      },
 	      {
-	        "player": "Thiago Silva",
+	        "player": "Thiago Silva"
 	      },
 	      {
-	        "player": "Geferson",
+	        "player": "Geferson"
 	      },
 	      {
-	        "player": "Fabinho",
+	        "player": "Fabinho"
 	      },
 	      {
-	        "player": "Fred",
+	        "player": "Fred"
 	      },
 	      {
-	        "player": "Everton Ribeiro",
+	        "player": "Everton Ribeiro"
 	      },
 	      {
-	        "player": "Willian",
+	        "player": "Willian"
 	      },
 	      {
-	        "player": "Robinho",
+	        "player": "Robinho"
 	      },
 	      {
-	        "player": "Philippe Coutinho",
+	        "player": "Philippe Coutinho"
 	      },
 	      {
-	        "player": "Casemiro",
+	        "player": "Casemiro"
 	      },
 	      {
-	        "player": "Marcelo Grohe",
+	        "player": "Marcelo Grohe"
 	      }
 	    ],
         "index": 9,
@@ -851,75 +851,75 @@
 		"scorers": [
 	      {
 	        "player": "Jeison Murillo",
-	        "goals": "1",
+	        "goals": "1"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "David Ospina",
+	        "player": "David Ospina"
 	      },
 	      {
-	        "player": "Cristián Zapata",
+	        "player": "Cristián Zapata"
 	      },
 	      {
-	        "player": "Pedro Franco",
+	        "player": "Pedro Franco"
 	      },
 	      {
-	        "player": "Santiago Arias",
+	        "player": "Santiago Arias"
 	      },
 	      {
-	        "player": "Edwin Valencia",
+	        "player": "Edwin Valencia"
 	      },
 	      {
-	        "player": "Carlos Sánchez",
+	        "player": "Carlos Sánchez"
 	      },
 	      {
-	        "player": "Pablo Armero",
+	        "player": "Pablo Armero"
 	      },
 	      {
-	        "player": "Edwin Cardona",
+	        "player": "Edwin Cardona"
 	      },
 	      {
-	        "player": "James Rodríguez",
+	        "player": "James Rodríguez"
 	      },
 	      {
-	        "player": "Juan Cuadrado",
+	        "player": "Juan Cuadrado"
 	      },
 	      {
-	        "player": "Camilo Vargas",
+	        "player": "Camilo Vargas"
 	      },
 	      {
-	        "player": "Darwin Andrade",
+	        "player": "Darwin Andrade"
 	      },
 	      {
-	        "player": "Carlos Valdés",
+	        "player": "Carlos Valdés"
 	      },
 	      {
-	        "player": "Alexander Mejía",
+	        "player": "Alexander Mejía"
 	      },
 	      {
-	        "player": "Víctor Ibarbo",
+	        "player": "Víctor Ibarbo"
 	      },
 	      {
-	        "player": "Carlos Bacca",
+	        "player": "Carlos Bacca"
 	      },
 	      {
-	        "player": "Juan Camilo Zúñiga",
+	        "player": "Juan Camilo Zúñiga"
 	      },
 	      {
-	        "player": "Teófilo Gutiérrez",
+	        "player": "Teófilo Gutiérrez"
 	      },
 	      {
-	        "player": "Luis Muriel",
+	        "player": "Luis Muriel"
 	      },
 	      {
-	        "player": "Jackson Martínez",
+	        "player": "Jackson Martínez"
 	      },
 	      {
-	        "player": "Jeison Murillo",
+	        "player": "Jeison Murillo"
 	      },
 	      {
-	        "player": "Cristian Bonilla",
+	        "player": "Cristian Bonilla"
 	      }
 	    ],
         "index": 10,
@@ -934,87 +934,87 @@
 		"scorers": [
 	      {
 	        "player": "Paolo Guerrero",
-	        "goals": "4",
+	        "goals": "4"
 	      },
 	      {
 	        "player": "Christian Cueva",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "Claudio Pizarro",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "André Carrillo",
-	        "goals": "1",
+	        "goals": "1"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "Pedro Gallese",
+	        "player": "Pedro Gallese"
 	      },
 	      {
-	        "player": "Jair Céspedes",
+	        "player": "Jair Céspedes"
 	      },
 	      {
-	        "player": "Hansell Riojas",
+	        "player": "Hansell Riojas"
 	      },
 	      {
-	        "player": "Pedro Paulo Requena",
+	        "player": "Pedro Paulo Requena"
 	      },
 	      {
-	        "player": "Carlos Zambrano",
+	        "player": "Carlos Zambrano"
 	      },
 	      {
-	        "player": "Juan Manuel Vargas",
+	        "player": "Juan Manuel Vargas"
 	      },
 	      {
-	        "player": "Paolo Hurtado",
+	        "player": "Paolo Hurtado"
 	      },
 	      {
-	        "player": "Christian Cueva",
+	        "player": "Christian Cueva"
 	      },
 	      {
-	        "player": "Paolo Guerrero",
+	        "player": "Paolo Guerrero"
 	      },
 	      {
-	        "player": "Jefferson Farfán",
+	        "player": "Jefferson Farfán"
 	      },
 	      {
-	        "player": "Yordy Reyna",
+	        "player": "Yordy Reyna"
 	      },
 	      {
-	        "player": "Diego Penny",
+	        "player": "Diego Penny"
 	      },
 	      {
-	        "player": "Edwin Retamoso",
+	        "player": "Edwin Retamoso"
 	      },
 	      {
-	        "player": "Christian Ramos",
+	        "player": "Christian Ramos"
 	      },
 	      {
-	        "player": "Carlos Lobatón",
+	        "player": "Carlos Lobatón"
 	      },
 	      {
-	        "player": "Luis Advíncula",
+	        "player": "Luis Advíncula"
 	      },
 	      {
-	        "player": "André Carrillo",
+	        "player": "André Carrillo"
 	      },
 	      {
-	        "player": "Yoshimar Yotún",
+	        "player": "Yoshimar Yotún"
 	      },
 	      {
-	        "player": "Joel Sánchez",
+	        "player": "Joel Sánchez"
 	      },
 	      {
-	        "player": "Josepmir Ballón",
+	        "player": "Josepmir Ballón"
 	      },
 	      {
-	        "player": "Carlos Ascues",
+	        "player": "Carlos Ascues"
 	      },
 	      {
-	        "player": "Salomón Libman",
+	        "player": "Salomón Libman"
 	      }
 	    ],
         "index": 11,
@@ -1029,79 +1029,79 @@
 		"scorers": [
 	      {
 	        "player": "Miku",
-	        "goals": "1",
+	        "goals": "1"
 	      },
 	      {
 	        "player": "José Rondon",
-	        "goals": "1",
+	        "goals": "1"
 	      }
 	    ],
 	    "players": [
 	      {
-	        "player": "Alain Baroja",
+	        "player": "Alain Baroja"
 	      },
 	      {
-	        "player": "Wilker Ángel",
+	        "player": "Wilker Ángel"
 	      },
 	      {
-	        "player": "Andrés Túñez",
+	        "player": "Andrés Túñez"
 	      },
 	      {
-	        "player": "Oswaldo Vizcarrondo",
+	        "player": "Oswaldo Vizcarrondo"
 	      },
 	      {
-	        "player": "Fernando Amorebieta",
+	        "player": "Fernando Amorebieta"
 	      },
 	      {
-	        "player": "Gabriel Cichero",
+	        "player": "Gabriel Cichero"
 	      },
 	      {
-	        "player": "Miku",
+	        "player": "Miku"
 	      },
 	      {
-	        "player": "Tomás Rincón",
+	        "player": "Tomás Rincón"
 	      },
 	      {
-	        "player": "Salomón Rondón",
+	        "player": "Salomón Rondón"
 	      },
 	      {
-	        "player": "Ronald Vargas",
+	        "player": "Ronald Vargas"
 	      },
 	      {
-	        "player": "César González",
+	        "player": "César González"
 	      },
 	      {
-	        "player": "Dani Hernández",
+	        "player": "Dani Hernández"
 	      },
 	      {
-	        "player": "Luis Manuel Seijas",
+	        "player": "Luis Manuel Seijas"
 	      },
 	      {
-	        "player": "Franklin Lucena",
+	        "player": "Franklin Lucena"
 	      },
 	      {
-	        "player": "Alejandro Guerra",
+	        "player": "Alejandro Guerra"
 	      },
 	      {
-	        "player": "Roberto Rosales",
+	        "player": "Roberto Rosales"
 	      },
 	      {
-	        "player": "Josef Martínez",
+	        "player": "Josef Martínez"
 	      },
 	      {
-	        "player": "Rafael Acosta",
+	        "player": "Rafael Acosta"
 	      },
 	      {
-	        "player": "Grenddy Perozo",
+	        "player": "Grenddy Perozo"
 	      },
 	      {
-	        "player": "Gelmin Rivas",
+	        "player": "Gelmin Rivas"
 	      },
 	      {
-	        "player": "Jhon Murillo",
+	        "player": "Jhon Murillo"
 	      },
 	      {
-	        "player": "Wuilker Faríñez",
+	        "player": "Wuilker Faríñez"
 	      }
 	    ],
         "index": 12,
