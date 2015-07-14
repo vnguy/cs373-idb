@@ -1,7 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Player
+import sqlite3
 
+db = sqlite3.connect('.../copaDB.sqlite3')
+cursor = db.cursor()
 # https://docs.djangoproject.com/en/1.8/intro/tutorial03/#write-views-that-actually-do-something
 
 def index (request):
@@ -21,4 +24,7 @@ def get_player_page(request, page_name):
     return render(request, page_name, context)
 
 def player_view(request):
+    cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
+    user1 = cursor.fetchone()
+    print(user1[0])
     return to response('players.html', { 'players': Player.objects.all()})
