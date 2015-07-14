@@ -18,6 +18,39 @@
       <div class="panel-body">
         <!-- Table -->
         <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Country</th>
+              <th>Position</th>
+              <th>DOB</th>
+              <th>Goals</th>
+              <th>Club</th>
+            </tr>
+          </thead>
+            {% for player in www_player %}
+              <tr>
+                <td>{{player.player}}</td>
+                <td>{{player.team_id}}</td>
+                <td>{{player.position}}</td>
+                <td>{{player.dob}}</td>
+                <td>{{player.goals}}</td>
+                <td>{{player.club}}</td>
+              </tr>
+            {% endfor %}
+        </table>
+      </div>
+    </div>
+  </div><!-- /.starter-template -->
+</div><!-- /.container -->
+
+<!--
+<div class="container">
+  <div class="starter-template">
+    <div class="panel panel-default">
+      <div class="panel-body">
+
+        <table class="table table-striped">
           <tr>
             <th>Name</th>
             <th>Country</th>
@@ -55,6 +88,7 @@
         </table>
       </div>
     </div>
-  </div><!-- /.starter-template -->
-</div><!-- /.container -->
+  </div>
+</div>
+-->
 {% endblock %}

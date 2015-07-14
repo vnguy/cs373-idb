@@ -22,4 +22,7 @@ urlpatterns = [
 
     # /(somepage).html
     url(r'^(?P<page_name>[-a-z\.A-Z]+)$', views.get_page, name='get_page'),
+
+   # /(individual player).html
+    url(r'^(?P<page_name>[-a-z\.A-Z]+)$', views.get_player_page, name='get_player_page'),
 ]
