@@ -53,7 +53,7 @@ class Player(models.Model) :
     A foreign key named country is maintained for the relation of Player to Country.
     The __str__ method is used to return the name of the player.
     """
-    player = models.CharField(max_length=40, default="", unique=True)
+    player = models.CharField(max_length=40, default="", primary_key=True)
     team = models.ForeignKey('Country', related_name ='team', to_field='country', default='none')
     position = models.CharField(max_length=2, default="")
     dob = models.CharField(max_length=40, default="")

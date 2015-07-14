@@ -44,79 +44,81 @@
     {% endblock %}
 </head>
   <body>
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">Copa DB</a>
+    <div id="wrapper">
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">Copa DB</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                      <li><a href="matches.html">Matches</a></li>
+                      <li><a href="teams.html">Countries</a></li>
+                      <li><a href="players.html">Players</a></li>
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="about.html">About</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li class="dropdown-header">Nav header</li>
+                              <li><a href="#">Separated link</a></li>
+                              <li><a href="#">One more separated link</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                  <li><a href="matches.html">Matches</a></li>
-                  <li><a href="teams.html">Countries</a></li>
-                  <li><a href="players.html">Players</a></li>
-                  <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li class="dropdown-header">Nav header</li>
-                          <li><a href="#">Separated link</a></li>
-                          <li><a href="#">One more separated link</a></li>
-                      </ul>
-                  </li>
-              </ul>
-          </div>
-      </div>
+        </div>
+        {% block body %}
+        {% endblock %}
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>Copa<span>DB</span></h3>
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>·
+                    <a href="about.html">About</a>
+                </p>
+                <p class="footer-company-name">Copa DB &copy; 2015</p>
+            </div>
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>University of Texas</span> Austin, Texas</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+1 512 471 3434</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:jeongwook.yu@gmail.com">support@CopaDB.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    CS373 project
+                    designed by Juan Yu, Vincent Nguy,
+                    Kevin Charoenworawat, and Paul Milla
+                </p>
+                <div class="footer-icons">
+                    <a href="facebook.com"><i class="fa fa-facebook"></i></a>
+                    <a href="twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a href="linkedin.com"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/jeongwook/cs373-idb"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
     </div>
-    {% block body %}
-    {% endblock %}
-    <footer class="footer-distributed">
-        <div class="footer-left">
-            <h3>Copa<span>DB</span></h3>
-            <p class="footer-links">
-                <a href="#">Home</a>
-                <a href="#">Blog</a>·
-                <a href="about.html">About</a>
-            </p>
-            <p class="footer-company-name">Copa DB &copy; 2015</p>
-        </div>
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>University of Texas</span> Austin, Texas</p>
-            </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+1 512 471 3434</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:jeongwook.yu@gmail.com">support@CopaDB.com</a></p>
-            </div>
-        </div>
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>About the company</span>
-                CS373 project
-                designed by Juan Yu, Vincent Nguy,
-                Kevin Charoenworawat, and Paul Milla
-            </p>
-            <div class="footer-icons">
-                <a href="facebook.com"><i class="fa fa-facebook"></i></a>
-                <a href="twitter.com"><i class="fa fa-twitter"></i></a>
-                <a href="linkedin.com"><i class="fa fa-linkedin"></i></a>
-                <a href="https://github.com/jeongwook/cs373-idb"><i class="fa fa-github"></i></a>
-            </div>
-        </div>
-    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
