@@ -28,6 +28,7 @@
               <th>Club</th>
             </tr>
           </thead>
+          <tbody>
             {% for player in www_player %}
               <tr>
                 <td>{{player.player}}</td>
@@ -38,6 +39,7 @@
                 <td>{{player.club}}</td>
               </tr>
             {% endfor %}
+          </tbody>
         </table>
       </div>
     </div>

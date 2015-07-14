@@ -15,7 +15,36 @@
 <div class="container">
   <div class="starter-template">
     <h1>Countries</h1>
-    <p class="lead"> 
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Coach</th>
+          <th>Captin</th>
+          <th>Top Scorer</th>
+          <th>Goals</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for con in www_country %}
+          <tr>
+            <td>{{con.country}}</td>
+            <td>{{con.coach}}</td>
+            <td>{{con.captain_id}}</td>
+            <td>{{con.top_scorer_id}}</td>
+            <td>{{con.goals}}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <div class="starter-template">
+    <h1>Countries</h1>
+    <p class="lead">
       <ul style="list-style-type:disk">
       <li>Country Name</li>
       <li>Number of Goals</li>
@@ -33,6 +62,7 @@
       </ul>
       </div>
     </div>
-  </div><!-- /.starter-template -->
-</div><!-- /.container -->
+  </div>
+</div>
+-->
 {% endblock %}
