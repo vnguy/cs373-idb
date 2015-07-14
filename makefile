@@ -7,8 +7,6 @@ FILES :=                                  \
     models.py                             \
     tests.py                              \
     UML.pdf				  \
-    models.in			  	  \
-    models.out				  \
     tests.out				  \
 
 all:
