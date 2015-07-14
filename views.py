@@ -21,4 +21,4 @@ def get_player_page(request, page_name):
     return render(request, page_name, context)
 
 def player_view(request):
-    return return to response('players.html', { 'players': Player.objects.all()})
+    return to response('players.html', { 'players': Player.objects.all()})
