@@ -32,7 +32,7 @@ def get_player_page(request):
     context = {u}
     return render(request, 'context[1].html', context)
 
-def player_view(request):
+def get_players(request):
     cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
     context = cursor.fetchall()
     return render(request, 'players.html', context)
