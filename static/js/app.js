@@ -24,3 +24,5 @@ example.controller("ExampleController", function($scope, $cordovaSQLite) {
     }
 
 });
+
+ $.ajax( { //alert("in ajax"); type:"POST", url:"/show_job_details/", data:{"test_name":'execution details'}, success:function(response){ // Append response.html where ever you need it in your html. console.log(response.html); } });
