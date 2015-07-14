@@ -9,7 +9,7 @@ cursor = db.cursor()
 
 cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
 user1 = cursor.fetchone()
-print(user1[0])
+print(user1)
 
 
 def index (request):
