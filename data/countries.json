@@ -382,6 +382,7 @@
         "coach": "Gerardo Martino",
         "captain": "Lionel Messi",
 		"top_scorer": "Sergio Agüero",
+                "goals": 10,
 		"scorers": [
       		{
         		"player": "Sergio Agüero",
