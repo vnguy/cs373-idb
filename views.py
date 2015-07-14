@@ -3,7 +3,7 @@ from django.http import HttpResponse
 #from .models import Player
 import sqlite3
 
-db = sqlite3.connect('.../copaDB.sqlite3')
+db = sqlite3.connect('/home/webdev/copaDB/copaDB.sqlite3')
 cursor = db.cursor()
 # https://docs.djangoproject.com/en/1.8/intro/tutorial03/#write-views-that-actually-do-something
 
