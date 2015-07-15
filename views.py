@@ -34,6 +34,10 @@ def get_player_page(request):
 def get_players(request):
     cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
     context = cursor.fetchall()
+
+    for i in context:
+        print(i)
+
     return render_to_response('players.html', {'players' : context})
 
    # return to response('players.html', { 'players': Player.objects.all()})
@@ -53,3 +57,5 @@ def get_countrys(request):
     context = cursor.fetchall()
     return render_to_response('players.html', {'players' : context})
     #return HttpResponse(json.dumps(data), content_type='application/json')
+
+get_players(1)
