@@ -4,7 +4,7 @@
 {% block head %}
 <style>
     body {
-    background: url('../media/copa-background.png') no-repeat center center fixed;
+    background: url("/media/copa-background.png") no-repeat center center fixed;
     }
 </style>
 {% endblock %}
@@ -28,7 +28,6 @@
             </tr>
           </thead>
           <tbody>
-            <p>{{players}}</p>
             {% for player in players %}
               <tr>
                 <td>{{player.player}}</td>

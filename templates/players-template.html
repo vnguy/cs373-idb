@@ -1,19 +1,19 @@
 {% extends "base.html" %}
 {% block title %}Copa DB{% endblock %}
 {% block head %}
-<link rel="stylesheet" type="text/css" href="static/css/players.css">
+<link rel="stylesheet" type="text/css" href="/static/css/players.css">
 {% endblock %}
 {% block body %}
 
     <div class="player-bio">
        <div class="row">
          <div class="col-xs-3 col-sm-3">
-             <img src="../media/miiko_albornoz.jpg" class="img-rounded"><br>
+             <img src="/media/miiko_albornoz.jpg" class="img-rounded"><br>
         </div>
          <div class="col-xs-9 col-sm-9">
               <div class="bio-text">
                 <h3 class="bio-text">{{player.player}}</h3>
-                <p><b>Team:</b>{{player.team_id}}</p>
+                <p><b>Team:</b>{{player.team}}</p>
                 <p><b>Position:</b>{{player.position}}</p>
                 <p><b>DOB:</b>{{player.dob}}</p>
                 <p><b>Goals:</b>{{player.goals}}</p>
