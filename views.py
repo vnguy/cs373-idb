@@ -29,13 +29,13 @@ def get_page(request, page_name):
 def get_player_page(request):
     cursor.execute('''SELECT id, player, position, dob, goals FROM www_player WHERE player = page_name''')
     context = cursor.fetchone
-    context = {u}
     return render(request, 'context[1].html', context)
 
 def get_players(request):
     cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
     context = cursor.fetchall()
-    return render(request, 'players.html', context)
+    return render_to_response('players.html', {'players' : context})
+
    # return to response('players.html', { 'players': Player.objects.all()})
 def get_country_page(request):
     cursor.execute('''SELECT id, country, coach, captain_id,top_scorer_id, goals FROM www_country WHERE country = page_name''')
@@ -48,7 +48,7 @@ def country_view(request):
     data = {'html': render_to_string('players.html', {'players':context})}
     return HttpResponse(json.dumps(data), content_type='application/json')
 """
-def country_view(request):
+def get_countrys(request):
     cursor.execute('''SELECT id, country, coach, captain_id,top_scorer_id, goals FROM www_country''')
     context = cursor.fetchall()
     return render_to_response('players.html', {'players' : context})
