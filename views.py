@@ -33,7 +33,7 @@ def get_player_page(request):
 
 def get_players(request):
     cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
-    context = cursor.fetchone()
+    context = cursor.fetchall()
 
     for i in context:
         print(i)

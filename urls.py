@@ -19,7 +19,7 @@ urlpatterns = [
 
     # /player/
    # url(r'^player/$', include('www.player.urls')),
-    url(r'^player.html$', 'views.get_player_page', name='players'),
+    url(r'^player/$', 'views.get_players', name='players'),
 
     # /(somepage).html
     url(r'^(?P<page_name>[-a-z\.A-Z]+)$', views.get_page, name='get_page'),

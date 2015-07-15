@@ -7,12 +7,18 @@ language: python
 python:
     - "3.4"
 
+env:
+    - DJANGO=1.8
+
 before_install:
     - sudo apt-get update
 
 install:
     - pip install --upgrade pip
-    - pip install coverage
+    - pip install django
+    - pip3 install djangorestframework
+    - pip3 install markdown
+    - pip3 install django-filter
 
 before_script:
     - uname -a
@@ -20,12 +26,11 @@ before_script:
     - pip3 --version
     - pip3 freeze
     - python3 --version
-    - coverage3 --version
 
 script:
     - date
     - ls -al
-    - make models.html
+    - make models.log
     - ls -al
     - make test
     - ls -al

@@ -7,7 +7,6 @@ FILES :=                                  \
     models.py                             \
     tests.py                              \
     UML.pdf				  \
-    tests.out				  \
 
 all:
 
@@ -24,13 +23,15 @@ clean:
 	rm -f models.out
 	rm -f tests.out
 
-config:
-	git config -l
-
 test: tests.out
+	python 3 manage.py test
 
-models.html: models.py
-	pydoc3 -w models
+models.html:
+	export DJANGO_SETTINGS_MODULE="main.settings"
+	pydoc3 -w ./
+	mv copaDB.models.html copaDB/models.html
+	rm -rf *.html
+	mv copaDB/models.html models.html
 
 IDB.log:
 	git log > IDB.log
