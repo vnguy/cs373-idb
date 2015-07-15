@@ -19,7 +19,7 @@
           <tr>
             <th>Country</th>
             <th>Coach</th>
-            <th>Captin</th>
+            <th>Captain</th>
             <th>Top Scorer</th>
             <th>Goals</th>
           </tr>
@@ -27,10 +27,10 @@
         <tbody>
           {% for con in countries %}
             <tr>
-              <td>{{con.country}}</td>
+              <td><a href="{{con.country}}">{{con.country}}</a></td>
               <td>{{con.coach}}</td>
-              <td>{{con.captain_id}}</td>
-              <td>{{con.top_scorer_id}}</td>
+              <td><a href="http://copadb.me/player/{{con.captain}}">{{con.captain}}</a></td>
+              <td><a href="http://copadb.me/player/{{con.top_scorer}}">{{con.top_scorer}}</a></td>
               <td>{{con.goals}}</td>
             </tr>
           {% endfor %}

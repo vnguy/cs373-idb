@@ -30,8 +30,8 @@
           <tbody>
             {% for player in players %}
               <tr>
-                <td>{{player.player}}</td>
-                <td>{{player.team_id}}</td>
+                <td><a href="{{player.player}}">{{player.player}}</a></td>
+                <td><a href="http://copadb.me/country/{{player.team}}">{{player.team}}</a></td>
                 <td>{{player.position}}</td>
                 <td>{{player.dob}}</td>
                 <td>{{player.goals}}</td>

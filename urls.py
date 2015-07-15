@@ -1,6 +1,9 @@
 from django.conf.urls import include, url
 from django.views.generic.base import RedirectView
 from . import views
+import logging
+
+logger = logging.getLogger(__name__)
 
 urlpatterns = [
     # /
@@ -19,7 +22,7 @@ urlpatterns = [
     # /player/
     url(r'^player$', RedirectView.as_view(url='player/', permanent=False)),
     url(r'^player/$', views.get_players),
-    url(r'^player/(?P<player_name>[-a-z\.A-Z]+)$', views.get_player),
+    url(r'^player/(?P<player_name>[-a-z\. A-Z]+)$', views.get_player),
 
     # /(somepage).html
     url(r'^(?P<page_name>[-a-z\.A-Z]+).html$', views.get_page),

@@ -3,6 +3,9 @@ from django.shortcuts import render_to_response
 from django.http import HttpResponse
 from .models import Player, Country, Match
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 def get_page(request, page_name = "index"):
     context = {} 
@@ -27,6 +30,7 @@ def get_countries (request):
     return render(request, 'teams.html', context)
 
 def get_players (request):
+    logger.debug("Getting players..")
     context = { 'players' : Player.objects.all() }
     return render(request, 'players.html', context)
 

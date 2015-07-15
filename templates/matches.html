@@ -24,6 +24,7 @@
               <th>Penalties</th>
               <th>Date of Match</th>
               <th>Location of Match</th>
+              <th>Man of the Match</th>
             </tr>
           </thead>
           <tbody>
@@ -34,6 +35,7 @@
                     <td>{{m.penalties}}</td>
                     <td>{{m.match_date}}</td>
                     <td>{{m.match_location}}</td>
+                    <td><a href="http://copadb.me/player/{{m.man_of_the_match}}">{{m.man_of_the_match}}</a></td>
                   </tr>
 		{% endfor %}
           </tbody>
