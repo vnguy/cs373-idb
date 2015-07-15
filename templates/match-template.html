@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Copa DB{% endblock %}
+{% block head %}
+
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/country.css' %}">
+{% endblock %}
+{% block body %}
+    <!-- Full Width Image Header -->
+    <!--
+    <header class="header-image">
+        <div class="headline">
+            <img class ="flag-logo" src="..\media\chilean-flag-medium.jpg">
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-xs-12" style="text-align: center;">
+          <header class ="country-name">
+            <h1>{{con.country}}</h1>
+          </header>
+        </div>
+    </div>
+    -->
+    <div class="col-xs-12" style="padding-top: 30px; padding-bottom: 10px; text-align: left;">
+        <header class ="header-bar" style="border-radius: 3px;">
+            <h1 style="margin-left: 20px;">Game Stats</h1>
+        </header>
+    </div>
+
+     <div class="col-xs-9 col-sm-9">
+          <div>
+            <p><b>Match:</b> {{match.match}}</p>
+            <p><b>Scores:</b> {{match.scores}}</p>
+            <p><b>Match Location:</b> {{match.match_location}}</p>
+            <p><b>Match Date:</b> {{match.match_date}}</p>
+            <p><b>Country One:</b> {{match.country_one}}</p>
+            <p><b>Country Two:</b> {{match.country_two}}</p>
+             <p><b>Man of The Match:</b> {{match.man_of_the_match_id}}</p>
+            <p><b>Penalties:</b> {{match.penalties}}</p>
+          </div>
+     </div>
+
+
+    <div class="col-xs-12" style="padding-top: 30px; padding-bottom: 10px; text-align: left;">
+        <header class ="header-bar" style="border-radius: 3px;">
+            <h1 style="margin-left: 20px;">Squad</h1>
+        </header>
+    </div>
+{% endblock %}
+
+
+
