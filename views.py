@@ -55,7 +55,7 @@ def country_view(request):
 def get_countrys(request):
     cursor.execute('''SELECT id, country, coach, captain_id,top_scorer_id, goals FROM www_country''')
     context = cursor.fetchall()
+
     return render_to_response('players.html', {'players' : context})
     #return HttpResponse(json.dumps(data), content_type='application/json')
 
-get_players(1)
