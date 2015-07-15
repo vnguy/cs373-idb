@@ -29,15 +29,14 @@ def get_page(request, page_name):
 def get_player_page(request):
     cursor.execute('''SELECT id, player, position, dob, goals FROM www_player WHERE player = page_name''')
     context = cursor.fetchone
-    return render(request, 'context[1].html', context)
+    return render(request, 'players.html', context)
 
 def get_players(request):
     cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
-    context = cursor.fetchall()
+    context = cursor.fetchone()
 
     for i in context:
         print(i)
-
     return render_to_response('players.html', {'players' : context})
 
    # return to response('players.html', { 'players': Player.objects.all()})
