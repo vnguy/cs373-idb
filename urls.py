@@ -12,14 +12,17 @@ urlpatterns = [
     url(r'^about.html$', views.about, name='about'),
     
     # /country/
-    url(r'^country/$', include('www.country.urls')),
+    #url(r'^country$', include('www.country.urls')),
+    url(r'^country$', views.get_countries, name="countries"),
+    url(r'^country/(?P<country_name>[-a-z\.A-Z]+)$', views.get_country),
 
     # /match/
-    url(r'^match/$', include('www.match.urls')),
+    url(r'^match$', views.get_matches, name = "matches"),
+    url(r'^match/(?P<match_name>[-a-z\.A-Z]+)$', views.get_match),
 
     # /player/
    # url(r'^player/$', include('www.player.urls')),
-    url(r'^player/$', 'views.get_players', name='players'),
+    url(r'^player/(?P<player_name>[-a-z\.A-Z]+)$', views.get_player),
 
     # /(somepage).html
     url(r'^(?P<page_name>[-a-z\.A-Z]+)$', views.get_page, name='get_page'),

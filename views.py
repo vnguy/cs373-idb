@@ -1,18 +1,9 @@
 from django.shortcuts import render
 from django.shortcuts import render_to_response
 from django.http import HttpResponse
-#from .models import Player
+from .models import Player, Country, Match
 import sqlite3
 import json
-
-db = sqlite3.connect('/home/webdev/copaDB/copaDB.sqlite3')
-cursor = db.cursor()
-# https://docs.djangoproject.com/en/1.8/intro/tutorial03/#write-views-that-actually-do-something
-
-cursor.execute('''SELECT id, player, position, dob, goals FROM www_player''')
-user1 = cursor.fetchone()
-print(user1)
-
 
 def index (request):
     context = {}
@@ -23,7 +14,7 @@ def about (request):
     return render(request, 'about.html', context)
 
 def get_page(request, page_name):
-    context = {}
+    context = {} 
     return render(request, page_name, context)
 
 def get_player_page(request):
@@ -58,3 +49,79 @@ def get_countrys(request):
     return render_to_response('players.html', {'players' : context})
     #return HttpResponse(json.dumps(data), content_type='application/json')
 
+# Get All for Each Model
+def countries(request):
+    if(request.is_ajax()):
+        return JsonResponse(Country.objects.all(),safe=False)
+    return render(request, 'teams.html', {'countries': Country.objects.all()})
+
+def matches(request):
+    if(request.is_ajax()):
+        return JsonResponse(Match.objects.all(),safe=False)
+    return render(request, 'matches.html', {'matches': Match.objects.all()})
+
+def players(request):
+    if(request.is_ajax()):
+        return JsonResponse(Player.objects.all(),safe=False)
+    return render(request, 'players.html', {'players': Player.objects.all()})
+
+# Get Model by ID
+def country(request, country_name):
+    country = Country.objects.get(country=country_name)
+    if(request.is_ajax()):
+        return JsonResponse(country,safe=False)
+    return render(request, 'country-template.html', {'country': country})
+
+def match(request, match_name):
+    match = Match.objects.get(match=match_name)
+    if(request.is_ajax()):
+        return JsonResponse(match,safe=False)
+    return render(request, 'match-template.html', {'match': match})
+
+def player(request, player_name):
+    player = Player.objects.get(player=player_name)
+    if(request.is_ajax()):
+        return JsonResponse(player,safe=False)
+    return render(request, 'players-template.html', {'player': player})
+
+#class CountryList(generics.ListCreateAPIView):
+    #queryset = Country.objects.all()
+    #serializer_class = RegionSerializer
+
+#class MatchesList(generics.ListCreateAPIView):
+    #queryset = Match.objects.all()
+    #serializer_class = RegionSerializer
+
+#class PlayerList(generics.ListCreateAPIView):
+    #queryset = Player.objects.all()
+def get_countries (request):
+    context = {
+        'countries' : Country.objects.all()
+    }
+    return render(request, 'teams.html', context)
+def get_players (request, player_name):
+    context = {
+        'player' : Player.objects.all()
+    }
+    return render(request, 'players.html', context)
+def get_matches (request, match_name):
+    context = {
+        'match' : Match.objects.all()
+    }
+    return render(request, 'matches.html', context)
+    
+def get_country (request, country_name):
+    context = {
+        'con' : Country.objects.get(country=country_name)
+    }
+    return render(request, 'country-template.html', context)
+def get_player (request, player_name):
+    context = {
+        'player' : Player.objects.get(player=player_name)
+    }
+    return render(request, 'players-template.html', context)
+def get_match (request, match_name):
+    context = {
+        'match' : Match.objects.get(match=match_name)
+    }
+    return render(request, 'match-template.html', context)
