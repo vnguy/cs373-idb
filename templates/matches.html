@@ -13,25 +13,28 @@
 <div class="container">
   <div class="starter-template">
     <h1>Matches</h1>
-    <p class="lead"> 
-    <ul style="list-style-type:disk">
-    <li>Name of Match</li>
-    <li>First Country</li>
-    <li>Second Country</li>
-    <li>Final Score</li>
-    <li>Man of the Match</li>
-    <li>Match's Location</li>
-    <li>Date of the Match</li></ul></p>
-	<br></br>
-
     <div class="panel panel-default">
       <div class="panel-body">
-      <!-- Table -->
-      <ul>
-        <li><a href="argentina-colombia.html">Argentina vs. Colombia</a></li>
-        <li><a href="bolivia-peru.html">Bolivia vs. Peru</a></li>
-        <li><a href="chile-uruguay.html">Chile vs. Uruguay</a></li>
-      </ul>
+        <!-- Table -->
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Match</th>
+              <th>Final Score</th>
+              <th>Date of Match</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            {% for m in match %}
+              <tr>
+                <td>{{m.match}}</td>
+                <td>{{m.scores}}</td>
+                <td>{{m.match_date}}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
       </div>
     </div>
   </div><!-- /.starter-template -->
