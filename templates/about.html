@@ -4,11 +4,17 @@
 {% block head %}
 <style>
   body {
-    background: url('../media/austin.jpg') no-repeat center center fixed;
+    background: url('../media/austin.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  @media only screen and (max-width: 767px) {
+    body {
+      background-image: url('../media/austin-mobile.png');
+    }
   }
 </style>
 {% endblock %}
