@@ -1,33 +1,34 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-
-    <title>Copa DB</title>
+    <link rel="icon" href="/media/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+    <title>{% block title %}Starter Template for Bootstrap{% endblock %}</title>
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Bootstrap -->
+    <script src="/static/js/jquery-1.11.3.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript (v3.3.5) -->
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/angular.min.js"></script>
+    <script src="/static/js/ng-cordova.min.js"></script>
+    <script src="/static/js/app.js"></script>
 
     <!-- NavBar -->
     <link rel="stylesheet" href="../static/css/navbar.css">
 
     <!-- Footer Content -->
     <meta name="keywords" content="footer, address, phone, icons" />
-    <link rel="stylesheet" href="../static/css/footer.css">
     <link rel="stylesheet" href="../static/css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
@@ -38,227 +39,189 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Custom styles for this template -->
-    <link href="../static/css/carousel.css" rel="stylesheet">
-</head>
-<!-- NAVBAR
-================================================== -->
-<body>
-    <div class="navbar navbar-inverse navbar-static-top">
+    <style>
+      body {
+      background: url('../media/austin.png') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      }
+
+      @media only screen and (max-width: 767px) {
+        body {
+          background-image: url('../media/austin-mobile.png');
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="navbar navbar-inverse navbar-static-top">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Copa DB</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="matches.html">Matches</a></li>
-                    <li><a href="teams.html">Countries</a></li>
-                    <li><a href="players.html">Players</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index.html">Copa DB</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/match/">Matches</a></li>
+              <li><a href="/country/">Countries</a></li>
+              <li><a href="/player/"/>Players</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/about.html">About</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
                 </ul>
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </div>
 
-
-
-
-
-
-
-
-
-    <!-- Carousel
-================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img class="first-slide" src="../media/copa-america.png" alt="First slide">
+      <!-- MAIN CONTENT -->
+      <div class="container" style="margin-top:50px">
+        <div class="starter-template">
+          <div class="panel panel-default">
+            <div class="panel-heading">Juan Yu</div>
+            <div class="panel-body">
+              <ul>
+                <img src="../media/juan.jpg" alt="Juan Yu" style="width:300px;height:auto;">
+                <li><p><b>Bio:</b> Senior at UT Austin. Major in CS. Hobbies include sports, games, music, and pets.</p></li>
+                <li><p><b>Major Responsibilities:</b> Data Collector, UI/UX Front End Development</p></li>
+                <li><p><b>No. of commits:</b> 6</p></li>
+                <li><p><b>No. of issues:</b> 8</p></li>
+                <li><p><b>No. of unit tests:</b> 2</p></li>
+              </ul>
             </div>
-            <div class="item">
-                <img class="second-slide" src="../media/chile-trophy.png" alt="Second slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Chile crowned Copa America 2015 Champions</h1>
-                        <p><a class="btn btn-xs btn-primary" href="http://www.ca2015.com/en/match/report/1901767" role="button">View Details</a></p>
-                    </div>
-                </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">Kevin Charoenworawat</div>
+            <div class="panel-body">
+              <ul>
+                <img src="../media/kevin.png" alt="Kevin C." style="width:100px;height:150px;">
+                <li><p><b>Bio:</b>Many, if not most, people aspire to become a great astronaut, a renowned doctor, or careers of the like. I admire those people and have great respect for their desires but I'm not most people. I life my life by rule that complacency kills. While I too have an ultimate goal to reach, my main focus has always been to improve every aspect of myself in order to achieve said goal.
+
+                  This rule stems from my adolescent obesity where I peaked to 265 lbs in my Junior year of high school. During my Senior year of high school I ended up going on a diet which led me to the gym in my first year of college. Four years later, and at one point 100 lbs lighter, I have continued my new-found lifestyle of weightlifting where I aim to improve myself every single day physically. This love for change and improvement inevitably brought out my passion of technology and programming. Being able to harness the ability to tinker and make changes to whatever you can think of is why I have been pursuing my degree in the field of Computer Science.</p></li>
+                <li><p><b>Major Responsibilities:</b> Backend data modeling and frontend html. </p></li>
+                <li><p><b>No. of commits:</b> 17</p></li>
+                <li><p><b>No. of issues:</b> 8</p></li>
+                <li><p><b>No. of unit tests:</b> 9</p></li>
+              </ul>
             </div>
-            <div class="item">
-                <img class="third-slide" src="../media/messi-loss.png" alt="Third slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Messi Rejects MVP Trophy</h1>
-                        <p><a class="btn btn-xs btn-primary" href="http://www.dailymail.co.uk/sport/football/article-3150518/Did-Lionel-Messi-refuse-accept-Copa-America-best-player-award-video-emerges-official-removing-trophy.html
-    " role="button">View Details</a></p>
-                    </div>
-                </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">Paul Milla</div>
+            <div class="panel-body">
+              <ul>
+                <img src="../media/paul.jpg" alt="Paul M." style="width:113.75px;height:113.75px;">
+                <li><p><b>Bio:</b> My mom is Mexican, my dad is Peruvian, and I was born in Mississippi. Life is interesting. I didn't even know how much I liked coding until my first computer science class in high school, but almost immediately after I've been hooked. Logic puzzles have always been my thing, and pretty soon I'll be able to get paid for it too. I always enjoy learning new skills, and throught most of my college career I've passed through many different clubs. Ju-jitsu, Quidditch, ACM (comp sci club), APO (service organization), Longhorn Salsa, Texas Latin Dance, Texas Jugglers, Austin Acro-yoga, and with a splash of capoeira I practically joined a new one every semester. No regrets though, because however tried I may be at the end of the week I know I've made personal progress and have met some really amazing people along the way.</p></li>
+                <li><p><b>Major Responsibilities:</b> Backend server development</p></li>
+                <li><p><b>No. of commits:</b> 2</p></li>
+                <li><p><b>No. of issues:</b> 2</p></li>
+                <li><p><b>No. of unit tests:</b> 2</p></li>
+              </ul>
             </div>
-        </div>
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div><!-- /.carousel -->
+          </div>
 
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-            <div class="col-lg-4">
-                <img class="img-circle" src="../media/penalties.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Chile - Argentina</h2>
-                <p>Chile defeats Argentina in a penalty shootout by 4 - 1.</p>
-                <p><a class="btn btn-default" href="http://www.espnfc.us/copa-america/match/424357/chile-argentina/report" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <img class="img-circle" src="../media/golden-boot.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Golden Boot</h2>
-                <p>The Golden Boot Award goes to Eduardo Vargas (Chile) and Paolo Guerrero (Peru) - tied with four goals each</p>
-                <p><a class="btn btn-default" href="http://www.ca2015.com/en/awards" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <img class="img-circle" src="../media/di-maria.png" alt="Generic placeholder image" width="140" height="140">
-                <h2>Di Maria Injury</h2>
-                <p>Di Maria exits the finals with a hamstring injury</p>
-                <p><a class="btn btn-default" href="http://www.goal.com/en/news/586/copa-america/2015/07/04/13299232/angel-di-maria-forced-out-of-copa-america-final-with" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Chile triumphs over Argentina in the Finals.</h2>
-                <p class="lead">"Chile finally won their first major trophy to spark jubilant scenes in Santiago as Argentina were beaten 4-1 on penalties in the Copa America final on Saturday."</p>
+          <div class="panel panel-default">
+            <div class="panel-heading">Vincent Nguy</div>
+            <div class="panel-body">
+              <ul>
+                <img src="../media/vincent.png" alt="Vincent N." style="width:100px;height:100px;">
+                <li><p><b>Bio:</b> Senior at UT Austin majoring in CS. I enjoy rock climbing, biking, and a occasional game of league of legends</p></li>
+                <li><p><b>Major Responsibilities:</b>Front End Development</p></li>
+                <li><p><b>No. of commits:</b> 2</p></li>
+                <li><p><b>No. of issues:</b> 2</p></li>
+                <li><p><b>No. of unit tests:</b> 2</p></li>
+              </ul>
             </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive center-block" src="../media/chile-feature.png" alt="Generic placeholder image">
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">Stats</div>
+            <div class="panel-body">
+              <ul>
+                <li><p><b>Total No. of commits:</b> 33</p></li>
+                <li><p><b>Total No. of issues:</b> 22</p></li>
+                <li><p><b>Total No. of unit tests:</b> 9</p></li>
+                <li><p><b>Apiary API: </b><a href="https://github.com/jeongwook/cs373-idb/blob/dev/apiary.apib">https://github.com/jeongwook/cs373-idb/blob/dev/apiary.apib</a></p></li>
+                <li><p><b>Github Issue Tracker: </b><a href="https://github.com/jeongwook/cs373-idb/issues">https://github.com/jeongwook/cs373-idb/issues</a></p></li>
+                <li><p><b>Github Repo: </b><a href="https://github.com/jeongwook/cs373-idb/tree/dev">https://github.com/jeongwook/cs373-idb/tree/dev</a></p></li>
+                <li><p><b>Github Wiki: </b><a href="https://github.com/jeongwook/cs373-idb/wiki">https://github.com/jeongwook/cs373-idb/wiki</a></p></li>
+              </ul>
             </div>
-        </div>
+          </div>
 
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7 col-md-push-5">
-                <h2 class="featurette-heading">Lionel Messi from 'another world'</h2>
-                <p class="lead">""Messi is in another world," James said. "He is a unique player, and you cannot talk about a James versus Messi duel, because that would be unfair to him. Colombia is playing against a tough team with great players."</p>
+          <div class="panel panel-default">
+            <div class="panel-heading">Data</div>
+            <div class="panel-body">
+              <ul>
+                <li><p><b>matches.json: </b><a href="https://github.com/jeongwook/cs373-idb/blob/dev/data/matches.json">https://github.com/jeongwook/cs373-idb/blob/dev/data/matches.json</a></p></li>
+                <li><p><b>countries.json: </b><a href="https://github.com/jeongwook/cs373-idb/blob/dev/data/countries.json">https://github.com/jeongwook/cs373-idb/blob/dev/data/countries.json</a></p></li>
+                <li><p><b>players.json: </b><a href="https://github.com/jeongwook/cs373-idb/blob/dev/data/players.json">https://github.com/jeongwook/cs373-idb/blob/dev/data/players.json</a></p></li>
+              </ul>
             </div>
-            <div class="col-md-5 col-md-pull-7">
-                <img class="featurette-image img-responsive center-block" src="../media/messi.png" alt="Generic placeholder image">
-            </div>
-        </div>
+          </div>
+        </div><!-- /.starter template -->
+      </div><!-- /.container -->
+      <!-- END OF MAIN CONTENT -->
 
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Neymar out of Brazil Squad</h2>
-                <p class="lead">"Brazil captain Neymar faces a provisional one-match ban for his sending off against Colombia at the Copa America, but could face further sanction.
-
-                    The Barcelona star had already been booked during Brazil's 1-0 defeat, but was shown a straight card following an on-pitch fracas after appearing to kick the ball at Colombia's Pablo Armero and then seemingly attempting to headbutt Jeison Murillo."</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive center-block" src="../media/neymar.png" alt="Generic placeholder image">
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <!-- /END THE FEATURETTES -->
-    </div><!-- /.container -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="footer-distributed">
-        <div class="footer-left">
+      <footer class="footer-distributed">
+        <div class="container">
+          <div class="footer-left">
             <h3>Copa<span>DB</span></h3>
             <p class="footer-links">
-                <a href="#">Home</a>
-                <a href="#">Blog</a>·
-                <a href="about.html">About</a>
+              <a href="#">Home</a>
+              <a href="#">Blog</a>·
+              <a href="/about.html">About</a>
             </p>
             <p class="footer-company-name">Copa DB &copy; 2015</p>
-        </div>
-        <div class="footer-center">
+          </div>
+          <div class="footer-center">
             <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>University of Texas</span> Austin, Texas</p>
+              <i class="fa fa-map-marker"></i>
+              <p><span>University of Texas</span> Austin, Texas</p>
             </div>
             <div>
-                <i class="fa fa-phone"></i>
-                <p>+1 512 471 3434</p>
+              <i class="fa fa-phone"></i>
+              <p>+1 512 471 3434</p>
             </div>
             <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:jeongwook.yu@gmail.com">support@CopaDB.com</a></p>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:jeongwook.yu@gmail.com">support@CopaDB.com</a></p>
             </div>
-        </div>
-        <div class="footer-right">
+          </div>
+          <div class="footer-right">
             <p class="footer-company-about">
-                <span>About the company</span>
-                CS373 project
-                designed by Juan Yu, Vincent Nguy,
-                Kevin Charoenworawat, and Paul Milla
+              <span>About the company</span>
+              CS373 project
+              designed by Juan Yu, Vincent Nguy,
+              Kevin Charoenworawat, and Paul Milla
             </p>
             <div class="footer-icons">
-                <a href="facebook.com"><i class="fa fa-facebook"></i></a>
-                <a href="twitter.com"><i class="fa fa-twitter"></i></a>
-                <a href="linkedin.com"><i class="fa fa-linkedin"></i></a>
-                <a href="https://github.com/jeongwook/cs373-idb"><i class="fa fa-github"></i></a>
+              <a href="facebook.com"><i class="fa fa-facebook"></i></a>
+              <a href="twitter.com"><i class="fa fa-twitter"></i></a>
+              <a href="linkedin.com"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/jeongwook/cs373-idb"><i class="fa fa-github"></i></a>
             </div>
+          </div>
         </div>
-    </footer>
-    </div>
-
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-</body>
+      </footer> <!-- End of Footer -->
+    </div> <!-- End of Wrapper -->
+  </body>
 </html>
