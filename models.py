@@ -19,6 +19,9 @@ class Match(models.Model) :
     match_location = models.CharField(max_length=40, default="")
 
 
+    def get_absolute_url(self):
+        return "/match/%s" % self.match
+
     def __str__(self) :
         return self.match
 
@@ -40,6 +43,9 @@ class Country(models.Model) :
     scorers = models.ManyToManyField('Player', related_name='scorers')
     players = models.ManyToManyField('Player', related_name='players')
 
+   
+    def get_absolute_url(self):
+        return "/country/%s" % self.country
 
     def __str__(self):
         return self.country
@@ -61,5 +67,15 @@ class Player(models.Model) :
     club = models.CharField(max_length=40, default="")
 
 
+    def get_absolute_url(self):
+        return "/player/%s" % self.player
+
     def __str__(self):
         return self.player
+
+
+import watson
+
+watson.register(Match, fields=("match", "scores", "penalties", "match_date", "match_location"))
+watson.register(Country, fields=("country", "coach"))
+watson.register(Player, fields=("player", "position", "dob", "club"))
