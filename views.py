@@ -17,6 +17,7 @@ def get_country (request, country_name):
     return render(request, 'country-template.html', context)
 
 def get_player (request, player_name):
+    #logger.debug("Grabbing player: "+player_name)
     context = { 'player' : Player.objects.get(player=player_name) }
     return render(request, 'players-template.html', context)
 
@@ -30,7 +31,6 @@ def get_countries (request):
     return render(request, 'teams.html', context)
 
 def get_players (request):
-    logger.debug("Getting players..")
     context = { 'players' : Player.objects.all() }
     return render(request, 'players.html', context)
 
