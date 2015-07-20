@@ -1,3 +1,496 @@
+commit 567b55b18309efe32a4bb0d012f77942973de3f6
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 15 02:52:00 2015 +0000
+
+    Update files for django linking.
+
+commit de6234df6ad586e831593244d7ee462f61f1d390
+Author: jeongwook <juanyu@wireless-10-147-99-177.public.utexas.edu>
+Date:   Tue Jul 14 21:25:39 2015 -0500
+
+    Added more content to the index
+
+commit 08fef1cc4941c73f94238bd786efaa3371de1678
+Merge: 4563d71 0536916
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 21:18:07 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 4563d71fdf5d893120199c0d004839d76ab36b4d
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 20:55:39 2015 -0500
+
+    added table for dynamic ata in matches
+
+commit b37fc35c18a87ac469817d42056b985d245d2503
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 20:49:24 2015 -0500
+
+    added matches-template
+
+commit 0536916c7f1f9c164fc553e7ac910903163c1908
+Author: jeongwook <juanyu@wireless-10-147-99-177.public.utexas.edu>
+Date:   Tue Jul 14 20:35:19 2015 -0500
+
+    eh
+
+commit 629c911f9931180ea9d6e8b5c97036dab9505e82
+Author: jeongwook <juanyu@wireless-10-147-99-177.public.utexas.edu>
+Date:   Tue Jul 14 20:30:30 2015 -0500
+
+    Removed text from about and added margin to the top
+
+commit 5fdf5971d25ea99c84303a7e6e4a87a6b9c59dcd
+Author: jeongwook <juanyu@wireless-10-147-99-177.public.utexas.edu>
+Date:   Tue Jul 14 20:05:01 2015 -0500
+
+    Fixed footer issue. Fixes #39
+
+commit 193821b91deda3545a7925c28d25032769a0de4b
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 15 01:02:30 2015 +0000
+
+    Modify travis and makefile.
+
+commit a5a8589750f206e900e68924d60da437a680bc78
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 19:31:25 2015 -0500
+
+    pls work
+
+commit 5aee3d90e2a33163ce63c4e12ad5a27822cbea70
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 19:26:11 2015 -0500
+
+    testing players.html
+
+commit 1e7eab0e0e88c9e1a92c8615988ae30abfce094a
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 19:25:00 2015 -0500
+
+    working in url.py
+
+commit ef61bc21dc98536c0210dab482fb3123f2a9d615
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 19:13:10 2015 -0500
+
+    testing view
+
+commit 4ebe15ae0498a4c85ab4307c474e98ae7d737dde
+Merge: f8eeef1 9d01884
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 19:07:07 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit f8eeef10a5405474f6967364081483961292a4b8
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 19:06:21 2015 -0500
+
+    testing view
+
+commit 22591121ccb5ba203373f7e6cb4387de02441fa4
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 18:55:21 2015 -0500
+
+    working on url.py
+
+commit 9d01884e6bb46437fef9581595aec712adedf8d5
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 14 18:47:28 2015 -0500
+
+    new background image, and padding to body
+
+commit f113fcb69a21bd13aec15def2520e85d54c977d5
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 18:39:29 2015 -0500
+
+    url.py added a request for player pages
+
+commit f3ce9fdd3c81c954bdc247d8f20548abf77fbd3f
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 18:24:22 2015 -0500
+
+    still working on views.py
+
+commit 74d3f1cb7e243600f2dc139be26191cb7ad0fa20
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 18:06:57 2015 -0500
+
+    s
+
+commit fdff62f1158eded2713d225189c7092ef350e759
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 18:03:16 2015 -0500
+
+    working on getting data to pages
+
+commit dca9f6bd111db6a2dbc235d58c3d6cf5c7da07e1
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 17:33:48 2015 -0500
+
+    still cant connect to sqlite
+
+commit 395878e917633c0ff5f3af9630c74f7968b2b212
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 17:32:03 2015 -0500
+
+    still cant connect to sqlite
+
+commit 670afd6b61aa7fe023ef0dd4152eb0065d0f2f21
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 17:27:06 2015 -0500
+
+    changed report to worddoc
+
+commit b4c7fa6d2df80c6ca360c8e673d89a6510f837a0
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 14 22:17:46 2015 +0000
+
+    Finalize database population by fixing data conflicts. Add populateDatabase.py which was used to create the database.
+
+commit 952ea24059e67b9cf0b139d2483ce2d9c3b8eb8a
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 17:09:11 2015 -0500
+
+    testing view.py
+
+commit 14092bac00f2f4d777e182bfd74ab0f027e7cba6
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 17:08:03 2015 -0500
+
+    testing view.py
+
+commit 6ec2202873c134d6f0fe13ad139a6ff5c40cedee
+Merge: 93f2cb3 30bc21a
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 17:07:33 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 30bc21a54334da527db362d87ea5b9d36054b260
+Merge: 4c2536a 4b7435f
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 14 22:01:37 2015 +0000
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 4c2536a35a1b94ff154ffd6887a50ee73fbef090
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 14 21:55:54 2015 +0000
+
+    Fixed data conflicts for database population.
+
+commit 93f2cb3fba609a7c740a8be9e65465e9753ae16e
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 16:50:32 2015 -0500
+
+    working with sqlite3 in view.py
+
+commit 4b7435f7e6fc74c7c68bf771da79c0358916e968
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 14 16:43:26 2015 -0500
+
+    Attempting to fix the footer. Fixes #39
+
+commit 884535456170e92c7ff5b649e6b900b902a243ab
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 16:42:04 2015 -0500
+
+    s
+
+commit 45ed41c5c6ac2c255f71be65f9f774bc2e767989
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 16:40:25 2015 -0500
+
+    s
+
+commit b5aa1269ecdb2fa53b2ce1e69c6732429474f0e4
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 14 21:30:13 2015 +0000
+
+    Fixed Matias Vuoso Player name.
+
+commit e844ef2a36440405fecc589bc54ebeff1c0a6f5e
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 14 16:24:36 2015 -0500
+
+    Fixed conflict between countries and players json files. Jamaica's captain put into wrong country in players.json. Fixes #40
+
+commit 69c1ee3349ac1e9259bd3bebdf788cc0cd0e0a14
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 14 16:05:28 2015 -0500
+
+    fixed the background image for about.html. Fixes #38
+
+commit 6e7e0cc6c96c866c76bbac7ffb349ced5c4020c6
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 14 16:03:02 2015 -0500
+
+    Added new images for carousel and mofified its css. Also added a new footer to all the pages and a footer.css. Fixes #37
+
+commit 0596a80b3244568e830f9276a94bb2f8cbfc0859
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 14 20:50:07 2015 +0000
+
+    Add goals field to Argentina in countries.json.
+
+commit 054650bb6d03954f42da55167b217d94b71bce6a
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 14:12:15 2015 -0500
+
+    added a method the render players page
+
+commit 485961a789d83fcb4fd91d4d3ce352670fb12a5c
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 13:24:36 2015 -0500
+
+    trying to get data from sqlite
+
+commit 7cc7a305286fc9e736f8d2d162fe1bd116119ab6
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 13:04:03 2015 -0500
+
+    change css to use static
+
+commit 34165a8f038c9aa183b268e694baca12259cce46
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 12:53:12 2015 -0500
+
+    added countrys-template and some css
+
+commit 056a041bd9e82b4a8569de012ee2cf1d8fa84397
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 12:41:26 2015 -0500
+
+    added dynamic fields for teams page
+
+commit f4ef3f18068cfca96333dd19c1dbfafea01956b4
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 12:21:18 2015 -0500
+
+    working on making players and players-template dynamic:
+    git commit -m work
+
+commit 26a6ab73f15211e7ebd3c1b4451fc989bb0c3230
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 12:00:25 2015 -0500
+
+    added get_players_page
+
+commit ed11b9345573413dc65944df9dedeab731c5a3f9
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 10:25:02 2015 -0500
+
+    modifying app.js
+
+commit 33b325d647d6d4bab60cf1b2303f37c123f30070
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 10:06:45 2015 -0500
+
+    trying ng-bind
+
+commit da94429f79ef3896e42c7a3d42f139a2d041a9eb
+Merge: 0b09abf 7342b91
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 14 09:44:36 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 7342b91c64d2fa8b4066cc95f0348fcd6321552d
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 14 04:13:44 2015 +0000
+
+    Downloading and serving local copies of js files. Also fixed missing favicon.ico
+
+commit 4d04dcfd8f1e930eaef49f9b952d1d8262ac1cda
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Mon Jul 13 22:27:07 2015 -0500
+
+    Fixed nav bar references and took of active for matches. Fixes # 36
+
+commit 94a14890a61c2954710860d6de1502550d0ba3c6
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Mon Jul 13 22:07:34 2015 -0500
+
+    changed path for carousel ref
+
+commit 163b5082bd32254875822d41b9109d41ec738ed9
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Mon Jul 13 22:05:34 2015 -0500
+
+    moved over carousel.css and added static load
+
+commit 217171cbf390b97eb2da17de8e2cedb55b37b7c9
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 14 02:12:39 2015 +0000
+
+    Moved project static folder into our repo
+
+commit 5db794c52b7376b272ccd8a9e9818904ba8339c4
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 14 02:07:24 2015 +0000
+
+    Updated makefile
+
+commit 0b09abf8469f0c1a71c38852987c6904c123811b
+Merge: b8e1d9a dcb4934
+Author: vnguy <vnguy@utexas.edu>
+Date:   Mon Jul 13 20:50:24 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit dcb4934b2106971d03cbba8f5b005e29007184e2
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Mon Jul 13 20:45:29 2015 -0500
+
+    Fixed the countries.json file. Fixes #35. Also changed the index.html to test out the new carousel.
+
+commit 0d12770a3c80a9756e4ead96da293d9cadb23ed2
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Mon Jul 13 23:58:19 2015 +0000
+
+    Altered models.py in order to successfully migrate.
+
+commit b8e1d9abbe16eba927770a0983eaf8ae2a312783
+Merge: 70284ac 030b0ae
+Author: vnguy <vnguy@utexas.edu>
+Date:   Mon Jul 13 17:35:40 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 030b0ae40d02dd90c2b467c0554764c0d926baab
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Mon Jul 13 17:35:09 2015 -0500
+
+    Change the navbar. Fixes #32
+
+commit 70284ac2aa4583c06e92548af2799d23ebef9a41
+Merge: 472472f 3dc2111
+Author: vnguy <vnguy@utexas.edu>
+Date:   Mon Jul 13 17:26:46 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit 3dc2111525a1491d77256053882254350d2c7f2b
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Mon Jul 13 08:02:06 2015 -0500
+
+    Ading a test file with sample code for new main page and a css file for its carousel. Additional code added to base
+
+commit 29775900b6cf9d305513fdd53d2e73f8f09e621f
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Sun Jul 12 20:18:45 2015 -0500
+
+    Wrote populateDatabse.py to build the database from our json files.
+
+commit 7fa1277a7e6fc90b31b7edbdbe19c631443e5932
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Sun Jul 12 19:20:12 2015 -0500
+
+    Added penalties attribute to Match.  Added ManyToManyField scorers and players to Country.
+
+commit 02a10e4679880da89b9b36b8d40634f8aff0a0f4
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Sat Jul 11 18:53:14 2015 -0500
+
+    Finished cleaning and combining json files. Fixes #31
+
+commit 472472f60634e680a7c669742c7636c17a8c49bd
+Merge: d111945 681eb36
+Author: vnguy <vnguy@utexas.edu>
+Date:   Sat Jul 11 00:19:08 2015 -0500
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+    
+    Conflicts:
+    	templates/splash.html
+
+commit 681eb36998f1d8b106c8812e3147d479014b93c1
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 06:55:07 2015 +0000
+
+    Modified base template to include static files
+
+commit 234cc743bd8e8813078acada1f3bbee36b42a0b7
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 06:43:53 2015 +0000
+
+    Removed a template used for testing
+
+commit 3e52179f08d6eefd1e783955157f246f0d920f4b
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 05:40:23 2015 +0000
+
+    Moved the server's media folder inside our web folder. Created a sym link out instead
+
+commit b44d5de48772d72d6ff8053f90081d0d0c016e11
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 05:30:14 2015 +0000
+
+    Renamed Chili to Chile
+
+commit 220cc490cc8d77d492240e9d172b90cf12caf21d
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 05:28:00 2015 +0000
+
+    Yet another cleanup on templates
+
+commit 01e10fa4464d000bc51329b3e1ea65449865dc64
+Merge: 43542e5 199e69e
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Wed Jul 8 00:20:58 2015 -0500
+
+    Merge pull request #30 from jeongwook/master
+    
+    Updated template files to include django's dynamic block tags
+
+commit 199e69ecfb5f7959ebfc775ad82ed5ee69ae4e8d
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 05:18:00 2015 +0000
+
+    allowing hyphens in url
+
+commit 834e402facee407fa4a956d992c27096b2aa04c4
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 05:16:37 2015 +0000
+
+    Updated tempaltes to include django's dynamic block tags
+
+commit 2173aae8cd39916bf00ebf6bab0a600c7461039b
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 04:25:37 2015 +0000
+
+    Updated all templates to extend from a universal 'base.html'
+
+commit e91745c988e67c47ea4cadd2e04124836ff87dc3
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 03:22:31 2015 +0000
+
+    Removed res folder
+
+commit a868d4ceacd8e75682abc4d43f86dc0aece4f7c6
+Merge: f157417 43542e5
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Tue Jul 7 21:45:00 2015 -0500
+
+    Merge pull request #29 from jeongwook/dev
+    
+    fixed about.html links
+
+commit 43542e5d916b380e69954349b2d7e2bfe89ce05f
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 8 02:43:39 2015 +0000
+
+    fixed about.html links
+
+commit f157417c2bd3748e4969b3a2f0668b125f46beb6
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 7 21:40:23 2015 -0500
+
+    Added models.html (no django) and IDB.log.
+
 commit d52d225531998dde49b6b90d83a350d3b5da3433
 Author: jeongwook <jeongwook.yu@utexas.edu>
 Date:   Tue Jul 7 21:35:22 2015 -0500
@@ -9,6 +502,12 @@ Author: jeongwook <jeongwook.yu@utexas.edu>
 Date:   Tue Jul 7 21:33:57 2015 -0500
 
     made a few fixes to some of the pages
+
+commit d11194537aa1c9192aea627e428b4a00083d2cdd
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 7 21:32:32 2015 -0500
+
+    splash page with some css
 
 commit 62382d98b1ea6394a95c2f485af651023f0b43fa
 Author: PaulMilla <paul.milla1@gmail.com>
