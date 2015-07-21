@@ -1,6 +1,3 @@
-import os
-import sys
-import json
 #from django.test import setup_test_environment
 #from django.core.urlresolvers import reverse
 #from django.core.management import call_command
@@ -110,11 +107,11 @@ class ModelTestCase(TestCase):
     def test_player1(self) :
         Country.objects.create(country="Chile")
 
-        Player.objects.create(player="Claudio Bravo", team="Chile", position="GK", dob="(1983-04-13) April 13, 1983 (age 32)",goals="0", club="Barcelona")
+        Player.objects.create(player="Claudio Bravo", position="GK", dob="(1983-04-13) April 13, 1983 (age 32)",goals="0", club="Barcelona")
 
         player_get = Player.objects.get(player="Claudio Bravo")
         self.assertEqual(player_get.player, "Claudio Bravo")
-        self.assertEqual(player_get.team, "Chile")
+        #self.assertEqual(player_get.team, "Chile")
         self.assertEqual(player_get.position, "GK")
         self.assertEqual(player_get.dob, "(1983-04-13) April 13, 1983 (age 32)")
         self.assertEqual(player_get.goals, "0")
@@ -123,11 +120,11 @@ class ModelTestCase(TestCase):
     def test_player2(self) :
         Country.objects.create(country="Chile")
 
-        Player.objects.create(player="Eugenio Mena", team="Chile", position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="3", club="Cruzeiro")
+        Player.objects.create(player="Eugenio Mena", position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="3", club="Cruzeiro")
 
         player_get = Player.objects.get(player="Eugenio Mena")
         self.assertEqual(player_get.player, "Eugenio Mena")
-        self.assertEqual(player_get.team, "Chile")
+        #self.assertEqual(player_get.team, "Chile")
         self.assertEqual(player_get.position, "DF")
         self.assertEqual(player_get.dob, "(1988-07-18) July 18, 1988 (age 26)")
         self.assertEqual(player_get.goals, "3")
@@ -140,7 +137,7 @@ class ModelTestCase(TestCase):
 
         player_get = Player.objects.get(player="Miiko Albornoz")
         self.assertEqual(player_get.player, "Miiko Albornoz")
-        self.assertEqual(player_get.team, "Chile")
+        #self.assertEqual(player_get.team, "Chile")
         self.assertEqual(player_get.position, "DF")
         self.assertEqual(player_get.dob, "(1990-11-30) November 30, 1990 (age 24)")
         self.assertEqual(player_get.goals, "1")
