@@ -30,8 +30,13 @@ before_script:
 script:
     - date
     - ls -al
-    - make models.log
+    - python3 manage.py check
+    - django-admin testserver data/countries.json data/matches.json data/players.json --addrport localhost:8000 &> testserver.log &
+    - python3 manage.py check
     - ls -al
-    - make test
+    - django-admin sqlall www
+    - ls -al
+    #- make test
     - ls -al
     - make check
+    - cat testserver.log

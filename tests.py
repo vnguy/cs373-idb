@@ -1,6 +1,3 @@
-import os
-import sys
-import json
 #from django.test import setup_test_environment
 #from django.core.urlresolvers import reverse
 #from django.core.management import call_command
@@ -8,6 +5,7 @@ import json
 from django.test import TestCase
 #from django.utils import unittest
 #from django.http import HttpResponse
+from www.models import Country, Match, Player
 
 from json import dumps, loads
 

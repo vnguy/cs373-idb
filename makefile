@@ -1,17 +1,17 @@
-FILES :=                                  \
-    .gitignore                            \
-    .travis.yml                           \
-    apiary.apib                           \
-    IDB.log                               \
-    models.html                           \
-    models.py                             \
-    tests.py                              \
-    UML.pdf				  \
+FILES :=        \
+    .gitignore  \
+    .travis.yml \
+    apiary.apib \
+    IDB.log     \
+    models.html \
+    models.py   \
+    tests.py    \
+    UML.pdf     \
 
 all:
 
 check:
-	@for i in $(FILES);                                     \
+	@for i in $(FILES);                                         \
     do                                                          \
         [ -e $$i ] && echo "$$i found" || echo "$$i NOT FOUND"; \
     done
@@ -23,8 +23,17 @@ clean:
 	rm -f models.out
 	rm -f tests.out
 
-test: tests.out
-	python 3 manage.py test
+sqlite3:
+	#python3 manage.py makemigrations www
+	#python3 manage.py sqlmigrate www 0001 &> sqlmigrate.log
+	#cat sqlmigrate.log
+	#python3 manage.py migrate
+	python3 manage.py check
+	django-admin testserver data/countries.json data/matches.json data/players.json --addrport localhost:8000
+	django-admin sqlall www
+
+test:
+	python3 manage.py test --keepdb
 
 models.html:
 	export DJANGO_SETTINGS_MODULE="main.settings"
@@ -35,9 +44,4 @@ models.html:
 
 IDB.log:
 	git log > IDB.log
-
-tests.out: tests.py
-	coverage3 run --branch tests.py >  tests.out 2>&1
-	coverage3 report  -m                      >> tests.out
-	cat tests.out
 
