@@ -1,11 +1,22 @@
 from django.conf.urls import include, url
+from rest_framework import routers
 from django.views.generic.base import RedirectView
 from . import views
 import logging
 
 logger = logging.getLogger(__name__)
 
+
+router = routers.DefaultRouter()
+router.register(r'match', views.MatchViewSet)
+router.register(r'country', views.CountryViewSet)
+router.register(r'player', views.PlayerViewSet)
+
 urlpatterns = [
+    # REST API
+    url(r'^api/', include(router.urls)),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+
     # /
     url(r'^$', views.get_page),
 
