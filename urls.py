@@ -36,6 +36,14 @@ urlpatterns = [
     url(r'^player/$', views.get_players),
     url(r'^player/(?P<player_name>[- \w]+)$', views.get_player),
 
+    # /dev/
+    url(r'^devSearch$', RedirectView.as_view(url='devSearch/', permanent=False)),
+    url(r'^devSearch/$', views.get_matchesDev),
+    url(r'^autocomplete', views.autocomplete, name='autocomplete'),
+
+    # Group X Page
+    #url(r'^X', views.X, name="X"),
+
     # /(somepage).html
     url(r'(?P<page_name>[-a-z\./A-Z]+).html$', views.get_page),
 ]

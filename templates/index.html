@@ -1,126 +1,33 @@
-{% extends "base.html" %}
-{% load static %}
-{% block title %}Copa DB{% endblock %}
-
-{% block head %}
-<!-- Custom styles for this template -->
-<link href="/static/css/carousel.css" rel="stylesheet">
-{% endblock %}
-
-{% block body %}
-<!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img class="first-slide" src="/media/copa-america.png" alt="First slide">
-    </div>
-    <div class="item">
-      <img class="second-slide" src="/media/chile-trophy.png" alt="Second slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Chile crowned Copa America 2015 Champions</h1>
-          <p><a class="btn btn-xs btn-primary" href="http://www.ca2015.com/en/match/report/1901767" role="button">View Details</a></p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Copa DB</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Splash and Coming Soon Page Effects with CSS3" />
+        <meta name="keywords" content="coming soon, splash page, css3, animation, effect, web design" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="../static/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="../static/css/style2.css" />
+		<!--[if lt IE 10]>
+				<link rel="stylesheet" type="text/css" href="css/style2IE.css" />
+		<![endif]-->
+    </head>
+    <body>
+        <div class="container">
+			<div class="sp-container">
+				<div class="sp-content">
+					<div class="sp-globe"></div>
+					<h2 class="frame-1">Welcome to Copa DB</h2>
+					<h2 class="frame-2">The database for Copa America 2015</h2>
+					<h2 class="frame-3">Give us a round of applause</h2>
+					<h2 class="frame-4">Now!</h2>
+					<h2 class="frame-5"><span>Copa DB.</span> <span>Soccer.</span> <span>For all.</span></h2>
+					<a class="sp-circle-link" href="index2.html">Join us!</a>
+				</div>
+			</div>
         </div>
-      </div>
-    </div>
-    <div class="item">
-      <img class="third-slide" src="../media/messi-loss.png" alt="Third slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Messi Rejects MVP Trophy</h1>
-          <p><a class="btn btn-xs btn-primary" href="http://www.dailymail.co.uk/sport/football/article-3150518/Did-Lionel-Messi-refuse-accept-Copa-America-best-player-award-video-emerges-official-removing-trophy.html
-    " role="button">View Details</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div><!-- /.carousel -->
-
-
-<!-- Marketing messaging and featurettes
-    ================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-
-<div class="container marketing">
-
-  <!-- Three columns of text below the carousel -->
-  <div class="row">
-    <div class="col-lg-4">
-      <img class="img-circle" src="../media/penalties.png" alt="Generic placeholder image" width="140" height="140">
-      <h2>Chile - Argentina</h2>
-      <p>Chile defeats Argentina in a penalty shootout by 4 - 1.</p>
-      <p><a class="btn btn-default" href="http://www.espnfc.us/copa-america/match/424357/chile-argentina/report" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-      <img class="img-circle" src="../media/golden-boot.png" alt="Generic placeholder image" width="140" height="140">
-      <h2>Golden Boot</h2>
-      <p>The Golden Boot Award goes to Eduardo Vargas (Chile) and Paolo Guerrero (Peru) - tied with four goals each</p>
-      <p><a class="btn btn-default" href="http://www.ca2015.com/en/awards" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-      <img class="img-circle" src="../media/di-maria.png" alt="Generic placeholder image" width="140" height="140">
-      <h2>Di Maria Injury</h2>
-      <p>Di Maria exits the finals with a hamstring injury</p>
-      <p><a class="btn btn-default" href="http://www.goal.com/en/news/586/copa-america/2015/07/04/13299232/angel-di-maria-forced-out-of-copa-america-final-with" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-  </div><!-- /.row -->
-
-
-  <!-- START THE FEATURETTES -->
-
-  <hr class="featurette-divider">
-
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">Chile triumphs over Argentina in the Finals.</h2>
-      <p class="lead">"Chile finally won their first major trophy to spark jubilant scenes in Santiago as Argentina were beaten 4-1 on penalties in the Copa America final on Saturday."</p>
-    </div>
-    <div class="col-md-5">
-      <img class="featurette-image img-responsive center-block" src="../media/chile-feature.png" alt="Generic placeholder image">
-    </div>
-  </div>
-
-  <hr class="featurette-divider">
-
-  <div class="row featurette">
-    <div class="col-md-7 col-md-push-5">
-      <h2 class="featurette-heading">Lionel Messi from 'another world'</h2>
-      <p class="lead">""Messi is in another world," James said. "He is a unique player, and you cannot talk about a James versus Messi duel, because that would be unfair to him. Colombia is playing against a tough team with great players."</p>
-    </div>
-    <div class="col-md-5 col-md-pull-7">
-      <img class="featurette-image img-responsive center-block" src="../media/messi.png" alt="Generic placeholder image">
-    </div>
-  </div>
-
-  <hr class="featurette-divider">
-
-  <div class="row featurette">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">Neymar out of Brazil Squad</h2>
-      <p class="lead">"Brazil captain Neymar faces a provisional one-match ban for his sending off against Colombia at the Copa America, but could face further sanction.
-
-        The Barcelona star had already been booked during Brazil's 1-0 defeat, but was shown a straight card following an on-pitch fracas after appearing to kick the ball at Colombia's Pablo Armero and then seemingly attempting to headbutt Jeison Murillo."</p>
-    </div>
-    <div class="col-md-5">
-      <img class="featurette-image img-responsive center-block" src="../media/neymar.png" alt="Generic placeholder image">
-    </div>
-  </div>
-  <hr class="featurette-divider">
-  <!-- /END THE FEATURETTES -->
-</div><!-- /.container -->
-{% endblock %}
+    </body>
+</html>
