@@ -1,7 +1,12 @@
 # cs373-idb
 
+## Website
+<http://www.copadb.me/>
+
+## API
+<http://www.copadb.me/api/>
+
 ## Team Members
----------------
 
 ### Kevin Charoenworawat
 
