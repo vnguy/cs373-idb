@@ -127,7 +127,7 @@ def search(request):
 
     zipped = None
     if len(results) > 0:
-    zipped = zip(results, snippets)
+        zipped = zip(results, snippets)
     length_results = len(results)
 
     return render_to_response('search.html', {"query": query, "length_results": length_results, "results": zipped}, context)
