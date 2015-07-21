@@ -13,31 +13,29 @@
 <div class="container">
   <div class="starter-template">
     <h1>Countries</h1>
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <table class="table table-striped">
-          <thead>
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Country</th>
+            <!--th>Coach</th>
+            <th>Captain</th>
+            <th>Top Scorer</th-->
+            <th>Goals Made</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for con in countries %}
             <tr>
-              <th>Country</th>
-              <th>Coach</th>
-              <th>Captain</th>
-              <th>Top Scorer</th>
-              <th>Goals</th>
+              <td><a href="{{con.country}}">{{con.country}}</a></td>
+              <!--td>{{con.coach}}</td>
+              <td><a href="http://copadb.me/player/{{con.captain}}">{{con.captain}}</a></td>
+              <td><a href="http://copadb.me/player/{{con.top_scorer}}">{{con.top_scorer}}</a></td-->
+              <td>{{con.goals}}</td>
             </tr>
-          </thead>
-          <tbody>
-            {% for con in countries %}
-              <tr>
-                <td><a href="{{con.country}}">{{con.country}}</a></td>
-                <td>{{con.coach}}</td>
-                <td><a href="http://copadb.me/player/{{con.captain}}">{{con.captain}}</a></td>
-                <td><a href="http://copadb.me/player/{{con.top_scorer}}">{{con.top_scorer}}</a></td>
-                <td>{{con.goals}}</td>
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
