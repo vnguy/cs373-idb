@@ -76,6 +76,6 @@ class Player(models.Model) :
 
 import watson
 
-watson.register(Match, fields=("match", "scores", "penalties", "match_date", "match_location"))
-watson.register(Country, fields=("country", "coach"))
-watson.register(Player, fields=("player", "position", "dob", "club"))
+watson.register(Match, fields=("match", "scores", "penalties", "match_date", "match_location", "man_of_the_match", "country_one", "country_two"))
+watson.register(Country, fields=("country", "coach", "top_scorer", "captain"))
+watson.register(Player, fields=("player", "position", "dob", "club", "team"))

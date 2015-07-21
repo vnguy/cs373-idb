@@ -1,4 +1,6 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404
+from django.shortcuts import render_to_response
+from django.template import RequestContext
 from django.core import serializers
 from django.http import HttpResponse, JsonResponse, Http404
 from django.conf import settings
@@ -6,6 +8,8 @@ from rest_framework import viewsets
 from .models import Player, Country, Match
 from .serializers import MatchSerializer, CountrySerializer, PlayerSerializer
 import logging; logger = logging.getLogger(__name__)
+import re
+import watson
 
 def get_page(request, page_name = "index"):
     from os.path import dirname, isfile, abspath
@@ -58,3 +62,73 @@ class CountryViewSet(viewsets.ModelViewSet):
 class PlayerViewSet(viewsets.ModelViewSet):
     queryset = Player.objects.all()
     serializer_class = PlayerSerializer
+
+# Helper Method for search function
+def splitParagraph(paragraph):
+    sentenceEnders = re.compile('[.!?]')
+    sentenceList = sentenceEnders.split(paragraph)
+    return sentenceList
+
+# Search functionality which GETs the query and performs watson searches
+#   for and/or keyword searches
+def search(request):
+    context = RequestContext(request)
+
+    query = ""
+    query_words = []
+
+    if ('q' in request.GET) and request.GET['q'].strip():
+        query = request.GET['q']
+
+    query_items = query.split()
+
+    and_search = watson.search(query, ranking=True)
+
+    for a in and_search:
+        print(a.url)
+        print(a)
+
+    results = list(and_search)
+
+    for item in query_items:
+        or_search = list(watson.search(item, ranking=True))
+        for o in or_search:
+            if not o in results:
+                results.append(o)
+
+
+    snippets = []
+
+    for i in range(0, len(results)):
+        final_sentence = ""
+        sentences = splitParagraph(results[i].content)
+
+        for s in list(sentences):
+            if(s.lower().find(query.lower()) != -1):
+                sentences.remove(s)
+                s = s.lower().replace(query.lower(), "<B class='search_term'>"+query.lower()+"</B>")
+                final_sentence += " " + s
+
+        for q_item in query_items:
+            for s in list(sentences):
+                if(s.lower().find(query.lower()) != -1):
+                    sentences.remove(s)
+                    s = s.lower().replace(query.lower(), "<B class='search_term'>"+query.lower()+"</B>")
+                    final_sentence += " " + s
+
+            for q_item in query_items:
+                for s in list(sentences):
+                    if(s.lower().find(query.lower()) != -1):
+                        sentences.remove(s)
+                        s = s.lower().replace(q_item.lower(), "<B class='search_term'>"+q_item.lower()+"</B>")
+                        final_sentence += " " + s
+                        break
+        final_sentence += " "
+        snippets.append(final_sentence)
+
+    zipped = None
+    if len(results) > 0:
+        zipped = zip(results, snippets)
+    length_results = len(results)
+
+    return render_to_response('search.html', {"query": query, "length_results": length_results, "results": zipped}, context)

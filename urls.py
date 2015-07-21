@@ -1,6 +1,5 @@
 from django.conf.urls import include, url
 from rest_framework import routers
-from rest_framework.urlpatterns import format_suffix_patterns
 from django.views.generic.base import RedirectView
 from . import views
 import logging
@@ -36,17 +35,9 @@ urlpatterns = [
     url(r'^player/$', views.get_players),
     url(r'^player/(?P<player_name>[- \w]+)$', views.get_player),
 
-    # /dev/
-    url(r'^devSearch$', RedirectView.as_view(url='devSearch/', permanent=False)),
-    url(r'^devSearch/$', views.get_matchesDev),
-    url(r'^autocomplete', views.autocomplete, name='autocomplete'),
-
-    # Group X Page
-    #url(r'^X', views.X, name="X"),
+    # /search/
+    url(r'^search', views.search, name="search"),
 
     # /(somepage).html
     url(r'(?P<page_name>[-/\w\d\.]+).html$', views.get_page),
 ]
-
-#urlpatterns = format_suffix_patterns(urlpatterns)
-
