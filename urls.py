@@ -40,5 +40,5 @@ urlpatterns = [
     url(r'(?P<page_name>[-a-z\./A-Z]+).html$', views.get_page),
 ]
 
-urlpatterns = format_suffix_patterns(urlpatterns)
+#urlpatterns = format_suffix_patterns(urlpatterns)
 
