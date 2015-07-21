@@ -1,5 +1,5 @@
 body {
-	background: #310404 url(../../media/wallpaper.png) repeat top left;
+	background: #310404 url(/media/wallpaper.png) repeat top left;
 	font-family: 'BebasNeueRegular';
 }
 h1.main,p.demos {
