@@ -8,6 +8,7 @@ from rest_framework import viewsets
 from .models import Player, Country, Match
 from .serializers import MatchSerializer, CountrySerializer, PlayerSerializer
 import logging; logger = logging.getLogger(__name__)
+import re
 import watson
 
 def get_page(request, page_name = "index"):
