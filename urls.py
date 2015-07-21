@@ -36,5 +36,5 @@ urlpatterns = [
     url(r'^player/(?P<player_name>[- \w]+)$', views.get_player),
 
     # /(somepage).html
-    url(r'^(?P<page_name>[-a-z\.A-Z]+).html$', views.get_page),
+    url(r'(?P<page_name>[-a-z\./A-Z]+).html$', views.get_page),
 ]
