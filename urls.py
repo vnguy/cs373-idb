@@ -35,6 +35,9 @@ urlpatterns = [
     url(r'^player/$', views.get_players),
     url(r'^player/(?P<player_name>[- \w]+)$', views.get_player),
 
+    # /search/
+    url(r'^search', views.search, name="search"),
+
     # /(somepage).html
     url(r'(?P<page_name>[-a-z\./A-Z]+).html$', views.get_page),
 ]
