@@ -17,31 +17,31 @@
       <div class="panel-body">
         <!-- Table -->
         <div class="table-responsive">
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th>Match</th>
-                <th>Final Score</th>
-                <th>Penalties</th>
-                <th>Date of Match</th>
-                <th>Location of Match</th>
-                <th>Man of the Match</th>
-              </tr>
-            </thead>
-            <tbody>
-          {% for m in matches %}
-                    <tr>
-                      <td><a href="{{m.match}}">{{m.match}}</a></td>
-                      <td>{{m.scores}}</td>
-                      <td>{{m.penalties}}</td>
-                      <td>{{m.match_date}}</td>
-                      <td>{{m.match_location}}</td>
-                      <td><a href="http://copadb.me/player/{{m.man_of_the_match}}">{{m.man_of_the_match}}</a></td>
-                    </tr>
-          {% endfor %}
-            </tbody>
-          </table>
-        </div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Match</th>
+              <th>Final Score</th>
+              <th>Penalties</th>
+              <!--th>Date of Match</th>
+              <th>Location of Match</th>
+              <th>Man of the Match</th-->
+            </tr>
+          </thead>
+          <tbody>
+		{% for m in matches %}
+                  <tr>
+                    <td><a href="{{m.match}}">{{m.match}}</a></td>
+                    <td>{{m.scores}}</td>
+                    <td>{{m.penalties}}</td>
+                    <!--td>{{m.match_date}}</td>
+                    <td>{{m.match_location}}</td>
+                    <td><a href="http://copadb.me/player/{{m.man_of_the_match}}">{{m.man_of_the_match}}</a></td-->
+                  </tr>
+		{% endfor %}
+          </tbody>
+        </table>
+       </div>
       </div>
     </div>
   </div><!-- /.starter-template -->
