@@ -108,7 +108,7 @@ class ModelTestCase(TestCase):
     def test_player1(self) :
         my_team = Country.objects.create(country="Chile")
 
-        Player.objects.create(player="Claudio Bravo", team=my_team, position="GK", dob="(1983-04-13) April 13, 1983 (age 32)",goals="0", club="Barcelona")
+        Player.objects.create(player="Claudio Bravo", position="GK", dob="(1983-04-13) April 13, 1983 (age 32)",goals="0", club="Barcelona")
 
         player_get = Player.objects.get(player="Claudio Bravo")
         self.assertEqual(player_get.player, "Claudio Bravo")
