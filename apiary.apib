@@ -1,5 +1,5 @@
 FORMAT: 1A
-HOST: http://polls.apiblueprint.org/
+HOST: http://copadb.me
 
 # Copa2015
 
@@ -16,7 +16,7 @@ applicable to retrieve resources. Instead of constructing your own URLs,
 to keep your client decoupled from implementation details.
 
 
-## Players Collection [/players]
+## Players Collection [/player]
 
 ### List of Players [GET]
 
@@ -26,7 +26,7 @@ to keep your client decoupled from implementation details.
             "player": "Claudio Bravo"
             "team": "Chile"
             "position": "GK"
-	    "goals": "0"
+	        "goals": "0"
             "dob": "(1983-04-13) April 13, 1983 (age 32)"
             "club": "Barcelona"
         },
@@ -39,14 +39,14 @@ to keep your client decoupled from implementation details.
             "club": "Cruzeiro"
         }]
 
-### get a player [/players/{player}]
+### get a player [/player/{player}]
 + Parameters
     + player (string) - Name of Player in the form of a string
 
-## Teams Collection [/teams]
+## Country Collection [/country]
 
 
-### List of Teams [GET]
+### List of Countries [GET]
 
 + Response 200 (application/json)
 
@@ -55,21 +55,21 @@ to keep your client decoupled from implementation details.
             "goals": 12
             "coach": "Jorge Sampaoli"
             "captain":  "Claudio Bravo"
-	    "top_scorer": "Eduardo Vargas"
+            "top_scorer": "Eduardo Vargas"
         },
         {
             "country": "Mexico"
             "goals": 4
             "coach": "Miguel Herrera"
             "captain":  "Rafael Márquez"
-	    "top_scorer": "Matías Vuoso"
+            "top_scorer": "Matías Vuoso"
         }]
 
-### get a country [/countrys/{country}]
+### get a country [/country/{country}]
 + Parameters
     + country (string) - Name of Country in the form of a string
 
-## Matches Collection [/matches]
+## Matches Collection [/match]
 
 ### List of Matches [GET]
 
@@ -79,12 +79,12 @@ to keep your client decoupled from implementation details.
             "match": "Chile-Uruguay"
             "country_one": "Chile"
             "country_two": "Uruguay"
-	    "scores":  "1–0"
-	    "man_of_the_match": "Alexis Sánchez"
-	    "match_date": "24 June 2015 (2015-06-24)\n20:30"
-	    "match_location": "Estadio Nacional, Santiago"
+            "scores":  "1–0"
+            "man_of_the_match": "Alexis Sánchez"
+            "match_date": "24 June 2015 (2015-06-24)\n20:30"
+            "match_location": "Estadio Nacional, Santiago"
         }]
 
-### get a match [/matches/{match}]
+### get a match [/match/{match}]
 + Parameters
     + match (string) - ID of match in form of a string
