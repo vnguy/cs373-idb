@@ -1,3 +1,6 @@
+import os
+import sys
+import json
 #from django.test import setup_test_environment
 #from django.core.urlresolvers import reverse
 #from django.core.management import call_command
@@ -5,7 +8,6 @@
 from django.test import TestCase
 #from django.utils import unittest
 #from django.http import HttpResponse
-from www.models import Country, Match, Player
 
 from json import dumps, loads
 
@@ -68,7 +70,7 @@ class ModelTestCase(TestCase):
 
     # Country Model Testing
     def test_country1(self) :
-        ed = Player.objects.create(player="Eduardo Vargas")
+        Player.objects.create(player="Eduardo Vargas")
 
         Country.objects.create(country="Chile", goals=12, coach="Jorge Sampaoli", captain="Claudio Bravo", top_scorer="")
 
@@ -106,9 +108,9 @@ class ModelTestCase(TestCase):
 
     # Player Model Testing
     def test_player1(self) :
-        my_team = Country.objects.create(country="Chile")
+        Country.objects.create(country="Chile")
 
-        Player.objects.create(player="Claudio Bravo", position="GK", dob="(1983-04-13) April 13, 1983 (age 32)",goals="0", club="Barcelona")
+        Player.objects.create(player="Claudio Bravo", team="Chile", position="GK", dob="(1983-04-13) April 13, 1983 (age 32)",goals="0", club="Barcelona")
 
         player_get = Player.objects.get(player="Claudio Bravo")
         self.assertEqual(player_get.player, "Claudio Bravo")
@@ -119,9 +121,9 @@ class ModelTestCase(TestCase):
         self.assertEqual(player_get.club, "Barcelona")
 
     def test_player2(self) :
-        my_team = Country.objects.create(country="Chile")
+        Country.objects.create(country="Chile")
 
-        Player.objects.create(player="Eugenio Mena", team=my_team, position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="3", club="Cruzeiro")
+        Player.objects.create(player="Eugenio Mena", team="Chile", position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="3", club="Cruzeiro")
 
         player_get = Player.objects.get(player="Eugenio Mena")
         self.assertEqual(player_get.player, "Eugenio Mena")
@@ -132,9 +134,9 @@ class ModelTestCase(TestCase):
         self.assertEqual(player_get.club, "Cruzeiro")
 
     def test_player3(self) :
-        my_team = Country.objects.create(country="Chile")
+        Country.objects.create(country="Chile")
 
-        Player.objects.create(player="Miiko Albornoz", team=my_team, position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="1", club="Hannover 96")
+        Player.objects.create(player="Miiko Albornoz", team="Chile", position="DF", dob="(1983-04-13) April 13, 1983 (age 32)",goals="1", club="Hannover 96")
 
         player_get = Player.objects.get(player="Miiko Albornoz")
         self.assertEqual(player_get.player, "Miiko Albornoz")
