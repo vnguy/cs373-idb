@@ -1,3 +1,486 @@
+commit dcfc86a300a42710e5dbbb0e368cb33b4063dd53
+Author: jeongwook <juanyu@Juan-Yus-MacBook-Pro.local>
+Date:   Tue Jul 21 21:34:50 2015 -0500
+
+    front end changes
+
+commit dc18afba34825516fd0df6bbb45651ec78a6b4db
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 02:18:15 2015 +0000
+
+    Fix type in tests function.
+
+commit 2dc1db77560c2363c2cb171db34015505b6b5ad5
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 21:09:06 2015 -0500
+
+    styling countrys
+
+commit 5bb4598dcbab4adf7373204fbb44cf636a19c495
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 20:53:56 2015 -0500
+
+    working on country-template
+
+commit f12751d2de69abe539c452e97fcd71415e0bc07b
+Merge: 47291de ca54f40
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 20:51:45 2015 -0500
+
+    Merge branch 'master' of https://github.com/jeongwook/cs373-idb
+
+commit ca54f40ed059bd45958e94c491eb5cb749a70246
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:49:03 2015 +0000
+
+    Update urls.py and views.py to include running our unit tests.
+
+commit b09e1584af21fe9c45ba705a3a06404815c5dadb
+Merge: 14641ab 9b13543
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:48:12 2015 +0000
+
+    Merge branch 'master' of https://github.com/jeongwook/cs373-idb
+
+commit 14641abad5566ab6c1f0660bca7d9afb2d459329
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:48:02 2015 +0000
+
+    Upated about to include unit tests.
+
+commit 9b13543c7ffa657a57309c878d5ff2cd02ab47f9
+Merge: a10afb7 7aa3460
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Tue Jul 21 20:40:57 2015 -0500
+
+    Merge pull request #59 from jeongwook/dev-paul
+    
+    TravisCI integration fixed
+
+commit a10afb759f548f7cbe9e3741e3508225d3c8e3f4
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:37:37 2015 +0000
+
+    Added way to view unit tests on about page.
+
+commit 7aa34605c2e0bb9b587bb3f4f9fe16e03f05952d
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:36:17 2015 +0000
+
+    Last push to get travis fully working
+
+commit cf1c512f85c0af78f768f1beb7eef93774a5bd52
+Merge: f6e9a51 74a89b5
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:33:25 2015 +0000
+
+    Merge branch 'master' into dev-paul
+
+commit f6e9a51da99315520b162777a404ddd536eb7d00
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:32:20 2015 +0000
+
+    Change git clone to use HTTP rather than SSH
+
+commit 23b39f11efbc55e1f126a012ee0a85e1634225bf
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:29:27 2015 +0000
+
+    Updating travis file
+
+commit 47291de610252ea60c75f84229fcbf8e0e3c60d4
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 20:16:28 2015 -0500
+
+    country-template changes
+
+commit 74a89b59e7d55a09d3c89029a92045d267bf718b
+Merge: ee9e097 30cee0f
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:15:15 2015 +0000
+
+    Merge branch 'master' of https://github.com/jeongwook/cs373-idb
+
+commit ee9e097e1752e53750735f1e3cdbfdd69e4a883e
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 01:11:30 2015 +0000
+
+    Update about.html.
+
+commit 30cee0fc5e478ddc487db5be499f3ceb38ff585c
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 21 20:11:27 2015 -0500
+
+    Fixed background image, base text color. Fixes #53
+
+commit 3ac0780a8939d6f4cf974872e50520b94f390253
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 00:53:05 2015 +0000
+
+    Fixed model tests in tests.py. Confirmed successful run.
+
+commit 1ef891bee9e0306603bd7e1a781db8113a9aaea6
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 21 19:50:17 2015 -0500
+
+    Changes to background and splash. Fixes #54
+
+commit 079c9bd0462fb51185a312a606718098a992007a
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 19:40:28 2015 -0500
+
+    working in country-template.html
+
+commit 1f4c381d62291eadd6e5010926860b6041d45765
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 19:38:24 2015 -0500
+
+    working in country-template.html
+
+commit fcdb852a22817f2fe7251511ea0fd49fa1be234d
+Merge: fd909df e7aaf61
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 00:27:11 2015 +0000
+
+    Merge branch 'master' of https://github.com/jeongwook/cs373-idb
+
+commit fd909df512eb8299745c84cc85aa3992c30997ef
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 22 00:26:55 2015 +0000
+
+    Fix search function in views.py to build snippets for multiple word queries.
+
+commit e7aaf61436196b570e18aa90a0ad7ff18da09286
+Author: Jetharin Charoenworawat <kchar@cs.utexas.edu>
+Date:   Tue Jul 21 19:15:34 2015 -0500
+
+    Updated Report.rtf with database and search sections.
+
+commit e98acf4327f0536f403973f11de830b4c290b8eb
+Merge: 50cab40 f918b51
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Tue Jul 21 18:54:32 2015 -0500
+
+    Merge pull request #56 from jeongwook/dev-paul
+    
+    Splash page
+
+commit 50cab40e20ab727d54cceee5a28741206d0fc37a
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 18:51:41 2015 -0500
+
+    messing with template styles
+
+commit f918b5111be33b5e2493aeb5a7e123f6b4e0f4a4
+Merge: d941edd 8e7327f
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 23:50:33 2015 +0000
+
+    Merge branch 'master' into dev-paul
+
+commit d941edd8bae58008e1a540d753923e80794b3411
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 23:43:11 2015 +0000
+
+    Integrating Juan's changes
+
+commit 8e7327f22012f740f49c1eea123ec45bc8138341
+Merge: 8ec104c aaeb30d
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 23:27:03 2015 +0000
+
+    Merge branch 'master' of https://github.com/jeongwook/cs373-idb
+
+commit 8ec104c5894826eb738c6ee6d939c727ba444a4b
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 23:26:51 2015 +0000
+
+    Add attributes for watson.
+
+commit aaeb30d803b77f9f132d4eca9218fb39ff435da8
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 18:25:49 2015 -0500
+
+    matches.html
+
+commit e1a740d4577561b3e5893bf02b6e109629265b87
+Merge: 857f02d 4ea5556
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 18:09:00 2015 -0500
+
+    make tables responsive
+
+commit 857f02dd19bcfb82627159cc384e997f3f4d9cfd
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 17:52:08 2015 -0500
+
+    made tables responsive
+
+commit 4ea555651fc18ac5da8b9dcb14afdf02aa067ae9
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 22:51:56 2015 +0000
+
+    Remove misc. fields from main model pages.
+
+commit 43b48508b6efb0e0eb150ac24616b970dfe284a2
+Merge: a36455a 3d884b1
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 22:45:53 2015 +0000
+
+    Merge branch 'dev' into dev-paul
+
+commit 3084e1b58ff7d10aa94920ef07a7c5c040c1529b
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 17:44:59 2015 -0500
+
+    changing table type of countries
+
+commit e07cf6b08a6ef216120a67b61de6ee4dc9b57eef
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 22:43:34 2015 +0000
+
+    Fixed import issue in views.py
+
+commit 6358f3a00c485f0eaa6c2aad9cda0bfd2b149dc8
+Merge: 54da6ab d7a05ff
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 17:34:20 2015 -0500
+
+    Merge branch 'master' of https://github.com/jeongwook/cs373-idb
+
+commit 54da6aba7c210f5ad6a834d26e1735084710413c
+Author: vnguy <vnguy@utexas.edu>
+Date:   Tue Jul 21 17:31:07 2015 -0500
+
+    images from media
+
+commit d7a05ff2f807eb63f83d14f3bc55d8428f0afbed
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 22:26:44 2015 +0000
+
+    Fix indentation error in search function.
+
+commit 30d06271cfc777d8145fe6914e471e1a9f3f3a91
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 22:23:55 2015 +0000
+
+    Added watson registers to models.py.
+
+commit 880f92fd6cb5963d35b6b255a0f74e9ae59fc603
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 22:14:43 2015 +0000
+
+    Add search functionality to master branch.
+
+commit 3757c2f5acaa6faa7cd45f2ff246a018a64d367e
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 21:28:19 2015 +0000
+
+    Commit and push staged changes.
+
+commit 3d884b1f45d042c98aa5152c3b3c31e64279de25
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Tue Jul 21 16:11:43 2015 -0500
+
+    Created new splash page, and fixed the main page to load splash first. Fixes #50, and Fixes #51
+
+commit a36455af62c055667f60ea77c8d55bffeac3deda
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 10:09:49 2015 +0000
+
+    Removing .travis.yml in order to test on root project folder
+
+commit b486a37fb970698818835a3ef7af27de1d03b956
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 10:08:15 2015 +0000
+
+    Commented out foreign key to pass a single unit test
+
+commit 01fcd050e2ead95a40545d0edf5454784c282b89
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 10:00:52 2015 +0000
+
+    Quick unit test without foreign key
+
+commit 3bb4c25f0480c4a3ee532265b2cbb54a9c5d69e5
+Merge: 581c5e5 30bfbb3
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Tue Jul 21 04:55:12 2015 -0500
+
+    Merge pull request #48 from jeongwook/dev-paul
+    
+    Fixing travis unit tests
+
+commit 30bfbb3aa390e345524c09afdb261d58edc3c112
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 09:53:17 2015 +0000
+
+    Fixed foreign key bug for player unit tests
+
+commit a12de85f3a950c5c86efb3e2b57326ac9df57707
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 09:00:00 2015 +0000
+
+    Added environment variable so Travis knows what project to run
+
+commit 26a40cd413f99c62bccedc2eaa992432314863b8
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 08:37:54 2015 +0000
+
+    Testing basic travis setup
+
+commit 04f956056bd81e2861886df7b3ab0bdefc3aa118
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 07:45:11 2015 +0000
+
+    Removed unused folder directories
+
+commit ecc74a82100193f6b2403a0b21f2267613fa3d9f
+Merge: 0103cff 581c5e5
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 07:41:34 2015 +0000
+
+    Merge branch 'master' into dev-paul
+
+commit 581c5e5f11ea24add64f949bd1ae8bd3249b20cb
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 07:40:32 2015 +0000
+
+    ran manage collectstatic to import new rest_framework static files
+
+commit 0103cff390175174775531c1e41d2f46ae91069f
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 07:39:22 2015 +0000
+
+    Removed format_suffix_patterns as it was causing problems with DefaultRouter()
+
+commit 879f3c9ef4e5ff0b4d712057ffdbf99d2cf93e65
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Tue Jul 21 02:25:30 2015 -0500
+
+    Update README.md
+
+commit 1d0f9655109dff33925071e47046af498dd25f7a
+Merge: 1cb279c 9710198
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 07:22:11 2015 +0000
+
+    Merge branch 'master' into dev-paul
+
+commit 1cb279c0c479c162cb0e5da615a8c7b3324bbecd
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 06:22:01 2015 +0000
+
+    Allowed suffix patterns for API calls
+
+commit 9710198672ed4d1eb811609314a461cb37e0b476
+Merge: 66b2382 83f8233
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Tue Jul 21 01:16:27 2015 -0500
+
+    Merge pull request #47 from jeongwook/dev-paul
+    
+    Django now throws 404 errors when trying to access an invalid page
+
+commit 83f8233f48eb90684bc05b8d245cdb778962c6c3
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 06:15:13 2015 +0000
+
+    Django now throws 404 errors when trying to access an invalid page. (Closes #46)
+
+commit 66b23820b3453b30f7aa93017d1ba72bae63cf8e
+Merge: 85a0988 6c71b3b
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Tue Jul 21 00:04:28 2015 -0500
+
+    Merge pull request #45 from jeongwook/dev-paul
+    
+    Created REST API
+
+commit 6c71b3bb8915df7d19c898e25ec294c200915adf
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Tue Jul 21 04:57:17 2015 +0000
+
+    Used django's rest_framework application to create our REST API with root at copadb.me/api/
+
+commit c098aca15ecb9a1bf7e80863d2241978d70a3389
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Mon Jul 20 22:22:48 2015 +0000
+
+    Added tempo url for GoT page.
+
+commit bdb3a4bd50e7cd74d2b3341a188c482554a0a80c
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Mon Jul 20 21:59:02 2015 +0000
+
+    Add watson registers to models.  Added first version of search to views.
+
+commit 85a098834ecdbe2889cdc1802767a3c6e67b2072
+Merge: d374004 5cd6edc
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Mon Jul 20 12:05:48 2015 -0500
+
+    Merge pull request #41 from jeongwook/dev
+    
+    Dev
+
+commit 5cd6edcb3376ed2fd759273f0294a1596055acf8
+Merge: 37ca6f1 d374004
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Mon Jul 20 17:04:57 2015 +0000
+
+    Merge branch 'master' into dev
+
+commit 37ca6f141ebe70503939c61784e43f7efd55b771
+Merge: adff23b 5cce00b
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Mon Jul 20 17:03:44 2015 +0000
+
+    Merge branch 'dev' of https://github.com/jeongwook/cs373-idb into dev
+
+commit adff23ba825d4e81b27d2ac92a9e169aab194f8a
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Mon Jul 20 17:03:40 2015 +0000
+
+    Configured urls.py to accept any word character
+
+commit 5cce00b0f47a8a0fee322eadc9d1c95d06749c31
+Author: jeongwook <jeongwook.yu@utexas.edu>
+Date:   Sun Jul 19 17:56:46 2015 -0500
+
+    small fix for footer, and background image about us
+
+commit d374004afcba1f45bc89a29797e034f199ad59a3
+Merge: d152c51 7e82e22
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 15 06:46:47 2015 +0000
+
+    Merge branch 'master' of https://github.com/jeongwook/cs373-idb
+
+commit 8b15adaa50317bd974c3b853278a549841acfacd
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 15 06:46:25 2015 +0000
+
+    Fixed site-wide links
+
+commit b9066e1410149fa192cca50ddc500f916974ce58
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 15 05:52:07 2015 +0000
+
+    Updated to dynamically create pages by querying the databse
+
+commit 7e82e22bdacc2d85bb98527a0ffd5c72e2433fed
+Author: Paul Milla <PaulMilla@users.noreply.github.com>
+Date:   Tue Jul 14 22:10:40 2015 -0500
+
+    Update README.md
+
+commit d152c512411664d15a7767293ee5ea3439692dca
+Author: PaulMilla <paul.milla1@gmail.com>
+Date:   Wed Jul 15 02:53:34 2015 +0000
+
+    Update IDB.log.
+
 commit 567b55b18309efe32a4bb0d012f77942973de3f6
 Author: PaulMilla <paul.milla1@gmail.com>
 Date:   Wed Jul 15 02:52:00 2015 +0000
