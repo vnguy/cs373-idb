@@ -3,7 +3,6 @@
 .coverage
 __pycache__
 *.pyc
-*.txt
 *.in
 *.out
 *.swp
