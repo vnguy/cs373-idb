@@ -31,8 +31,8 @@
        <div class="col-xs-9 col-sm-9">
             <div>
               <p><b>Coach:</b> {{con.coach}}</p>
-              <p><b>Captain:</b> {{con.captain}}</p>
-              <p><b>Top Scorer:</b> {{con.top_scorer}}</p>
+              <p><b>Captain:</b><a href="http://copadb.me/player/{{con.captain}}"> {{con.captain}}</a></p>
+              <p><b>Top Scorer:</b><a href="http://copadb.me/player/{{con.top_scorer}}">{{con.top_scorer}}</a></p>
               <p><b>Goals:</b> {{con.goals}}</p>
             </div>
        </div>
@@ -43,11 +43,16 @@
               <h1>Squad</h1>
           </header>
       </div>
+      <script>
+          for (i = 0; i < {{con.players}}.length; i++)
+          {
+            document.write("<p>{{con.players}}[i]</p>");
+          }
+
+      </script>
+
+
       <div class="table-responsive">
-          <p>hi{{con.players}}</p>
-          <script>
-              for i in con.players
-          </script>
           <table class="table table-striped">
               <thead>
 
