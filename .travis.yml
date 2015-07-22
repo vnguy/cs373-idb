@@ -35,7 +35,7 @@ script:
     - mkdir www
     - mv !(www) www
     - ls -al
-    - git clone git@github.com:PaulMilla/copaDB_django.git copaDB
+    - git clone https://github.com/PaulMilla/copaDB_django.git copaDB
     - rmdir copaDB/www
     - mv www copaDB/
     - cd copaDB
