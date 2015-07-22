@@ -38,6 +38,9 @@ urlpatterns = [
     # /search/
     url(r'^search', views.search, name="search"),
 
+    # /tests/
+    url(r'^tests', views.tests, name="tests"),
+
     # /(somepage).html
     url(r'(?P<page_name>[-/\w\d\.]+).html$', views.get_page),
 ]
