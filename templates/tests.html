@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Unit Tests{% endblock %}
+
+{% block head %}
+<style>
+    .underline {
+	text-decoration: underline;
+    }
+    body {
+    background: url('/media/copa-background.png') no-repeat center center fixed;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <div class="starter-template">
+    <h1>Looking for This Stuff?</h1>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <!-- Table -->
+        <table class="table table-striped">
+          <tbody>
+	    {% if results %}
+	    <tr>
+	      {% for line in result %}
+		<th>{{line}}</th>
+	    </tr>
+	      {% endfor %}
+	    {% else %}
+	    <tr>
+	      <th>Unit Tests Failed</th>
+	      <th></th>
+	    </tr>
+	    {% endif %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div><!-- /.starter-template -->
+</div><!-- /.container -->
+{% endblock %}
