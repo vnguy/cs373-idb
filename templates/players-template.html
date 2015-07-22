@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="/static/css/players.css">
 {% endblock %}
 {% block body %}
+<<<<<<< HEAD
     <div class="container">
       <div class="player-bio">
          <div class="row">
@@ -27,6 +28,28 @@
                   <p><b>Club:</b>{{player.club}}</p>
                 </div>
            </div>
+=======
+
+    <div class="player-bio">
+       <div class="row">
+         <div class="col-xs-3 col-sm-3">
+             <img src= "/media/players/{{player.player}}.jpg" alt="Image not found" onError="this.src='/media/players/default.png';"
+                  class="img-rounded"><br>
+<<<<<<< HEAD
+
+=======
+>>>>>>> e98acf4327f0536f403973f11de830b4c290b8eb
+        </div>
+         <div class="col-xs-9 col-sm-9">
+              <div class="bio-text">
+                <h3 class="bio-text">{{player.player}}</h3>
+                <p><b>Team:</b>{{player.team}}</p>
+                <p><b>Position:</b>{{player.position}}</p>
+                <p><b>DOB:</b>{{player.dob}}</p>
+                <p><b>Goals:</b>{{player.goals}}</p>
+                <p><b>Club:</b>{{player.club}}</p>
+              </div>
+>>>>>>> 447744258a1be4af7ffd3a53c8264c87497597a1
          </div>
       </div>
     </div>

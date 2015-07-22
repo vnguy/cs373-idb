@@ -2,8 +2,10 @@
 
 .img-rounded {
     background: red;
-    width: 90%;
-    height: 75%;
+    #width: 90%;
+    #height: 75%;
+    width: auto;
+    height: 100%;
     margin-left: 20px;
     border: solid 1px;
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -173,8 +174,67 @@
               <a href="https://github.com/jeongwook/cs373-idb"><i class="fa fa-github"></i></a>
             </div>
           </div>
+=======
+{% extends "base.html" %}
+{% block title %}Copa DB{% endblock %}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/static/css/players.css">
+{% endblock %}
+{% block body %}
+
+    <div class="player-bio">
+       <div class="row">
+         <div class="col-xs-3 col-sm-3">
+             <img src= "../media/players/{{player.player}}.jpg"  class="img-rounded"><br>
         </div>
-      </footer> <!-- End of Footer -->
-    </div> <!-- End of Wrapper -->
-  </body>
-</html>
+         <div class="col-xs-9 col-sm-9">
+              <div class="bio-text">
+                <h3 class="bio-text">{{player.player}}</h3>
+                <p><b>Team:</b>{{player.team}}</p>
+                <p><b>Position:</b>{{player.position}}</p>
+                <p><b>DOB:</b>{{player.dob}}</p>
+                <p><b>Goals:</b>{{player.goals}}</p>
+                <p><b>Club:</b>{{player.club}}</p>
+              </div>
+         </div>
+       </div>
+    </div>
+
+    <div class="col-xs-12" style="padding-top: 30px; padding-bottom: 100px; text-align: left;">
+        <header class ="header-bar" style="border-radius: 3px;">
+            <h1 style="margin-left: 20px;">Matches</h1>
+        </header>
+    </div>
+
+
+
+
+<!--
+    <div class="player-bio">
+       <div class="row">
+         <div class="col-xs-3 col-sm-3">
+             <img src="../media/miiko_albornoz.jpg" class="img-rounded"><br>
+>>>>>>> 447744258a1be4af7ffd3a53c8264c87497597a1
+        </div>
+         <div class="col-xs-9 col-sm-9">
+              <div class="bio-text">
+                <h3 class="bio-text">Miiko Albornoz</h3>
+                <p>Position: DF</p>
+                <p>Team: Chile</p>
+                <p>DOB: November 30, 1990 (age 24)</p>
+                <p>Goals: 1</p>
+                <p>Club: Hannover 96</p>
+              </div>
+         </div>
+       </div>
+    </div>
+
+    <div class="col-xs-12" style="padding-top: 30px; padding-bottom: 100px; text-align: left;">
+        <header class ="header-bar" style="border-radius: 3px;">
+            <h1 style="margin-left: 20px;">Matches</h1>
+        </header>
+    </div>
+
+-->
+
+{% endblock %}
