@@ -74,10 +74,11 @@ def tests(request):
     BASE_DIR = os.path.dirname(os.path.dirname(__file__))
     
     cmd_line = "python3 " + os.path.join(BASE_DIR, 'manage.py') + " test www"
+    #cmd_line = "python3 /home/webdev/copaDB/manage.py test www"
     pipe = subprocess.Popen(cmd_line.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    result = pipe.stdout.readlines() + pipe.stderr.readlines()
+    results = pipe.stdout.readlines() + pipe.stderr.readlines()
     
-    return render_to_response('tests.html', {'result':result})
+    return render_to_response('tests.html', {'results':results})
 
 # Search functionality which GETs the query and performs watson searches
 #   for and/or keyword searches

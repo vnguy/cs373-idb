@@ -21,8 +21,8 @@
         <table class="table table-striped">
           <tbody>
 	    {% if results %}
+	    {% for line in results %}
 	    <tr>
-	      {% for line in result %}
 		<th>{{line}}</th>
 	    </tr>
 	      {% endfor %}
