@@ -108,6 +108,7 @@ def search(request):
                 sentences.remove(s)
                 s = s.lower().replace(query.lower(), "<B class='search_term'>"+query.lower()+"</B>")
                 final_sentence += " " + s
+                break
 
         for q_item in query_items:
             for s in list(sentences):
@@ -115,14 +116,8 @@ def search(request):
                     sentences.remove(s)
                     s = s.lower().replace(query.lower(), "<B class='search_term'>"+query.lower()+"</B>")
                     final_sentence += " " + s
+                    break
 
-            for q_item in query_items:
-                for s in list(sentences):
-                    if(s.lower().find(query.lower()) != -1):
-                        sentences.remove(s)
-                        s = s.lower().replace(q_item.lower(), "<B class='search_term'>"+q_item.lower()+"</B>")
-                        final_sentence += " " + s
-                        break
         final_sentence += " "
         snippets.append(final_sentence)
 
