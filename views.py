@@ -8,6 +8,7 @@ from rest_framework import viewsets
 from .models import Player, Country, Match
 from .serializers import MatchSerializer, CountrySerializer, PlayerSerializer
 import logging; logger = logging.getLogger(__name__)
+import re
 import watson
 
 def get_page(request, page_name = "index"):
@@ -127,7 +128,7 @@ def search(request):
 
     zipped = None
     if len(results) > 0:
-    zipped = zip(results, snippets)
+        zipped = zip(results, snippets)
     length_results = len(results)
 
     return render_to_response('search.html', {"query": query, "length_results": length_results, "results": zipped}, context)

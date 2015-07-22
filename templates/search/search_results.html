@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Matches{% endblock %}
+{% block title %}Search Dev{% endblock %}
 
 {% block head %}
 <style>
@@ -12,20 +12,19 @@
 {% block body %}
 <div class="container">
   <div class="starter-template">
-    <h1 style="margin-top: 50px">Matches</h1>
+    <h1>Matches</h1>
     <div class="panel panel-default">
       <div class="panel-body">
         <!-- Table -->
-        <div class="table-responsive">
         <table class="table table-striped">
           <thead>
             <tr>
               <th>Match</th>
               <th>Final Score</th>
               <th>Penalties</th>
-              <!--th>Date of Match</th>
+              <th>Date of Match</th>
               <th>Location of Match</th>
-              <th>Man of the Match</th-->
+              <th>Man of the Match</th>
             </tr>
           </thead>
           <tbody>
@@ -34,14 +33,27 @@
                     <td><a href="{{m.match}}">{{m.match}}</a></td>
                     <td>{{m.scores}}</td>
                     <td>{{m.penalties}}</td>
-                    <!--td>{{m.match_date}}</td>
+                    <td>{{m.match_date}}</td>
                     <td>{{m.match_location}}</td>
-                    <td><a href="http://copadb.me/player/{{m.man_of_the_match}}">{{m.man_of_the_match}}</a></td-->
+                    <td><a href="http://copadb.me/player/{{m.man_of_the_match}}">{{m.man_of_the_match}}</a></td>
                   </tr>
 		{% endfor %}
           </tbody>
+          <tbody>
+		<form method="get" action="/search/">
+
+		<label for="id_q">Search:</label>
+			<input type="text" name="q" id="id_q"/>
+			<input type="submit" value="Submit"/>
+
+		</form>
+
+		<p>You searched for "{{query_string}}" and the results are listed as follows: </p>
+		<li> {{found_entries}}</li>
+
+          </tbody>
+
         </table>
-       </div>
       </div>
     </div>
   </div><!-- /.starter-template -->
