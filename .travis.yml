@@ -48,5 +48,5 @@ script:
     - python manage.py test
     - ls -al
     - python manage.py check
-    - cat testserver.log
+    #- cat testserver.log
 
