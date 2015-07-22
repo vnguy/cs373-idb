@@ -7,11 +7,22 @@
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
-
+/*
 .header-image {
     display: block;
     text-align: center;
     background: #FFF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+*/
+
+.header-image {
+    display: block;
+    text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
