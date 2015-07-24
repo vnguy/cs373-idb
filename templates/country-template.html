@@ -41,6 +41,19 @@
       <div class="col-xs-12" style="padding-top: 30px; padding-bottom: 10px; text-align: left;">
           <header class ="header-bar" style="border-radius: 3px;">
               <h1>Squad</h1>
+		<div class="panel panel-default">
+		<div class="panel panel-body">
+	        <table class="table">
+		<body>
+		{% for p in con.players.all %}
+		<tr>
+		  <td><a href="http://copadb.me/player/{{p.player}}">{{p.player}}</a></td>
+		</tr>
+		{% endfor %}
+		</body>
+		</table>
+		</div>
+		</div>
           </header>
       </div>
       <script>

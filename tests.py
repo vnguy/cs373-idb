@@ -1,20 +1,27 @@
-#from django.test import setup_test_environment
-#from django.core.urlresolvers import reverse
-#from django.core.management import call_command
+from django.test.utils import setup_test_environment
+from django.core.urlresolvers import reverse
+from django.core.management import call_command
 
 from django.test import TestCase
-from www.models import Player, Country, Match
-#from django.utils import unittest
-#from django.http import HttpResponse
+from django.http import HttpResponse
 
+from www.models import Player, Country, Match
+
+from rest_framework.test import APIClient
+
+import os, sys, json
 from json import dumps, loads
 
+try:
+    from urllib.request import urlopen, Request
+except:
+    from urllib2 import *
 
 # Create your tests here.
 class ModelTestCase(TestCase):
 
     # Match Model Testing
-    def test_match1(self) :
+    def test_model_match1(self) :
         cOne = Country.objects.create(country="Chile")
         cTwo = Country.objects.create(country="Uruguay")
 
@@ -30,8 +37,9 @@ class ModelTestCase(TestCase):
         self.assertEqual(match_get.man_of_the_match.player, "Alexis Sánchez")
         self.assertEqual(match_get.match_date, "24 June 2015 (2015-06-24)\n20:30")
         self.assertEqual(match_get.match_location, "Estadio Nacional, Santiago")
+        print (sys._getframe().f_code.co_name + "... passed")
         
-    def test_match2(self) :
+    def test_model_match2(self) :
         cOne = Country.objects.create(country="Bolivia")
         cTwo = Country.objects.create(country="Peru")
 
@@ -47,8 +55,9 @@ class ModelTestCase(TestCase):
         self.assertEqual(match_get.man_of_the_match.player, "Paolo Guerrero")
         self.assertEqual(match_get.match_date, "25 June 2015 (2015-06-25)\n20:30")
         self.assertEqual(match_get.match_location, "Estadio Municipal Germán Becker, Temuco")
+        print (sys._getframe().f_code.co_name + "... passed")
         
-    def test_match3(self) :
+    def test_model_match3(self) :
         cOne = Country.objects.create(country="Argentina")
         cTwo = Country.objects.create(country="Colombia")
 
@@ -64,10 +73,11 @@ class ModelTestCase(TestCase):
         self.assertEqual(match_get.man_of_the_match.player, "Lionel Messi")
         self.assertEqual(match_get.match_date, "26 June 2015 (2015-06-26)\n20:30")        
         self.assertEqual(match_get.match_location, "Estadio Sausalito, Viña del Mar")
+        print (sys._getframe().f_code.co_name + "... passed")
         
 
     # Country Model Testing
-    def test_country1(self) :
+    def test_model_country1(self) :
         pOne = Player.objects.create(player="Claudio Bravo")
         pTwo = Player.objects.create(player="Eduardo Vargas")
 
@@ -79,8 +89,9 @@ class ModelTestCase(TestCase):
         self.assertEqual(country_get.coach, "Jorge Sampaoli")
         self.assertEqual(country_get.captain.player, "Claudio Bravo")
         self.assertEqual(country_get.top_scorer.player, "Eduardo Vargas")
+        print (sys._getframe().f_code.co_name + "... passed")
 
-    def test_country2(self) :
+    def test_model_country2(self) :
         pOne = Player.objects.create(player="Rafael Márquez")
         pTwo = Player.objects.create(player="Matías Vuoso")
 
@@ -92,8 +103,9 @@ class ModelTestCase(TestCase):
         self.assertEqual(country_get.coach, "Miguel Herrera")
         self.assertEqual(country_get.captain.player, "Rafael Márquez")
         self.assertEqual(country_get.top_scorer.player, "Matías Vuoso")
+        print (sys._getframe().f_code.co_name + "... passed")
 
-    def test_country3(self) :
+    def test_model_country3(self) :
         pOne = Player.objects.create(player="Walter Ayoví")
         pTwo = Player.objects.create(player="Enner Valencia")
 
@@ -105,10 +117,11 @@ class ModelTestCase(TestCase):
         self.assertEqual(country_get.coach, "Gustavo Quinteros")
         self.assertEqual(country_get.captain.player, "Walter Ayoví")
         self.assertEqual(country_get.top_scorer.player, "Enner Valencia")
+        print (sys._getframe().f_code.co_name + "... passed")
 
 
     # Player Model Testing
-    def test_player1(self) :
+    def test_model_player1(self) :
         c = Country.objects.create(country="Chile")
 
         Player.objects.create(player="Claudio Bravo", team=c, position="GK", dob="(1983-04-13) April 13, 1983 (age 32)",goals="0", club="Barcelona")
@@ -120,8 +133,9 @@ class ModelTestCase(TestCase):
         self.assertEqual(player_get.dob, "(1983-04-13) April 13, 1983 (age 32)")
         self.assertEqual(player_get.goals, "0")
         self.assertEqual(player_get.club, "Barcelona")
+        print (sys._getframe().f_code.co_name + "... passed")
 
-    def test_player2(self) :
+    def test_model_player2(self) :
         c = Country.objects.create(country="Chile")
 
         Player.objects.create(player="Eugenio Mena", team=c, position="DF", dob="(1988-07-18) July 18, 1988 (age 26)",goals="3", club="Cruzeiro")
@@ -133,8 +147,9 @@ class ModelTestCase(TestCase):
         self.assertEqual(player_get.dob, "(1988-07-18) July 18, 1988 (age 26)")
         self.assertEqual(player_get.goals, "3")
         self.assertEqual(player_get.club, "Cruzeiro")
+        print (sys._getframe().f_code.co_name + "... passed")
 
-    def test_player3(self) :
+    def test_model_player3(self) :
         c = Country.objects.create(country="Chile")
 
         Player.objects.create(player="Miiko Albornoz", team=c, position="DF", dob="(1990-11-30) November 30, 1990 (age 24)",goals="1", club="Hannover 96")
@@ -146,3 +161,69 @@ class ModelTestCase(TestCase):
         self.assertEqual(player_get.dob, "(1990-11-30) November 30, 1990 (age 24)")
         self.assertEqual(player_get.goals, "1")
         self.assertEqual(player_get.club, "Hannover 96")
+        print (sys._getframe().f_code.co_name + "... passed")
+
+class APITestCase(TestCase) :
+    url = "http://127.0.0.1/"
+
+    def test_api_get_matches(self):
+        response = urlopen(Request(self.url+"api/match/"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_countries(self):
+        response = urlopen(Request(self.url+"api/country/"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_players(self):
+        response = urlopen(Request(self.url+"api/player/"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_match1(self):
+        response = urlopen(Request(self.url+"api/match/23"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_match2(self):
+        response = urlopen(Request(self.url+"api/match/24"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_match3(self):
+        response = urlopen(Request(self.url+"api/match/25"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_country1(self):
+        response = urlopen(Request(self.url+"api/country/473/"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_country2(self):
+        response = urlopen(Request(self.url+"api/country/474/"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_country3(self):
+        response = urlopen(Request(self.url+"api/country/475/"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_player1(self):
+        response = urlopen(Request(self.url+"api/player/Claudio%20Bravo/"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_player2(self):
+        response = urlopen(Request(self.url+"api/player/Eugenio%20Mena/"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+    def test_api_get_player3(self):
+        response = urlopen(Request(self.url+"api/player/Miiko%20Albornoz/"))
+        self.assertEqual(response.getcode(), 200)
+        print (sys._getframe().f_code.co_name + "... passed")
+    
+setup_test_environment()
