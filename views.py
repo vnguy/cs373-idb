@@ -143,3 +143,22 @@ def search(request):
     length_results = len(results)
 
     return render_to_response('search.html', {"query": query, "length_results": length_results, "results": zipped}, context)
+
+def get_castles(request):
+    people_url = urllib.request.urlopen("http://housedowning.me/api/people/")
+    people = json.loads(people_url.read().decode('utf-8'))
+
+    regions_url = urllib.request.urlopen("http://housedowning.me/api/regions/")
+    regions = json.loads(regions_url.read().decode('utf-8'))
+
+    castles_url = urllib.request.urlopen("http://housedowning.me/api/castles/")
+    castles = json.loads(regions_url.read().decode('utf-8'))
+
+    houses_url = urllib.request.urlopen("http://housedowning.me/api/houses/")
+    houses = json.loads(regions_url.read().decode('utf-8'))
+
+    results = []
+    for i in range(len(castles)):
+        if(castles[i]['name'] != 'Castle Black'):
+            results.append(castles[i])
+    return render(request, 'got.html, {'castles': results})

@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}Players{% endblock %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <div class="starter-template">
+    <h1 style="color:white">This is everywhere but Castle Black.... because OLLY is there ew!</h1>
+      <!-- Full Width Image Header -->
+    <div class="row" style="margin-top:100px">
+        <div class="col-md-8 col-md-offset-2">
+            <img class="img-responsive img-rounded" src = "olly.png">
+        </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <!-- Table -->
+        <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Region</th>
+              <!--th>Position</th>
+              <th>DOB</th>
+              <th>Goals</th>
+              <th>Club</th-->
+            </tr>
+          </thead>
+          <tbody>
+            {% for castle in castles %}
+              <tr>
+                <td><a href ="http://http://housedowning.me/castles/{{castle.name}}">{{castle.name}}</a></td>
+                <td>{{castle.region_name}}</td>
+                <!--td>{{player.position}}</td>
+                <td>{{player.dob}}</td>
+                <td>{{player.goals}}</td>
+                <td>{{player.club}}</td-->
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.starter-template -->
+</div><!-- /.container -->
+
+<!--
+<div class="container">
+  <div class="starter-template">
+    <div class="panel panel-default">
+      <div class="panel-body">
+
+        <table class="table table-striped">
+          <tr>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Position</th>
+            <th>DOB</th>
+            <th>Goals</th>
+            <th>Club</th>
+          </tr>
+          <tr>
+            <td></div><img src="media/juan.jpg"
+                      class="img-rounded" alt="Cinque Terre" width="200" height="150">
+                      <a href = "albornoz.html"/>Miiko Albornoz</td>
+            <td><div class="player_flag"></div><a href = "chili.html"/>Chile</td>
+            <td>DF</td>
+            <td>November 30, 1990 (age 24)</td>
+            <td>1</td>
+            <td>Hannover 96</td>
+          </tr>
+          <tr>
+            <td></div><a href = "bravo.html"/>Claudio Bravo</td>
+            <td><div class="player_flag"></div><a href = "chili.html"/>Chile</td>
+            <td>GK</td>
+            <td>April 13, 1983 (age 32)</td>
+            <td>0</td>
+            <td> Barcelona</td>
+          </tr>
+          <tr>
+            <td></div><a href = "mena.html"/>Eugenio Mena</td>
+            <td><div class="player_flag"></div><a href = "chili.html"/>Chile</td>
+            <td>DF</td>
+            <td>July 18, 1988 (age 26)</td>
+            <td>3</td>
+            <td>Cruzeiro</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+{% endblock %}

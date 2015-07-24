@@ -41,6 +41,9 @@ urlpatterns = [
     # /tests/
     url(r'^tests', views.tests, name="tests"),
 
+    # got page
+    url(r'^got.html$', views.get_castles, name="castles"),
+
     # /(somepage).html
     url(r'(?P<page_name>[-/\w\d\.]+).html$', views.get_page),
 ]
