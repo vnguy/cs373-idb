@@ -11,6 +11,9 @@ import logging; logger = logging.getLogger(__name__)
 import re, subprocess, os
 import watson
 import sys
+import json
+from urllib.request import urlopen
+#from urllib.request import urlopen, Request
 
 def get_page(request, page_name = "index"):
     from os.path import dirname, isfile, abspath
@@ -145,20 +148,21 @@ def search(request):
     return render_to_response('search.html', {"query": query, "length_results": length_results, "results": zipped}, context)
 
 def get_castles(request):
-    people_url = urllib.request.urlopen("http://housedowning.me/api/people/")
-    people = json.loads(people_url.read().decode('utf-8'))
+    #people_url = urllib.request.urlopen("http://housedowning.me/api/people/")
+    #people = json.loads(people_url.read().decode('utf-8'))
 
-    regions_url = urllib.request.urlopen("http://housedowning.me/api/regions/")
-    regions = json.loads(regions_url.read().decode('utf-8'))
+    #regions_url = urllib.request.urlopen("http://housedowning.me/api/regions/")
+    #regions = json.loads(regions_url.read().decode('utf-8'))
 
-    castles_url = urllib.request.urlopen("http://housedowning.me/api/castles/")
-    castles = json.loads(regions_url.read().decode('utf-8'))
+    castles_url = urlopen("http://housedowning.me/api/castles/")
+    #castles = json.loads(regions_url.read().decode('utf-8'))
+    castles = json.loads(castles_url.read().decode(castles_url.info().get_param('charset') or 'utf-8'))
 
-    houses_url = urllib.request.urlopen("http://housedowning.me/api/houses/")
-    houses = json.loads(regions_url.read().decode('utf-8'))
+    #houses_url = urllib.request.urlopen("http://housedowning.me/api/houses/")
+    #houses = json.loads(regions_url.read().decode('utf-8'))
 
     results = []
     for i in range(len(castles)):
         if(castles[i]['name'] != 'Castle Black'):
             results.append(castles[i])
-    return render(request, 'got.html, {'castles': results})
+    return render(request, 'got.html', {'castles': results})

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Players{% endblock %}
+{% block title %}GoTDB Castles{% endblock %}
 
 {% block head %}
 {% endblock %}
@@ -32,7 +32,7 @@
           <tbody>
             {% for castle in castles %}
               <tr>
-                <td><a href ="http://http://housedowning.me/castles/{{castle.name}}">{{castle.name}}</a></td>
+                <td><a href ="http://housedowning.me/castles/{{castle.castle_id}}">{{castle.name}}</a></td>
                 <td>{{castle.region_name}}</td>
                 <!--td>{{player.position}}</td>
                 <td>{{player.dob}}</td>
